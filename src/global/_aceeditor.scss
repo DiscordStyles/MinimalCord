@@ -1,0 +1,47 @@
+#app-mount {
+    #bd-customcss-attach-controls {
+        background: var(--background-2);
+        box-shadow: none;
+        position: relative;
+        .checkbox-group {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+        }
+        .btn.btn-primary {
+            background: var(--foreground-2) !important;
+            border: none !important;
+            margin-top: 0;
+            width: 33.33% !important;
+            &:hover {
+                background: var(--foreground-1) !important;
+            }
+        }
+        .help-text {
+            text-align: right;
+        }
+        #bd-customcss-detach-controls-button span {
+            display: none;
+        }
+    }
+    .ace-monokai {
+        background-color: var(--background-2);
+        .ace_gutter {
+            background: transparent;
+        }
+    }
+    &.bd-detached-editor {
+        .editor-wrapper {
+            height: calc(100% + 22px);
+        }
+        #bd-customcss-attach-controls {
+            height: 55px;
+        }
+        #bd-customcss-detach-controls-button {
+            span[style="font-size: 10px; margin-left: 5px;"] {
+                position: absolute;
+                bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+#app-mount {
+  .wrapper-3vR61M,
+  .wrapper-1F5TKx {
+    background: transparent;
+  }
+  .chat-3bRxxu {
+    background: var(--background-1);
+    .scroller-2FKFPG {
+      background: transparent;
+    }
+    .content-yTz4x3:before {
+      content: none;
+    }
+  }
+  .messagesWrapper-3lZDfY {
+    ::-webkit-scrollbar-thumb {
+      visibility: hidden !important;
+    }
+    &:hover ::-webkit-scrollbar-thumb {
+      visibility: visible !important;
+    }
+  }
+  .jumpToPresentBar-9P20AM {
+    left: unset;
+    bottom: 20px;
+    right: 16px;
+    padding: 0 10px 0 5px;
+    background: var(--message-button);
+    box-shadow: var(--box-shadow), 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    opacity: 1;
+    > span {
+      padding: 0 0 0 5px;
+      .spinnerItem-2r0Owh {
+        background-color: var(--text-1);
+      }
+    }
+    button {
+      font-size: 12px;
+      padding-right: 0;
+      height: auto;
+      color: var(--text-1);
+      svg {
+        display: none;
+      }
+      &:first-child {
+        display: none;
+      }
+    }
+    &:before {
+      content: "";
+      width: 16px;
+      height: 16px;
+      -webkit-mask: url($history) center/cover;
+      background: var(--text-1);
+    }
+  }
+  .newMessagesBar-mujexs {
+    top: 10px;
+    left: 30px;
+    right: 30px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    background: rgba(var(--accent), 1);
+  }
+}
+

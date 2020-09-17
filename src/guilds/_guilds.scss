@@ -1,0 +1,43 @@
+#app-mount .wrapper-1Rf91z {
+  .scroller-2TZvBN {
+    background: var(--background-2);
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .expandedFolderBackground-2sPsd-, .folder-21wGz3 {
+    background-color: var(--server-folders);
+  }
+  .wrapper-1BJsBx:hover {
+    .childWrapper-anI2G9, .circleIconButton-jET_ig {
+      color: var(--text-1);
+      background: var(--server-hovered);
+    }
+  }
+  .childWrapper-anI2G9, .circleIconButton-jET_ig {
+    background: var(--server-background);
+    transition: 0.2s ease;
+    &.selected-ugP_am {
+      color: var(--text-1);
+      background: var(--server-selected);
+    }
+  }
+  .listItem-2P_4kh {
+    &.bd-selected, .selected-bZ3Lue {
+      .childWrapper-anI2G9 {
+        background: var(--server-selected);
+        color: var(--text-1);
+      }
+    }
+  }
+  .guildsError-b7zR5H {
+    background: var(--redDark);
+    border-color: var(--redDark);
+    color: #fff;
+    transition: 0.2s ease;
+    &:hover {
+      background: var(--red);
+      border-color: var(--red);
+    }
+  }
+}

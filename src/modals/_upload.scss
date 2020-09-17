@@ -1,0 +1,35 @@
+#app-mount .uploadModal-2ifh8j {
+  background-color: var(--background-1);
+  .inner-3nWsbo {
+    margin: 0;
+  }
+  .comment-4IWttf {
+    margin: 0;
+    padding: 0 20px 20px;
+    box-sizing: border-box;
+    .inner-zqa7da {
+      background-color: var(--background-2);
+    }
+  }
+  .channelTextAreaUpload-3t7EIx {
+    margin: 5px 0 0;
+    .scrollableContainer-2NUZem {
+      background-color: var(--foreground-1);
+    }
+    .charCounter-7fw40k.charcounter {
+      bottom: unset;
+      top: -18px;
+    }
+  }
+  .footer-3mqk7D {
+    background-color: var(--background-2);
+    box-shadow: none;
+    .checked-3_4uQ9[style*="rgb(114, 137, 218)"] {
+      border-color: rgba(var(--accent), 1) !important;
+      background: rgba(var(--accent), 1) !important;
+      polyline {
+        stroke: #fff;
+      }
+    }
+  }
+}

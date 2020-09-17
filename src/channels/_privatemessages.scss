@@ -1,0 +1,88 @@
+#app-mount .privateChannels-1nO12o {
+  background: transparent;
+
+  .scroller-1JbKMe {
+    background: transparent;
+    div[style="width: 100%; height: 8px; visibility: hidden;"] {
+      display: none;
+    }
+  }
+
+  // Category
+  .container-2ax-kl {
+    color: var(--text-1);
+  }
+
+  // Search
+  .searchBar-6Kv8R2 {
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+    width: 232px;
+    box-sizing: border-box;
+    .searchBarComponent-32dTOx {
+      height: 44px;
+      background: transparent;
+      border-radius: 0 5px 5px 0;
+      font-size: 0;
+      display: flex;
+      align-items: center;
+      padding-left: 16px;
+      &:before {
+        content: "";
+        width: 32px;
+        height: 32px;
+        display: block;
+        -webkit-mask: url($search) center/24px no-repeat;
+        background: var(--text-3);
+        margin-right: 12px;
+        position: relative;
+        z-index: 1;
+        pointer-events: none;
+      }
+      &:after {
+        content: "Search";
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+        color: var(--text-3);
+        position: relative;
+        z-index: 1;
+        pointer-events: none;
+      }
+      &:hover {
+        background: var(--channel-hovered-bg);
+        &:before {
+          background: var(--text-2);
+        }
+        &:after {
+          color: var(--text-2);
+        }
+      }
+    }
+  }
+
+  // Messages
+  .channel-2QD9_O {
+    margin: 0;
+    max-width: 100%;
+    color: var(--text-3);
+    .layout-2DM8Md {
+      padding-left: 16px;
+      border-radius: 0 5px 5px 0;
+    }
+    &:hover {
+      color: var(--text-2);
+      .layout-2DM8Md {
+        background: var(--channel-hovered-bg);
+      }
+    }
+    &.selected-aXhQR6 {
+      color: var(--text-1);
+      .layout-2DM8Md {
+        background: var(--channel-selected-bg);
+        box-shadow: inset 4px 0 0 rgba(var(--accent), 1);
+      }
+    }
+  }
+}

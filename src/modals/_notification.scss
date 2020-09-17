@@ -1,0 +1,36 @@
+#app-mount .modal-yWgWj-.sizeMedium-df47zS {
+  background-color: var(--background-1);
+  .item-26Dhrx {
+    &[style*="rgb(114, 137, 218)"] {
+      background: rgba(var(--accent), 1) !important;
+      border-color: rgba(var(--accent), 1) !important;
+    }
+  }
+  .checkboxMute-14hTGS {
+    &:before {
+      background-color: var(--background-2);
+    }
+  }
+  .cardPrimaryEditable-3KtE4g {
+    background: var(--background-2);
+    border-color: var(--background-2);
+    .checked-3_4uQ9 {
+      border-color: #fff !important;
+      background-color: #fff !important;
+      polyline {
+        stroke: rgba(var(--accent), 1);
+      }
+    }
+  }
+  .checked-3_4uQ9 {
+    border-color: rgba(var(--accent), 1) !important;
+    background-color: rgba(var(--accent), 1) !important;
+    polyline {
+      stroke: #fff;
+    }
+  }
+  .footer-3rDWdC {
+    background-color: var(--background-2);
+    box-shadow: none;
+  }
+}

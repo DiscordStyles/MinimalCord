@@ -1,0 +1,92 @@
+// Font
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family: var(--font, 'Roboto'), Whitney;
+}
+
+// Tooltips
+#app-mount .tooltipBlack-PPG47z {
+  background: var(--tooltips);
+  color: var(--text-1);
+  text-align: center;
+  .tooltipPointer-3ZfirK {
+    border-top-color: var(--tooltips);
+  }
+}
+
+// Highlight
+::selection {
+  background: rgba(var(--accent), 1);
+  color: #fff;
+}
+
+// Select dropdown
+.css-181m2lf-menu {
+  background: var(--dropdown);
+  border: none;
+}
+
+// Switches
+.themeDefault-24hCdX.valueChecked-m-4IJZ, .ui-switch.checked {
+  background-color: rgba(var(--accent), 1) !important;
+}
+
+// Codeblocks, embeds and attachments
+#app-mount {
+  .attachment-33OFj0,
+  .wrapper-35wsBm,
+  code {
+    background: var(--message-embed);
+    border-color: var(--message-embed);
+  }
+}
+
+// Wordmark
+.wordmarkWindows-1v0lYD {
+  margin-top: 2px;
+  padding-left: 6px;
+  svg {
+    -webkit-mask: url($wordmark) center/cover no-repeat;
+    background: var(--text-1);
+    opacity: 0.5;
+    height: 10px !important;
+    width: 88px !important;
+    path {
+      display: none;
+    }
+  }
+}
+
+// Backgrounds
+#app-mount {
+  background: var(--background-2);
+  .app-2rEoOp, .bg-h5JY_x {
+    background-color: var(--background-2);
+  }
+}
+
+// Scrollbars
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  border-color: transparent !important;
+  background: transparent !important;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+  border: none !important;
+  background-clip: content-box !important;
+  background-color: var(--scrollbar) !important;
+}
+::-webkit-scrollbar-corner {
+  visibility: hidden !important;
+}
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar,
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-corner,
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-track {
+  display: none !important;
+}

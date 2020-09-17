@@ -1,0 +1,24 @@
+#app-mount .sidebar-2K8pFh {
+  background-color: var(--background-1);
+
+  // Server name and dropdown
+  .header-2o-2hj {
+    box-shadow: none;
+    background: transparent !important;
+  }
+
+  .container-PNkimc {
+    background: transparent;
+  }
+
+
+  // Unread message below/above
+  .unread-1xRYoj {
+    background-color: var(--channel-selected-bg);
+    opacity: 1;
+    box-shadow: var(--box-shadow);
+    .text-2e2ZyG {
+      color: var(--text-1);
+    }
+  }
+}

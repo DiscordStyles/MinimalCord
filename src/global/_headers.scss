@@ -1,0 +1,24 @@
+#app-mount {
+    .title-3qD0b-, .container-1r6BKw {
+        background: var(--background-1);
+        .children-19S4PO:after {
+            content: none;
+        }
+        .wrapper-3WhCwL {
+            background: rgba(var(--accent), 0.1);
+            color: rgba(var(--accent), 1);
+            &:hover {
+                color: #fff;
+                background: rgba(var(--accent), 1);
+            }
+        }
+    }
+    .container-3T1zWi:before {content: none;}
+    .searchBar-3dMhjb {
+        background: var(--background-1);
+    }
+    .topic-TCb_qw a {
+        color: rgba(var(--accent), 1);
+        text-decoration: underline;
+    }
+}

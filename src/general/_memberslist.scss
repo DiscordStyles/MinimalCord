@@ -1,0 +1,26 @@
+#app-mount {
+  .members-1998pB > div {
+    background: transparent;
+  }
+  .member-3-YXUe {
+    padding-right: 0;
+    max-width: 100%;
+    border-radius: 0;
+    .layout-2DM8Md {
+      border-radius: 5px 0 0 5px;
+    }
+    &:hover .layout-2DM8Md {
+      background: var(--channel-hovered-bg);
+    }
+    &.selected-aXhQR6 .layout-2DM8Md {
+      background: var(--channel-selected-bg);
+      box-shadow: inset -4px 0 0 rgba(var(--accent), 1);
+    }
+  }
+  .members-1998pB {
+    background: transparent;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

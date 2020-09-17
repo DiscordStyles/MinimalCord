@@ -1,0 +1,39 @@
+#app-mount {
+  // Activity
+  .layout-1cQCv2 {
+    background-image: none;
+  }
+  .activityFeed-1C0EmJ {
+    background: var(--background-2);
+    .outer-2IVh5n {
+      background: var(--background-3);
+      box-shadow: var(--box-shadow);
+      border: none;
+      .buttonColor-1agP3J {
+        background: var(--foreground-3);
+        box-shadow: var(--box-shadow);
+        &:hover {
+          background: var(--foreground-4);
+        }
+      }
+      .inset-GQDQYw {
+        background: var(--background-2);
+      }
+      .separator-2c4hi3 {
+        background-color: var(--background-divider);
+      }
+      .popoutContainer-3WC9HR {
+        &:hover {
+          background: var(--background-4);
+        }
+      }
+      .wrapper-9ppXpy {
+        background: var(--background-4);
+        box-shadow: none;
+      }
+    }
+    .card-GqTca8 .unwrapped-37iUtM {
+      background: var(--background-4);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+#app-mount .layer-v9HyYc[style*="left"][style*="bottom"] .menu-Sp6bN1 {
+  background: var(--dropdown);
+  box-shadow: var(--box-shadow);
+  .itemBase-1Qj4z6 {
+    &:hover {
+      background-color: var(--dropdown-item-hover);
+      color: var(--text-1);
+    }
+  }
+}

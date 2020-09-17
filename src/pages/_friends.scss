@@ -1,0 +1,27 @@
+#app-mount {
+  .container-1D34oG {
+    background: var(--background-1);
+  }
+  .tabBody-3YRQ8W:before {
+    content: none;
+  }
+  .peopleListItem-2nzedh {
+    border-radius: 3px;
+    &:hover {
+      background: var(--background-2);
+    }
+  }
+  .nowPlayingColumn-2sl4cE {
+    background: var(--background-2);
+    .emptyCard-1RJw8n {
+      background: var(--background-1);
+      box-shadow: var(--box-shadow);
+    }
+    .wrapper-3D2qGf {
+      background: var(--dropdown);
+      .inset-3sAvek {
+        background: rgba(0,0,0,0.2);
+      }
+    }
+  }
+}

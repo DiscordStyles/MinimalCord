@@ -1,0 +1,15 @@
+#app-mount .modal-3c3bKg .inner-1ilYF7 {
+    display: block;
+    .downloadLink-1ywL9o {
+        margin-right: 10px;
+        + span.downloadLink-1ywL9o {
+            display: none;
+        }
+        &:last-child {
+            margin-right: 10px;
+        }
+        &:hover {
+            color: var(--text-1) !important;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+#app-mount .layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 {
+  background: var(--dropdown);
+  box-shadow: var(--box-shadow);
+  .item-1GzJrl {
+    &:not(.invite-271nFU):not(.leave-1DRJfn) {
+      color: var(--text-2);
+      &:hover {
+        color: var(--text-1) !important;
+      }
+    }
+    &:first-child .label-1Y-LW5 {
+      color: var(--nitro);
+    }
+    &:hover {
+      background-color: var(--dropdown-item-hover);
+    }
+  }
+}

@@ -1,0 +1,8 @@
+#app-mount .wrapper-3WhCwL {
+  color: rgba(var(--accent), 1);
+  background: rgba(var(--accent), 0.1);
+  &:hover {
+    background: rgba(var(--accent), 1);
+    color: #fff;
+  }
+}

@@ -1,0 +1,29 @@
+#app-mount .divider-JfaTT5 {
+  border: none;
+  height: auto;
+  margin: 15px 0 15px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  top: 0;
+  span {
+    margin-right: 0;
+    position: unset;
+    padding: 0;
+    background: transparent;
+    font-size: 16px;
+    &.content-1o0f9g + .unreadPill-2HyYtt {
+      margin-left: 10px;
+    }
+    &.unreadPill-2HyYtt {
+      color: var(--red);
+      height: auto;
+    }
+  }
+  svg {
+    display: none;
+  }
+  & + .cozyMessage-3V1Y8y.groupStart-23k01U {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,39 @@
+#app-mount {
+  .bd-search-wrapper {
+    background: var(--settings-box);
+    box-shadow: var(--box-shadow);
+  }
+  .bd-card {
+    background-color: var(--settings-box);
+    border: none;
+    box-shadow: var(--box-shadow);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .bda-header {
+    padding: 0 0 10px;
+    margin-bottom: 0;
+  }
+  .bda-description {
+    margin: 0;
+    padding: 10px 0;
+  }
+  .bda-links {
+    font-size: 0;
+    padding: 10px 0 6px;
+  }
+  .bda-link {
+    font-size: 12px;
+    background: red;
+    background: var(--settings-box-footer);
+    border-radius: 15px;
+    padding: 4px 10px;
+    margin-right: 5px;
+    text-decoration: none;
+    transition: 0.1s ease;
+    &:hover {
+      background: rgba(var(--accent), 1);
+      color: #fff;
+    }
+  }
+}

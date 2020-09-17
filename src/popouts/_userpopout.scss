@@ -1,0 +1,124 @@
+#app-mount .userPopout-3XzG_A {
+  box-shadow: var(--box-shadow);
+  background: var(--user-popout);
+  .header-2BwW8b {
+    .headerName-fajvi9,
+    .headerTag-2pZJzA,
+    .headerTagUsernameNoNickname-2_H881 {
+      color: var(--text-1);
+    }
+  }
+  .headerNormal-T_seeN,
+  .headerPlaying-j0WQBV {
+    background: transparent;
+  }
+  .headerSpotify-zpWxgT {
+    background: transparent;
+    .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+      background: var(--spotify-green);
+      color: #fff;
+      border: none;
+      &:hover {
+        background: var(--spotify-green-dark);
+      }
+    }
+  }
+  .headerStreaming-2FjmGz {
+    background: transparent;
+    .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+      background: var(--twitch-purple);
+      border: none;
+      &:hover {
+        background: var(--twitch-purple-dark);
+      }
+    }
+  }
+  .activity-11LB_k {
+    background: transparent;
+    .activityName-1IaRLn,
+    .headerText-1HLrL7 {
+      color: var(--text-1);
+    }
+    .content-3JfFJh {
+      color: var(--text-2);
+    }
+  }
+  .body-3iLsc4 {
+    background: var(--user-popout-body);
+    padding: 10px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .textRow-19NEd_ {
+    color: var(--text-1);
+  }
+  .addButton-pcyyf6 {
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    border: none;
+    &:hover {
+      color: var(--text-1);
+    }
+  }
+  .customStatus-1bh2V9 {
+    color: var(--text-1);
+  }
+  .bodyTitle-Y0qMQz {
+    color: var(--text-1);
+  }
+  .note-3HfJZ5 {
+    margin-left: 0;
+    position: relative;
+    textarea {
+      max-height: unset;
+      &:focus {
+        background: var(--user-popout-message);
+      }
+    }
+    .charcounter.popout {
+      bottom: unset !important;
+      top: -19px;
+    }
+  }
+  .footer-1fjuF6 {
+    background: var(--user-popout-body);
+    border: none;
+    padding: 0;
+    .input-cIJ7To {
+      background: var(--user-popout-message);
+      border: none;
+      margin: 0 10px 10px;
+      box-sizing: border-box;
+      width: calc(100% - 20px);
+      &::placeholder {
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        font-size: 12px;
+        opacity: 0.7;
+      }
+    }
+    .protip-YaFfgO {
+      display: none;
+    }
+  }
+}
+
+.theme-light .userPopout-3XzG_A {
+  [mask*="url(#svg-mask-status-online)"] {
+    fill: var(--text-1) !important;
+  }
+  [mask*="url(#svg-mask-status-dnd)"] {
+    fill: var(--red);
+  }
+  .headerPlaying-j0WQBV, .headerSpotify-zpWxgT {
+    .profileBadgeHypeSquadOnlineHouse2-3jBpXR,
+    .profileBadgePremium-3kZ9Qj,
+    .profileBadgeEarlySupporter-PQB_0a,
+    [class*="BadgeHype"] {
+      filter: invert(1);
+    }
+  }
+}

@@ -1,0 +1,38 @@
+#app-mount {
+  .container-3qKHyN {
+    height: auto;
+  }
+  .quickswitcher-3JagVE {
+    background-color: var(--background-1);
+    box-shadow: var(--box-shadow);
+    padding: 0;
+    .input-2VB9rf {
+      margin: 20px 20px 0;
+      box-sizing: border-box;
+      padding: 0 20px;
+      background: var(--modal-bg1-search);
+      box-shadow: var(--box-shadow);
+      &::placeholder {
+        color: var(--text-1);
+        opacity: 0.4;
+      }
+    }
+    .scroller-zPkAnE {
+      background: transparent;
+      padding: 20px 30px 20px 20px;
+      box-sizing: border-box;
+      > div[style*="height: 15px"] {
+        display: none;
+      }
+    }
+    .resultFocused-3aIoYe {
+      background: var(--background-2);
+    }
+    .tipsWithResults-HhTE9b {
+      padding: 20px;
+      box-sizing: border-box;
+      background: var(--background-2);
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+#app-mount {
+  // Searchbar
+  .searchBar-3dMhjb {
+    background: var(--background-2);
+    .searchAnswer-3Dz2-q,
+    .searchFilter-2ESiM3 {
+      background-color: var(--foreground-1);
+      color: var(--text-1);
+    }
+  }
+  // Suggestions / dropdown
+  .container-3ayLPN {
+    background-color: var(--dropdown);
+    box-shadow: var(--box-shadow);
+    .displayedNick-3xxvzU,
+    .filter-3Y_im-,
+    .header-2N-gMV {
+      color: var(--text-1);
+    }
+    .answer-1n6g43,
+    .displayUsername-Qekxml {
+      color: var(--text-3);
+    }
+    .option-96V44q {
+      &.selected-rZcOL- {
+        background-color: var(--search-filter-hover);
+        .plusIcon-v0BTrL {
+          color: var(--text-1);
+          opacity: 1;
+        }
+        &:after {
+          background: linear-gradient(90deg, transparent, var(--search-filter-hover) 80%);
+        }
+      }
+      &:after {
+        background: transparent;
+      }
+    }
+    .react-datepicker {
+      background-color: var(--background-3);
+      border-radius: 0;
+    }
+    .react-datepicker__header {
+      background-color: Var(--background-3);
+    }
+    .react-datepicker__day {
+      background-color: var(--background-4);
+    }
+    .react-datepicker__day--disabled,
+    .react-datepicker__day--outside-month {
+      background-color: var(--background-1);
+    }
+  }
+  // Results
+  .searchResultsWrap-3-pOjs {
+    background: var(--background-1);
+  }
+  .searchResult-9tQ1uo {
+    &:before, &:after {
+      content: none;
+    }
+  }
+  .searchResultMessage-1fxgXh.hit-1fVM9e {
+    box-shadow: var(--box-shadow);
+    border: none;
+    background: var(--message-box);
+  }
+  .embedFull-2tM8-- {
+    background: var(--background-1)
+  }
+  .channelName-1JRO3C {
+    background: var(--background-1);
+  }
+}

@@ -1,0 +1,192 @@
+$dark-background: #131519;
+$dark-foreground: #21232b;
+.theme-dark {
+    // General
+    --foreground-1: #{lighten($dark-foreground, 2%)};
+    --foreground-2: #{$dark-foreground};
+    --foreground-divider: #dadada;
+
+    --background-1: #{lighten($dark-background, 2%)};
+    --background-2: #{$dark-background};
+
+    --box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
+    --scrollbar: rgb(53, 55, 63, 0.5);
+    --tooltips: #{lighten($dark-background, 12%)};
+
+    // Pages
+    --pages-box: var(--message-box);
+    --pages-box-footer: #{lighten($dark-background, 2.5%)};
+    --pages-separator: rgba(255,255,255,0.05);
+
+    // User popout
+    --user-popout: var(--dropdown);
+    --user-popout-body: #{lighten($dark-background, 3%)};
+    --user-popout-message: #{lighten($dark-background, 1%)};
+
+    // Settings
+    --settings-box: var(--message-box);
+    --settings-box-hover: #{lighten($dark-background, 1.5%)};
+    --settings-box-footer: #{lighten($dark-background, 2%)};
+    --settings-input: #{$dark-background};
+    --settings-paginator: rgba(0,0,0,0.2);
+    --settings-separator: rgba(255,255,255,0.05);
+
+    // Dropdowns
+    --dropdown: #{lighten($dark-background, 5%)};
+    --dropdown-header: #{lighten($dark-background, 8%)};
+    --dropdown-item-hover: #{lighten($dark-background, 7%)};
+
+    // Chat
+    --message-box: #{lighten($dark-background, 3.5%)};
+    --message-box-divider: #{lighten($dark-background, 6%)};
+    --message-embed: #{lighten($dark-background, 2%)};
+    --message-button: #{lighten($dark-background, 12%)};
+
+    // Serverlist
+    --server-background: #{lighten($dark-background, 5%)};
+    --server-hovered: #{lighten($dark-background, 6%)};
+    --server-selected: #{lighten($dark-background, 7%)};
+    --server-folders: var(--server-background);
+
+    // Search
+    --search-filter-hover: #{lighten($dark-background, 7%)};
+    --search-result-header: #{lighten($dark-background, 5%)};
+
+    // Channels / DMs
+    --channel-selected-bg: #{lighten($dark-background, 6%)};
+    --channel-hovered-bg: #{lighten($dark-background, 4%)};
+    --channel-unread-bg: transparent;
+    --channel-selected-text: var(--text-1);
+    --channel-unread-text: var(--text-2);
+    --channel-muted-text: var(--text-dark);
+    --channel-hovered-text: var(--text-1);
+
+    // Modals
+    --modal-connection: var(--background-1);
+    --modal-list: #{lighten($dark-background, 1%)};
+    --modal-badge-invert: invert(0);
+    --modal-bg1-search: var(--search-filter-hover);
+
+    // Text colours
+    --text-1: #fff;
+    --text-2: #{mix(#ddd, $dark-background, 90%)};
+    --text-3: #{mix(#bbb, $dark-background, 80%)};
+    --text-4: #{mix(#999, $dark-background, 70%)};
+    --text-dark: #{mix(#999, $dark-background, 50%)};
+}
+
+.theme-light {
+    // General
+    --foreground-1: #fff;
+    --foreground-2: #f6f6f6;
+    --foreground-divider: #dadada;
+
+    --background-1: #f2f2f2;
+    --background-2: #e8e8e8;
+
+    --box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    --scrollbar: rgba(12,12,12,0.3);
+    --tooltips: #fff;
+
+    // Pages
+    --pages-box: var(--message-box);
+    --pages-box-footer: #f5f5f5;
+    --pages-separator: rgba(0,0,0,0.1);
+
+    // User popout
+    --user-popout: var(--dropdown);
+    --user-popout-body: #f8f8f8;
+    --user-popout-message: #e5e5e5;
+
+    // Settings
+    --settings-box: var(--message-box);
+    --settings-box-hover: #fafafa;
+    --settings-box-footer: #f5f5f5;
+    --settings-input: var(--settings-box-footer);
+    --settings-paginator: rgba(0,0,0,0.05);
+    --settings-separator: #ddd;
+
+    // Dropdowns
+    --dropdown: #fff;
+    --dropdown-item-hover: #f8f8f8;
+
+    // Chat
+    --message-box: #fff;
+    --message-box-divider: #ddd;
+    --message-embed: #eee;
+    --message-button: var(--message-box);
+
+    // Serverlist
+    --server-background: #fff;
+    --server-selected: #fff;
+    --server-hovered: #fafafa;
+    --server-folders: var(--server-background);
+
+    // Search
+    --search-filter-hover: #f5f5f5;
+    --search-result-header: #fff;
+
+    // Channels / DMs
+    --channel-selected-bg: #fff;
+    --channel-hovered-bg: #fafafa;
+    --channel-unread-bg: transparent;
+    --channel-selected-text: var(--text-1);
+    --channel-unread-text: var(--text-2);
+    --channel-muted-text: var(--text-dark);
+    --channel-hovered-text: var(--text-1);
+
+    // Modals
+    --modal-connection: #fff;
+    --modal-list: #f8f8f8;
+    --modal-badge-invert: invert(1);
+    --modal-bg1-search: #fff;
+
+    // Text colours
+    --text-1: #000;
+    --text-2: #111;
+    --text-3: #222;
+    --text-4: #333;
+    --text-dark: #666;
+}
+
+// Global vars
+:root {
+    --roundness: 50px;
+    --message-padding: var(--chat-message-padding, 20px);
+    --message-spacing: var(--chat-message-spacing, 20px);
+    --bd-blue: rgba(var(--accent), 1);
+
+    --text-link: rgba(var(--accent), 1);
+
+    // Add/Join modal
+    --dark-modal-background: #{lighten($dark-background, 2%)};
+    --dark-modal-item: #{lighten($dark-background, 4%)};
+    --dark-modal-footer: #{$dark-background};
+
+    --light-modal-background: #f8f8f8;
+    --light-modal-item: #fff;
+    --light-modal-footer: #eee;
+
+
+    --green: #43b581;
+    --greenDark: #{darken(#43b581, 10%)};
+
+    --yellow: #faa61a;
+    --yellowDark: #{darken(#faa61a, 10%)};
+
+    --red: #f04747;
+    --redDark: #{mix(#f04747, #000, 70%)};
+
+    --purple: #593695;
+    --purpleDark: #{darken(#593695, 10%)};
+
+    --blurple: #7289da;
+    --blurpleDark: #677bc4;
+    --nitro: #ff73fa;
+
+    --spotify-green: #1db954;
+    --spotify-green-dark: #{darken(#1db954, 10%)};
+
+    --twitch-purple: #593695;
+    --twitch-purple-dark: #{darken(#593695, 5%)};
+}
