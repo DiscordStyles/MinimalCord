@@ -1,0 +1,11 @@
+#app-mount {
+  .button-1YfofB {
+    &.buttonColor-7qQbGO {
+      background: var(--background-light);
+      &:hover {
+        background: rgba(var(--accent), 1);
+        color: #fff;
+      }
+    }
+  }
+}

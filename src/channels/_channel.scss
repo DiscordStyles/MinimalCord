@@ -1,0 +1,43 @@
+#app-mount {
+  .wrapper-2jXpOf {
+    height: auto;
+    margin-bottom: 2px;
+    &.modeMuted-3osy7j .name-23GUGE {
+      color: var(--text-muted);
+    }
+
+    &.modeUnread-1zpFdA .icon-1DeIlz {
+      color: var(--text-normal);
+    }
+
+    &.modeSelected-346R90 {
+      .icon-1DeIlz {
+        color: var(--text-focus);
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        background: rgb(var(--accent), 1);
+        z-index: 1;
+      }
+    }
+  }
+  .content-1x5b-n {
+    margin-left: 0;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    padding-left: 16px;
+  }
+  .unread-2lAfLh {
+    z-index: 2;
+  }
+
+
+  // Voice
+  .avatarSpeaking-2IGMRN {
+    box-shadow: inset 0 0 0 2px rgba(var(--accent), 1), inset 0 0 0 3px var(--background);
+  }
+}
+

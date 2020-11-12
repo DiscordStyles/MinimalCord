@@ -1,9 +1,22 @@
+.theme-light .menu-3sdvDG {
+  background: var(--background-light);
+}
+.theme-dark .menu-3sdvDG {
+  background: var(--background-dark);
+}
+
 #app-mount {
-  .styleFlexible-wGDiIL,
-  .submenu-2-ysNh {
-    background: var(--dropdown);
-  }
-  .barFill-23-gu- {
-    background: rgb(var(--accent));
+  .item-1tOPte {
+    line-height: normal;
+    &.focused-3afm-j:not(.colorDanger-2qLCe1) {
+      background: rgba(var(--accent), 1);
+    }
+    &.colorPremium-p4p7qO {
+      color: rgba(var(--discord-nitro) / 1);
+      &.focused-3afm-j {
+        color: #fff;
+        background: rgba(var(--discord-nitro) / 1);
+      }
+    }
   }
 }

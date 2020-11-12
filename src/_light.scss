@@ -1,0 +1,24 @@
+$background: #171a1f;
+
+.theme-light {
+  // Background
+  --background-light: #fff;
+  --background: #edf2f7;
+  --background-alt: #f7fafc;
+  --background-dark: #e2e8f0;
+
+  // Text colours
+  --text-normal: #2d3748;
+  --text-muted: #718096;
+  --text-focus: #1a202c;
+
+  // Font weights
+  --font-weight-light: 400;
+  --font-weight-normal: 500;
+  --font-weight-semibold: 700;
+  --font-weight-bold: 700;
+
+  // Other variables
+  --box-shadow: 0 4px 9px rgba(0 0 0 / 0.2);
+  --scrollbar-colour: rgba(0 0 0 / 0.2);
+}

@@ -1,0 +1,19 @@
+#app-mount {
+  // Server
+  .wrapper-1BJsBx {
+    &.selected-bZ3Lue .childWrapper-anI2G9 {
+      background: rgb(var(--accent), 1);
+    }
+  }
+  .childWrapper-anI2G9 {
+    background: var(--background-light);
+  }
+
+  // Add/Join server & Server Discovery
+  .circleIconButton-jET_ig {
+    background: var(--background-light);
+    &:hover {
+      background: rgb(var(--discord-green) / 1);
+    }
+  }
+}

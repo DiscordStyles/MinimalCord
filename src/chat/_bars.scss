@@ -1,0 +1,29 @@
+#app-mount {
+  .newMessagesBar-265mhP {
+    background: rgba(var(--accent), 1);
+    border-radius: var(--border-radius);
+    top: 10px;
+    left: 26px;
+    right: 26px;
+  }
+  .jumpToPresentBar-G1R9s6 {
+    background: var(--background-light);
+    opacity: 1;
+    border-radius: var(--border-radius);
+    left: auto;
+    box-shadow: var(--box-shadow);
+    bottom: 20px;
+    padding-bottom: 0;
+    .barButtonMain-3K-jeJ {
+      display: none;
+    }
+    .barButtonBase-2uLO1z {
+      padding: 10px;
+      height: auto;
+      line-height: normal;
+    }
+    .spinner-1AwyAQ {
+      padding-left: 12px;
+    }
+  }
+}

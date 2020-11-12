@@ -1,0 +1,6 @@
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family: var(--font, 'Roboto'), 'Whitney';
+}
+html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
+  backface-visibility: hidden !important;
+}

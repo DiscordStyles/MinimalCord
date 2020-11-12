@@ -1,29 +1,36 @@
 #app-mount .divider-JfaTT5 {
-  border: none;
-  height: auto;
-  margin: 15px 0 15px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  top: 0;
-  span {
-    margin-right: 0;
-    position: unset;
-    padding: 0;
-    background: transparent;
-    font-size: 16px;
-    &.content-1o0f9g + .unreadPill-2HyYtt {
-      margin-left: 10px;
+  &.isUnread-3Ef-o9 {
+    margin: calc(var(--message-padding) / -1 - 1px) 8px calc(var(--message-padding) / -1) calc(55px + (var(--message-padding) * 2));
+    height: 0;
+    top: 0;
+    &.beforeGroup-1rH1F0 {
+      margin: var(--message-spacing) 8px var(--message-spacing) 20px;
     }
-    &.unreadPill-2HyYtt {
-      color: var(--red);
+  }
+  &.hasContent-1cNJDh {
+    margin: var(--message-spacing) 0 var(--message-spacing) 20px;
+
+    .content-1o0f9g {
+      background: var(--background-light);
+      padding: 4px 8px;
+      line-height: normal;
+      font-weight: var(--font-weight-semibold);
+      border-radius: var(--border-radius);
+    }
+
+    &:not(.isUnread-3Ef-o9) {
+      border-top: none;
       height: auto;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        background: var(--background-light);
+        height: 1px;
+        z-index: -1;
+      }
     }
-  }
-  svg {
-    display: none;
-  }
-  & + .cozyMessage-3V1Y8y.groupStart-23k01U {
-    margin-top: 0;
   }
 }

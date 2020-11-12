@@ -1,0 +1,23 @@
+:root {
+  --border-radius: 5px;
+
+  // Discord variables
+  --discord-green: 67 181 129;
+  --discord-yellow: 219 171 9;
+  --discord-red: 215 58 73;
+  --discord-purple: 89 54 149;
+  --discord-invisible: 117 128 142;
+  --discord-nitro: 255 115 250;
+  --discord-blurple: 114 137 218;
+  --discord-spotify: 29 185 84;
+  --discord-twitch: 89 54 149;
+  --discord-xbox: 16 124 16;
+
+  --background-modifier-selected: var(--background-light);
+  --background-modifier-hover: var(--background-alt);
+  --background-modifier-active: var(--background-light);
+
+  --channels-default: var(--text-normal);
+
+  --version: 'MinimalCord 2.0 [BETA]'
+}

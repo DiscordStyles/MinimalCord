@@ -1,0 +1,13 @@
+#app-mount {
+  // Chat box
+  .form-2fGMdU {
+    &:before {
+      content: none;
+    }
+  }
+  .scrollableContainer-2NUZem {
+    background: var(--background-light);
+    border-radius: var(--border-radius);
+  }
+}
+
