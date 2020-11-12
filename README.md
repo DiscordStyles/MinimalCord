@@ -7,7 +7,7 @@ Powercord Install: `git clone https://github.com/DiscordStyles/MinimalCord`
 - - -
 
 Server Chat - **DARK**
-![Server Chat](https://i.imgur.com/ETbCZ1P.jpg)
+![Server Chat](https://i.imgur.com/W33dgMJ.png)
 
 Server Chat - **LIGHT**
-![Server Chat](https://i.imgur.com/dexI8UV.jpg)
+![Server Chat](https://i.imgur.com/vtPiMFw.png)
