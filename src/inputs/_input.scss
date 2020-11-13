@@ -1,0 +1,11 @@
+#app-mount .input-cIJ7To {
+  background: var(--background-dark);
+  border: 1px solid var(--background-dark);
+  border-radius: var(--border-radius);
+  &:hover {
+    border-color: var(--background-light);
+  }
+  &:focus {
+    border-color: rgba(var(--accent), 1)
+  }
+}

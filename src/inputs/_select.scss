@@ -1,0 +1,21 @@
+#app-mount {
+
+  // Default
+  .css-gvi9bl-control,
+  .css-17e1tep-control {
+    background: var(--background-dark);
+    border-radius: var(--border-radius);
+    border-color: var(--background-dark);
+    cursor: pointer;
+    &:hover {
+      border-color: var(--background-light);
+    }
+  }
+
+  // Selected
+  .css-6fzn47-control {
+    background: var(--background-dark);
+    border-radius: var(--border-radius);
+    border-color: rgba(var(--accent), 1);
+  }
+}

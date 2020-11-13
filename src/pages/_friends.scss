@@ -1,0 +1,57 @@
+#app-mount {
+  .container-1D34oG {
+    background: var(--background);
+  }
+  .tabBody-3YRQ8W:before {
+    content: none;
+  }
+
+  .title-30qZAO {
+    margin: 20px;
+  }
+  .peopleListItem-2nzedh {
+    background: var(--background-alt);
+    border-radius: var(--border-radius);
+    border: none;
+    line-height: normal;
+    margin: 0 20px 10px 20px;
+    padding: 0 15px;
+    &:hover {
+      background: var(--background-light);
+      .actionButton-uPB8Fs {
+        background: var(--background);
+      }
+    }
+  }
+  .actionButton-uPB8Fs {
+    background: var(--background-dark);
+  }
+
+  .nowPlayingColumn-2sl4cE {
+    background: transparent;
+  }
+  .nowPlayingScroller-2XrVUt {
+    padding: 20px;
+  }
+  .header-13Cw0- {
+    padding: 0 0 20px 0;
+  }
+  .emptyCard-1RJw8n {
+    background: var(--background-alt);
+    border-radius: var(--border-radius);
+  }
+
+  .wrapper-3D2qGf {
+    background: var(--background-alt);
+    border-radius: var(--border-radius);
+    &:hover {
+      background: var(--background-light);
+      .inset-3sAvek {
+        background: var(--background-alt);
+      }
+    }
+  }
+  .inset-3sAvek {
+    background: var(--background);
+  }
+}

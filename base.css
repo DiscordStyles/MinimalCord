@@ -14,7 +14,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "MinimalCord 2.0 [BETA]" ;
+  --version: "MinimalCord 2.0.1 [BETA]" ;
 }
 
 .theme-light {
@@ -67,7 +67,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
           backface-visibility: hidden !important;
 }
 
-#app-mount .title-3qD0b- {
+#app-mount .title-3qD0b-,
+#app-mount .container-1r6BKw {
   background: var(--background);
 }
 #app-mount .children-19S4PO:after {
@@ -549,10 +550,130 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: rgba(var(--accent), 1);
 }
 
+#app-mount .container-1D34oG {
+  background: var(--background);
+}
+#app-mount .tabBody-3YRQ8W:before {
+  content: none;
+}
+#app-mount .title-30qZAO {
+  margin: 20px;
+}
+#app-mount .peopleListItem-2nzedh {
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+  border: none;
+  line-height: normal;
+  margin: 0 20px 10px 20px;
+  padding: 0 15px;
+}
+#app-mount .peopleListItem-2nzedh:hover {
+  background: var(--background-light);
+}
+#app-mount .peopleListItem-2nzedh:hover .actionButton-uPB8Fs {
+  background: var(--background);
+}
+#app-mount .actionButton-uPB8Fs {
+  background: var(--background-dark);
+}
+#app-mount .nowPlayingColumn-2sl4cE {
+  background: transparent;
+}
+#app-mount .nowPlayingScroller-2XrVUt {
+  padding: 20px;
+}
+#app-mount .header-13Cw0- {
+  padding: 0 0 20px 0;
+}
+#app-mount .emptyCard-1RJw8n {
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+}
+#app-mount .wrapper-3D2qGf {
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+}
+#app-mount .wrapper-3D2qGf:hover {
+  background: var(--background-light);
+}
+#app-mount .wrapper-3D2qGf:hover .inset-3sAvek {
+  background: var(--background-alt);
+}
+#app-mount .inset-3sAvek {
+  background: var(--background);
+}
+
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background: rgba(var(--accent), 1);
+  transition: box-shadow 0.2s ease;
+}
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.1);
+}
 #app-mount .button-1YfofB.buttonColor-7qQbGO {
   background: var(--background-light);
 }
 #app-mount .button-1YfofB.buttonColor-7qQbGO:hover {
   background: rgba(var(--accent), 1);
   color: #fff;
+}
+
+#app-mount .input-cIJ7To {
+  background: var(--background-dark);
+  border: 1px solid var(--background-dark);
+  border-radius: var(--border-radius);
+}
+#app-mount .input-cIJ7To:hover {
+  border-color: var(--background-light);
+}
+#app-mount .input-cIJ7To:focus {
+  border-color: rgba(var(--accent), 1);
+}
+
+#app-mount .css-gvi9bl-control,
+#app-mount .css-17e1tep-control {
+  background: var(--background-dark);
+  border-radius: var(--border-radius);
+  border-color: var(--background-dark);
+  cursor: pointer;
+}
+#app-mount .css-gvi9bl-control:hover,
+#app-mount .css-17e1tep-control:hover {
+  border-color: var(--background-light);
+}
+#app-mount .css-6fzn47-control {
+  background: var(--background-dark);
+  border-radius: var(--border-radius);
+  border-color: rgba(var(--accent), 1);
+}
+
+#app-mount .radioGroup-1GBvlr .item-26Dhrx {
+  border-radius: 5px;
+}
+#app-mount .radioGroup-1GBvlr .card-3Qj_Yx {
+  background: var(--background-dark);
+  border-color: var(--background-dark);
+}
+#app-mount .radioGroup-1GBvlr .card-3Qj_Yx:hover {
+  border-color: rgba(var(--accent), 1);
+}
+#app-mount .radioGroup-1GBvlr .card-3Qj_Yx[style*="rgb(114, 137, 218)"] {
+  background: rgba(var(--accent), 1) !important;
+  border-color: rgba(var(--accent), 1) !important;
+}
+#app-mount .radioGroup-1GBvlr .card-3Qj_Yx[style*="rgb(114, 137, 218)"] .checkbox-1ix_J3 {
+  border-color: #fff !important;
+}
+#app-mount .radioGroup-1GBvlr .card-3Qj_Yx[style*="rgb(114, 137, 218)"] path {
+  fill: rgba(var(--accent), 1);
+}
+
+#app-mount .layer-3QrUeG[aria-label*=_SETTINGS] {
+  background: var(--background);
+}
+#app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .sidebarRegionScroller-3MXcoP {
+  background: var(--background-dark);
+}
+#app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .contentRegionScroller-26nc1e {
+  background: var(--background);
 }

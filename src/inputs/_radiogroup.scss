@@ -1,0 +1,22 @@
+#app-mount .radioGroup-1GBvlr {
+  .item-26Dhrx {
+    border-radius: 5px;
+  }
+  .card-3Qj_Yx {
+    background: var(--background-dark);
+    border-color: var(--background-dark);
+    &:hover {
+      border-color: rgba(var(--accent), 1);
+    }
+    &[style*="rgb(114, 137, 218)"] {
+      background: rgba(var(--accent), 1) !important;
+      border-color: rgba(var(--accent), 1) !important;
+      .checkbox-1ix_J3 {
+        border-color: #fff !important;
+      }
+      path {
+        fill: rgba(var(--accent), 1);
+      }
+    }
+  }
+}
