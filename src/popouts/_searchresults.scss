@@ -1,0 +1,44 @@
+#app-mount {
+  .searchResultsWrap-3-pOjs {
+    background: var(--background-alt);
+    border-top-left-radius: var(--border-radius);
+  }
+  .searchHeader-2XoQg7 {
+    background: var(--background-light);
+    box-shadow: var(--box-shadow-alt);
+  }
+  .channelName-1JRO3C {
+    background: var(--background-alt);
+  }
+
+  .searchResult-9tQ1uo {
+    border: none;
+    &:before {
+      background: linear-gradient(0deg,transparent,var(--background-alt));
+    }
+    &:after {
+      background: linear-gradient(180deg,transparent,var(--background-alt));
+    }
+    &.expanded-w_LCGl {
+      background: var(--background);
+      border-radius: var(--border-radius);
+    }
+  }
+  .searchResultMessage-1fxgXh {
+    .cozy-3raOZG {
+      margin: 0;
+    }
+
+    &:not(.hit-1fVM9e) .cozy-3raOZG:before {
+      content: none;
+    }
+    &.hit-1fVM9e {
+      box-shadow: 0 0 10px 6px var(--background-alt);
+      border: none;
+      border-radius: var(--border-radius);
+      .cozy-3raOZG {
+        background: var(--background-light);
+      }
+    }
+  }
+}

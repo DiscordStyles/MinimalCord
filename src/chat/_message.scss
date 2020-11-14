@@ -46,7 +46,7 @@
     .wrapper-2aW0bm {
       background: var(--background-light);
       height: 24px;
-      width: 24px;
+      box-shadow: var(--box-shadow-alt);
     }
     .button-1ZiXG9 {
       height: 24px;
@@ -55,6 +55,14 @@
       svg {
         width: 14px;
         height: 14px;
+      }
+      &:hover {
+        background: rgba(var(--accent), 1);
+        color: #fff;
+      }
+
+      &.dangerous-2r8KxV:hover {
+        background: rgba(var(--discord-red) / 1);
       }
     }
 

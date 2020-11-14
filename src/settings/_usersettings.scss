@@ -1,3 +1,39 @@
 #app-mount #user-settings {
-  
+  // My account
+  .background-1QDuV2 {
+    background: var(--background-alt);
+    border-radius: var(--border-radius);
+  }
+  .fieldList-21DyL8 {
+    background: var(--background-light);
+  }
+
+  // Authorized Apps
+  .authedApp-mj2Hmd {
+    background: var(--background-alt);
+    border-radius: var(--border-radius);
+    border: none;
+  }
+
+  // Voice & Video
+  .children-rWhLdy > .flex-1xMQg5.flex-1O1GKY {
+    background: var(--background-alt);
+    border-radius: var(--border-radius);
+    padding: 16px;
+  }
+  .micTest-cP1_6S {
+    background: var(--background-alt);
+    border-radius: var(--border-radius);
+    padding: 16px;
+    margin-top: 20px;
+    .marginTop8-1DLZ1n {
+      margin-top: 0;
+    }
+  }
+  .container-3PXSwK {
+    width: 530px !important;
+  }
+  .notches-1sAcEM {
+    background: none;
+  }
 }

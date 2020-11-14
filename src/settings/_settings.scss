@@ -2,6 +2,49 @@
   background: var(--background);
 
 
+
+  // Groups
+  .children-rWhLdy {
+    & > .marginBottom40-2vIwTv:not(.divider-3573oO) {
+      background: var(--background-alt);
+      border-radius: var(--border-radius);
+      padding: 16px;
+      border: none;
+      .marginTop8-1DLZ1n {
+        margin-top: 0;
+      }
+    }
+    & > .marginBottom20-32qID7:not(.title-3sZWYQ) {
+      background: var(--background-alt);
+      border-radius: var(--border-radius);
+      padding: 16px;
+      border: none;
+    }
+    & > [class*="marginBottom"] {
+      .container-2_Tvc_:last-child {
+        margin-bottom: 0;
+      }
+      [class*="marginBottom"] {
+        padding: 0;
+      }
+    }
+    .children-rWhLdy .flex-1xMQg5.flex-1O1GKY {
+      padding: 0 !important;
+    }
+  }
+
+  // Dividers
+  .divider-3573oO {
+    display: none;
+  }
+
+  // Notices
+  .formNotice-2_hHWR {
+    padding: 0;
+    background: transparent;
+  }
+
+
   .sidebarRegionScroller-3MXcoP {
     background: var(--background-dark);
   }
