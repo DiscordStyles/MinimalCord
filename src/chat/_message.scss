@@ -99,6 +99,18 @@
     }
   }
 
+  // Replied quote
+  .repliedMessage-VokQwo {
+    margin-left: calc(var(--message-padding) + 56px);
+    & + .contents-2mQqc9 {
+      .avatar-1BDn8e, img {
+        top: 32px;
+      }
+    }
+    &:before {
+      border-color: var(--text-muted);
+    }
+  }
 
   // Embeds
   .embedFull-2tM8-- {

@@ -14,7 +14,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.2";
+  --version: "2.0.3";
 }
 
 .theme-light {
@@ -346,6 +346,15 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .wrapper-3WhCwL:hover, #app-mount .wrapper-3WhCwL.popout-open {
   background: rgba(var(--accent), 1);
   color: #fff;
+}
+#app-mount .repliedMessage-VokQwo {
+  margin-left: calc(var(--message-padding) + 56px);
+}
+#app-mount .repliedMessage-VokQwo + .contents-2mQqc9 .avatar-1BDn8e, #app-mount .repliedMessage-VokQwo + .contents-2mQqc9 img {
+  top: 32px;
+}
+#app-mount .repliedMessage-VokQwo:before {
+  border-color: var(--text-muted);
 }
 #app-mount .embedFull-2tM8-- {
   background: var(--background-dark);
