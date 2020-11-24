@@ -24,4 +24,8 @@ $background: #171a1f;
 
   // Scrollbars
   --scrollbar-colour: rgba(0 0 0 / 0.2);
+
+  // Messages
+  --edit-message-box: var(--background-light);
+  --message-background: var(--background-light);
 }

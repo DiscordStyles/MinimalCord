@@ -14,7 +14,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.3";
+  --version: "2.0.4";
 }
 
 .theme-light {
@@ -32,6 +32,8 @@
   --box-shadow: 0 4px 9px rgba(0 0 0 / 0.2);
   --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.1);
   --scrollbar-colour: rgba(0 0 0 / 0.2);
+  --edit-message-box: var(--background-light);
+  --message-background: var(--background-light);
 }
 
 .theme-dark {
@@ -49,6 +51,8 @@
   --box-shadow: 0 4px 9px rgba(0 0 0 / 0.4);
   --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.3);
   --scrollbar-colour: var(--background-light);
+  --edit-message-box: var(--background-light);
+  --message-background: var(--background-alt);
 }
 
 #app-mount .bg-h5JY_x {
@@ -264,6 +268,10 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   height: 52px;
 }
 
+#app-mount .message-2qnXI6 .scrollableContainer-2NUZem {
+  background: var(--edit-message-box);
+  box-shadow: none;
+}
 #app-mount .cozy-3raOZG {
   background: transparent;
   padding-top: var(--message-padding);
@@ -286,7 +294,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .cozy-3raOZG .contents-2mQqc9,
 #app-mount .cozy-3raOZG .container-1ov-mD {
-  padding-left: calc(40px + (var(--message-padding) * 2));
+  margin-left: calc(40px + (var(--message-padding) * 2));
 }
 #app-mount .cozy-3raOZG .avatar-1BDn8e {
   left: var(--message-padding);
@@ -299,6 +307,10 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .cozy-3raOZG + .cozy-3raOZG:not(.groupStart-23k01U) {
   margin-top: calc(var(--message-padding) / -1);
   padding-top: 0.175rem;
+}
+#app-mount .cozy-3raOZG .messageContent-2qWWxC {
+  margin-left: -5px;
+  padding-left: 5px;
 }
 #app-mount .cozy-3raOZG .wrapper-2aW0bm {
   background: var(--background-light);
@@ -326,18 +338,33 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   display: flex;
   justify-content: center;
 }
-#app-mount .cozy-3raOZG.mentioned-xhSam7 {
-  background: var(--background-mentioned);
-  border-radius: var(--border-radius);
+#app-mount .cozy-3raOZG.mentioned-xhSam7 .messageContent-2qWWxC {
+  position: relative;
 }
-#app-mount .cozy-3raOZG.mentioned-xhSam7:after {
+#app-mount .cozy-3raOZG.mentioned-xhSam7 .messageContent-2qWWxC:after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 2px;
+  border-radius: 0 var(--border-radius) 0 0;
   height: 100%;
-  background: rgba(var(--discord-yellow)/1);
+  width: calc(100% - var(--message-padding));
+  border-left: 2px solid rgba(var(--discord-yellow)/1);
+  background: var(--background-mentioned);
+}
+#app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD {
+  position: relative;
+}
+#app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -5px;
+  height: 100%;
+  width: calc(100% - var(--message-padding) + 5px);
+  border-left: 2px solid rgba(var(--discord-yellow)/1);
+  background: var(--background-mentioned);
+  border-radius: 0 0 var(--border-radius) 0;
 }
 #app-mount .wrapper-3WhCwL {
   background: rgba(var(--accent), 0.1);
@@ -355,6 +382,45 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .repliedMessage-VokQwo:before {
   border-color: var(--text-muted);
+}
+#app-mount .wrapper-3vR61M {
+  background: transparent;
+}
+#app-mount .wrapper-1F5TKx {
+  background: transparent;
+  padding-top: var(--message-padding);
+  padding-bottom: var(--message-padding);
+  padding-left: 0;
+  margin-left: 16px;
+  margin-right: 8px;
+  position: relative;
+}
+#app-mount .wrapper-1F5TKx:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--message-border-radius, var(--border-radius));
+  background: var(--background-alt);
+  z-index: -1;
+}
+#app-mount .wrapper-1F5TKx .contents-1R-xLu,
+#app-mount .wrapper-1F5TKx .attachmentContainer-2BK1nK {
+  padding-left: calc(40px + (var(--message-padding) * 2));
+}
+#app-mount .wrapper-1F5TKx .avatar-1BDn8e {
+  left: var(--message-padding);
+  top: var(--message-padding);
+  margin-top: 0;
+}
+#app-mount .wrapper-1F5TKx[style*=margin-top] {
+  margin-top: var(--message-spacing) !important;
+}
+#app-mount .wrapper-1F5TKx + .wrapper-1F5TKx:not([style*=margin-top]) {
+  margin-top: calc(var(--message-padding) / -1);
+  padding-top: 0.175rem;
 }
 #app-mount .embedFull-2tM8-- {
   background: var(--background-dark);
