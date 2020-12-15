@@ -1,0 +1,23 @@
+#app-mount [aria-label="GUILD_SETTINGS"] {
+  // Audit log
+  [data-list-id="audit-log"] {
+    background: var(--background-alt);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin-top: 20px;
+  }
+  .auditLog-3jNbM6 {
+    border: none;
+    margin: 0;
+    .divider-1pnAR2 {
+      display: none;
+    }
+    &:hover {
+      background: var(--background-light);
+    }
+  }
+  .headerExpanded-CUEwZ5,
+  .changeDetails-bk98pu {
+    background: var(--background-light);
+  }
+}

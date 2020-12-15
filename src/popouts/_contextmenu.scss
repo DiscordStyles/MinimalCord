@@ -8,7 +8,7 @@
 #app-mount {
   .item-1tOPte {
     line-height: normal;
-    &.focused-3afm-j:not(.colorDanger-2qLCe1) {
+    &:active, &.focused-3afm-j:not(.colorDanger-2qLCe1) {
       background: rgba(var(--accent), 1);
     }
     &.colorPremium-p4p7qO {

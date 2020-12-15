@@ -98,6 +98,7 @@
           width: calc(100% - var(--message-padding));
           border-left: 2px solid rgba(var(--discord-yellow) / 1);
           background: var(--background-mentioned);
+          pointer-events: none;
         }
       }
       .container-1ov-mD {
@@ -105,6 +106,7 @@
         &:before {
           content: "";
           position: absolute;
+          pointer-events: none;
           top: 0;
           left: -5px;
           height: 100%;
@@ -190,7 +192,8 @@
   }
 
   // Attachments
-  .attachment-33OFj0 {
+  .attachment-33OFj0,
+  .wrapperAudio-1jDe0Q {
     background: var(--background-dark);
     border-radius: var(--border-radius);
     border: none;

@@ -14,7 +14,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.4";
+  --version: "2.0.5";
 }
 
 .theme-light {
@@ -351,6 +351,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   width: calc(100% - var(--message-padding));
   border-left: 2px solid rgba(var(--discord-yellow)/1);
   background: var(--background-mentioned);
+  pointer-events: none;
 }
 #app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD {
   position: relative;
@@ -358,6 +359,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD:before {
   content: "";
   position: absolute;
+  pointer-events: none;
   top: 0;
   left: -5px;
   height: 100%;
@@ -425,7 +427,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .embedFull-2tM8-- {
   background: var(--background-dark);
 }
-#app-mount .attachment-33OFj0 {
+#app-mount .attachment-33OFj0,
+#app-mount .wrapperAudio-1jDe0Q {
   background: var(--background-dark);
   border-radius: var(--border-radius);
   border: none;
@@ -601,7 +604,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .item-1tOPte {
   line-height: normal;
 }
-#app-mount .item-1tOPte.focused-3afm-j:not(.colorDanger-2qLCe1) {
+#app-mount .item-1tOPte:active, #app-mount .item-1tOPte.focused-3afm-j:not(.colorDanger-2qLCe1) {
   background: rgba(var(--accent), 1);
 }
 #app-mount .item-1tOPte.colorPremium-p4p7qO {
@@ -862,7 +865,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .sidebarRegionScroller-3MXcoP {
   background: var(--background-dark);
 }
-#app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .contentRegionScroller-26nc1e {
+#app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .contentRegionScroller-26nc1e,
+#app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .contentRegion-3nDuYy {
   background: var(--background);
 }
 
@@ -897,4 +901,25 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount #user-settings .notches-1sAcEM {
   background: none;
+}
+
+#app-mount [aria-label=GUILD_SETTINGS] [data-list-id=audit-log] {
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin-top: 20px;
+}
+#app-mount [aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 {
+  border: none;
+  margin: 0;
+}
+#app-mount [aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 .divider-1pnAR2 {
+  display: none;
+}
+#app-mount [aria-label=GUILD_SETTINGS] .auditLog-3jNbM6:hover {
+  background: var(--background-light);
+}
+#app-mount [aria-label=GUILD_SETTINGS] .headerExpanded-CUEwZ5,
+#app-mount [aria-label=GUILD_SETTINGS] .changeDetails-bk98pu {
+  background: var(--background-light);
 }
