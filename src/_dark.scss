@@ -3,6 +3,7 @@ $background: #171a1f;
 .theme-dark {
   // Background
   --background-light: #{lighten($background, 5%)};
+  --background-light-alt: #{lighten($background, 3.5%)};
   --background: #{$background};
   --background-alt: #{lighten($background, 2%)};
   --background-dark: #{darken($background, 2%)};

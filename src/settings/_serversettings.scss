@@ -3,8 +3,13 @@
   [data-list-id="audit-log"] {
     background: var(--background-alt);
     border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow);
     margin-top: 20px;
+    [role="listitem"] {
+      background: transparent;
+      &[aria-expanded="true"] {
+        background: var(--background-light);
+      }
+    }
   }
   .auditLog-3jNbM6 {
     border: none;

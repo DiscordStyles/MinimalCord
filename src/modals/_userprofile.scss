@@ -1,0 +1,45 @@
+#app-mount .root-SR8cQa {
+  .topSectionNormal-2-vo2m {
+    background: var(--background-alt);
+  }
+  .topSectionPlaying-1J5E4n {
+    background: var(--background-alt);
+  }
+
+  .headerFill-adLl4x {
+    background: transparent;
+  }
+  .tabBarContainer-1s1u-z {
+    border: none;
+  }
+
+  .userInfoSection-2acyCx {
+    border: none;
+  }
+  .connectedAccounts-repVzS {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
+  .connectedAccount-36nQx7 {
+    background: var(--background-alt);
+    border-radius: var(--border-radius);
+    border: none;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .body-3ND3kc {
+    background: var(--background);
+    height: 320px;
+  }
+
+  .note-QfFU8y {
+    margin: 0;
+  }
+  textarea {
+    padding: 8px;
+    height: auto !important;
+  }
+}

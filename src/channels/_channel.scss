@@ -17,8 +17,8 @@
       &:before {
         content: "";
         position: absolute;
-        top: 0;
-        height: 100%;
+        top: 1px;
+        height: calc(100% - 2px);
         width: 4px;
         background: rgb(var(--accent), 1);
         z-index: 1;
@@ -40,4 +40,3 @@
     box-shadow: inset 0 0 0 2px rgba(var(--accent), 1), inset 0 0 0 3px var(--background);
   }
 }
-

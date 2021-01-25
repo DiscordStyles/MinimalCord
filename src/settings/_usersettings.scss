@@ -1,4 +1,4 @@
-#app-mount #user-settings {
+#app-mount [aria-label="USER_SETTINGS"] {
   // My account
   .background-1QDuV2 {
     background: var(--background-alt);
@@ -13,6 +13,23 @@
     background: var(--background-alt);
     border-radius: var(--border-radius);
     border: none;
+  }
+  .accountBtnInner-sj5jLs {
+    background-color: var(--background-light);
+  }
+  .connection-1fbD7X {
+    background: var(--background-alt);
+  }
+  .connectionHeader-2MDqhu {
+    background: var(--background-light-alt);
+  }
+  .integration-3kMeY4 {
+    background: var(--background);
+  }
+
+  // Connections
+  .accountList-33MS45 {
+    background: var(--background-alt);
   }
 
   // Voice & Video

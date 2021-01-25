@@ -1,21 +1,14 @@
-#app-mount .radioGroup-1GBvlr {
+#app-mount [role="radiogroup"] {
   .item-26Dhrx {
-    border-radius: 5px;
-  }
-  .card-3Qj_Yx {
-    background: var(--background);
-    border-color: var(--background);
+    background: var(--background-alt);
     &:hover {
-      border-color: rgba(var(--accent), 1);
+      background: var(--background-light);
     }
-    &[style*="rgb(114, 137, 218)"] {
-      background: rgba(var(--accent), 1) !important;
-      border-color: rgba(var(--accent), 1) !important;
-      .checkbox-1ix_J3 {
-        border-color: #fff !important;
-      }
-      path {
-        fill: rgba(var(--accent), 1);
+    &[aria-checked="true"] {
+      background: rgb(var(--accent));
+      color: #fff;
+      .radioIconForeground-XwlXQN {
+        color: #fff;
       }
     }
   }

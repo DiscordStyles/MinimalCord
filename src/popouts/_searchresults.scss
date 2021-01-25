@@ -13,16 +13,7 @@
 
   .searchResult-9tQ1uo {
     border: none;
-    &:before {
-      background: linear-gradient(0deg,transparent,var(--background-alt));
-    }
-    &:after {
-      background: linear-gradient(180deg,transparent,var(--background-alt));
-    }
-    &.expanded-w_LCGl {
-      background: var(--background);
-      border-radius: var(--border-radius);
-    }
+    background: var(--background-light);
   }
   .searchResultMessage-1fxgXh {
     .cozy-3raOZG {

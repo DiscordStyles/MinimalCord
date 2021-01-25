@@ -1,8 +1,6 @@
 #app-mount .layer-3QrUeG[aria-label*="_SETTINGS"] {
   background: var(--background);
 
-
-
   // Groups
   .children-rWhLdy {
     & > .marginBottom40-2vIwTv:not(.divider-3573oO) {
@@ -27,6 +25,12 @@
       [class*="marginBottom"] {
         padding: 0;
       }
+    }
+    & > .divider-3wNib3 {
+      background: var(--background-alt);
+      border-radius: var(--border-radius);
+      padding: 16px;
+      border: none;
     }
     .children-rWhLdy .flex-1xMQg5.flex-1O1GKY {
       padding: 0 !important;

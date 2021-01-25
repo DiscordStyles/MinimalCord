@@ -14,11 +14,12 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.5";
+  --version: "2.0.6";
 }
 
 .theme-light {
   --background-light: #fff;
+  --background-light-alt: #fff;
   --background: #edf2f7;
   --background-alt: #f7fafc;
   --background-dark: #e2e8f0;
@@ -38,6 +39,7 @@
 
 .theme-dark {
   --background-light: #22262e;
+  --background-light-alt: #1f2329;
   --background: #171a1f;
   --background-alt: #1b1f25;
   --background-dark: #131519;
@@ -119,7 +121,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: transparent;
 }
 
-#app-mount .tooltipBlack-PPG47z {
+#app-mount .tooltipPrimary-1d1ph4 {
   background: var(--background-light);
   box-shadow: var(--box-shadow);
 }
@@ -195,8 +197,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .wrapper-2jXpOf.modeSelected-346R90:before {
   content: "";
   position: absolute;
-  top: 0;
-  height: 100%;
+  top: 1px;
+  height: calc(100% - 2px);
   width: 4px;
   background: rgb(var(--accent), 1);
   z-index: 1;
@@ -588,9 +590,13 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .headerSpotify-zpWxgT {
   background: var(--background);
 }
-#app-mount .headerSpotify-zpWxgT .button-1Pkqso {
+#app-mount .headerSpotify-zpWxgT .button-2IFFQ4 {
   background: rgba(var(--discord-spotify)/1);
   border: none;
+  transition: box-shadow 0.15s ease;
+}
+#app-mount .headerSpotify-zpWxgT .button-2IFFQ4:hover, #app-mount .headerSpotify-zpWxgT .button-2IFFQ4:focus {
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.15);
 }
 
 .theme-light .menu-3sdvDG {
@@ -601,6 +607,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-dark);
 }
 
+#app-mount .menu-3sdvDG {
+  box-shadow: var(--box-shadow);
+}
 #app-mount .item-1tOPte {
   line-height: normal;
 }
@@ -658,16 +667,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .searchResult-9tQ1uo {
   border: none;
-}
-#app-mount .searchResult-9tQ1uo:before {
-  background: linear-gradient(0deg, transparent, var(--background-alt));
-}
-#app-mount .searchResult-9tQ1uo:after {
-  background: linear-gradient(180deg, transparent, var(--background-alt));
-}
-#app-mount .searchResult-9tQ1uo.expanded-w_LCGl {
-  background: var(--background);
-  border-radius: var(--border-radius);
+  background: var(--background-light);
 }
 #app-mount .searchResultMessage-1fxgXh .cozy-3raOZG {
   margin: 0;
@@ -803,25 +803,18 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-color: rgba(var(--accent), 1);
 }
 
-#app-mount .radioGroup-1GBvlr .item-26Dhrx {
-  border-radius: 5px;
+#app-mount [role=radiogroup] .item-26Dhrx {
+  background: var(--background-alt);
 }
-#app-mount .radioGroup-1GBvlr .card-3Qj_Yx {
-  background: var(--background);
-  border-color: var(--background);
+#app-mount [role=radiogroup] .item-26Dhrx:hover {
+  background: var(--background-light);
 }
-#app-mount .radioGroup-1GBvlr .card-3Qj_Yx:hover {
-  border-color: rgba(var(--accent), 1);
+#app-mount [role=radiogroup] .item-26Dhrx[aria-checked=true] {
+  background: rgb(var(--accent));
+  color: #fff;
 }
-#app-mount .radioGroup-1GBvlr .card-3Qj_Yx[style*="rgb(114, 137, 218)"] {
-  background: rgba(var(--accent), 1) !important;
-  border-color: rgba(var(--accent), 1) !important;
-}
-#app-mount .radioGroup-1GBvlr .card-3Qj_Yx[style*="rgb(114, 137, 218)"] .checkbox-1ix_J3 {
-  border-color: #fff !important;
-}
-#app-mount .radioGroup-1GBvlr .card-3Qj_Yx[style*="rgb(114, 137, 218)"] path {
-  fill: rgba(var(--accent), 1);
+#app-mount [role=radiogroup] .item-26Dhrx[aria-checked=true] .radioIconForeground-XwlXQN {
+  color: #fff;
 }
 
 #app-mount .barFill-23-gu- {
@@ -852,6 +845,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .children-rWhLdy > [class*=marginBottom] [class*=marginBottom] {
   padding: 0;
 }
+#app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .children-rWhLdy > .divider-3wNib3 {
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+  padding: 16px;
+  border: none;
+}
 #app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .children-rWhLdy .children-rWhLdy .flex-1xMQg5.flex-1O1GKY {
   padding: 0 !important;
 }
@@ -870,44 +869,64 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background);
 }
 
-#app-mount #user-settings .background-1QDuV2 {
+#app-mount [aria-label=USER_SETTINGS] .background-1QDuV2 {
   background: var(--background-alt);
   border-radius: var(--border-radius);
 }
-#app-mount #user-settings .fieldList-21DyL8 {
+#app-mount [aria-label=USER_SETTINGS] .fieldList-21DyL8 {
   background: var(--background-light);
 }
-#app-mount #user-settings .authedApp-mj2Hmd {
+#app-mount [aria-label=USER_SETTINGS] .authedApp-mj2Hmd {
   background: var(--background-alt);
   border-radius: var(--border-radius);
   border: none;
 }
-#app-mount #user-settings .children-rWhLdy > .flex-1xMQg5.flex-1O1GKY {
+#app-mount [aria-label=USER_SETTINGS] .accountBtnInner-sj5jLs {
+  background-color: var(--background-light);
+}
+#app-mount [aria-label=USER_SETTINGS] .connection-1fbD7X {
+  background: var(--background-alt);
+}
+#app-mount [aria-label=USER_SETTINGS] .connectionHeader-2MDqhu {
+  background: var(--background-light-alt);
+}
+#app-mount [aria-label=USER_SETTINGS] .integration-3kMeY4 {
+  background: var(--background);
+}
+#app-mount [aria-label=USER_SETTINGS] .accountList-33MS45 {
+  background: var(--background-alt);
+}
+#app-mount [aria-label=USER_SETTINGS] .children-rWhLdy > .flex-1xMQg5.flex-1O1GKY {
   background: var(--background-alt);
   border-radius: var(--border-radius);
   padding: 16px;
 }
-#app-mount #user-settings .micTest-cP1_6S {
+#app-mount [aria-label=USER_SETTINGS] .micTest-cP1_6S {
   background: var(--background-alt);
   border-radius: var(--border-radius);
   padding: 16px;
   margin-top: 20px;
 }
-#app-mount #user-settings .micTest-cP1_6S .marginTop8-1DLZ1n {
+#app-mount [aria-label=USER_SETTINGS] .micTest-cP1_6S .marginTop8-1DLZ1n {
   margin-top: 0;
 }
-#app-mount #user-settings .container-3PXSwK {
+#app-mount [aria-label=USER_SETTINGS] .container-3PXSwK {
   width: 530px !important;
 }
-#app-mount #user-settings .notches-1sAcEM {
+#app-mount [aria-label=USER_SETTINGS] .notches-1sAcEM {
   background: none;
 }
 
 #app-mount [aria-label=GUILD_SETTINGS] [data-list-id=audit-log] {
   background: var(--background-alt);
   border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
   margin-top: 20px;
+}
+#app-mount [aria-label=GUILD_SETTINGS] [data-list-id=audit-log] [role=listitem] {
+  background: transparent;
+}
+#app-mount [aria-label=GUILD_SETTINGS] [data-list-id=audit-log] [role=listitem][aria-expanded=true] {
+  background: var(--background-light);
 }
 #app-mount [aria-label=GUILD_SETTINGS] .auditLog-3jNbM6 {
   border: none;
@@ -922,4 +941,56 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount [aria-label=GUILD_SETTINGS] .headerExpanded-CUEwZ5,
 #app-mount [aria-label=GUILD_SETTINGS] .changeDetails-bk98pu {
   background: var(--background-light);
+}
+
+#app-mount .quickswitcher-3JagVE {
+  background: var(--background);
+}
+#app-mount .scroller-zPkAnE {
+  background: transparent;
+}
+#app-mount .input-2VB9rf {
+  background: var(--background-light);
+  box-shadow: var(--box-shadow);
+  padding: 0 24px;
+}
+
+#app-mount .root-SR8cQa .topSectionNormal-2-vo2m {
+  background: var(--background-alt);
+}
+#app-mount .root-SR8cQa .topSectionPlaying-1J5E4n {
+  background: var(--background-alt);
+}
+#app-mount .root-SR8cQa .headerFill-adLl4x {
+  background: transparent;
+}
+#app-mount .root-SR8cQa .tabBarContainer-1s1u-z {
+  border: none;
+}
+#app-mount .root-SR8cQa .userInfoSection-2acyCx {
+  border: none;
+}
+#app-mount .root-SR8cQa .connectedAccounts-repVzS {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+#app-mount .root-SR8cQa .connectedAccount-36nQx7 {
+  background: var(--background-alt);
+  border-radius: var(--border-radius);
+  border: none;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+#app-mount .root-SR8cQa .body-3ND3kc {
+  background: var(--background);
+  height: 320px;
+}
+#app-mount .root-SR8cQa .note-QfFU8y {
+  margin: 0;
+}
+#app-mount .root-SR8cQa textarea {
+  padding: 8px;
+  height: auto !important;
 }
