@@ -11,3 +11,7 @@ Server Chat - **DARK**
 
 Server Chat - **LIGHT**
 ![Server Chat](https://i.imgur.com/vtPiMFw.png)
+
+## License
+
+See the [LICENSE](https://github.com/DiscordStyles/MinimalCord/blob/master/LICENSE.md) file for license rights and limitations (MIT).
