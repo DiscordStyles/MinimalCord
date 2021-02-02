@@ -117,6 +117,24 @@
         }
       }
     }
+
+    // Replied quote
+    .repliedMessage-VokQwo {
+      margin-left: calc(var(--message-padding) + 56px);
+      & + .contents-2mQqc9 {
+        .avatar-1BDn8e, img {
+          top: 32px;
+        }
+      }
+      &:before {
+        border-color: var(--text-muted);
+      }
+    }
+  }
+
+  // Codeblocks
+  .hljs-comment {
+    color: var(--text-muted);
   }
 
   // Compact
@@ -128,19 +146,6 @@
     &:hover, &.popout-open {
       background: rgba(var(--accent), 1);
       color: #fff;
-    }
-  }
-
-  // Replied quote
-  .repliedMessage-VokQwo {
-    margin-left: calc(var(--message-padding) + 56px);
-    & + .contents-2mQqc9 {
-      .avatar-1BDn8e, img {
-        top: 32px;
-      }
-    }
-    &:before {
-      border-color: var(--text-muted);
     }
   }
 

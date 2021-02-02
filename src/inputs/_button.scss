@@ -8,19 +8,21 @@
     }
   }
 
-
+  // Outlined
+  .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    border-color: var(--text-normal);
+    color: var(--text-normal);
+  }
 
 
 
 
   // Panel buttons
-  .button-1YfofB {
-    &.buttonColor-7qQbGO {
-      background: var(--background-light);
-      &:hover {
-        background: rgba(var(--accent), 1);
-        color: #fff;
-      }
+  .button-1YfofB.buttonColor-7qQbGO {
+    background: var(--background-light);
+    &:hover {
+      background: rgba(var(--accent), 1);
+      color: #fff;
     }
   }
 }
