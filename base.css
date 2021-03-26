@@ -141,10 +141,10 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .guilds-1SWlCJ {
   background: var(--background-dark);
 }
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN {
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
   background: var(--background-dark);
 }
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN::-webkit-scrollbar {
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih::-webkit-scrollbar {
   display: none;
 }
 
@@ -154,18 +154,18 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .childWrapper-anI2G9 {
   background: var(--background-light);
 }
-#app-mount .circleIconButton-jET_ig {
+#app-mount .circleIconButton-1QV--U {
   background: var(--background-light);
 }
-#app-mount .circleIconButton-jET_ig:hover {
+#app-mount .circleIconButton-1QV--U:hover {
   background: rgb(var(--discord-green)/1);
 }
 
-#app-mount .expandedFolderBackground-2sPsd- {
+#app-mount .expandedFolderBackground-1cujaW {
   z-index: -1;
   background: var(--background-light);
 }
-#app-mount .folder-21wGz3 {
+#app-mount .folder-1hbNCn {
   background: var(--background-light);
 }
 
