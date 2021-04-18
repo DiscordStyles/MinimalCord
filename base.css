@@ -14,7 +14,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.7";
+  --version: "2.0.8";
 }
 
 .theme-light {
@@ -436,6 +436,15 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .wrapperAudio-1jDe0Q {
   background: var(--background-dark);
   border-radius: var(--border-radius);
+  border: none;
+}
+#app-mount .textContainer-C0szpm {
+  border: none;
+  background: var(--background-dark);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+#app-mount .footer-2yA7Ep {
+  background: var(--background);
   border: none;
 }
 #app-mount pre code,
@@ -1019,4 +1028,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .root-SR8cQa textarea {
   padding: 8px;
   height: auto !important;
+}
+
+#app-mount .modalTextContainer-ITvzbi {
+  background: var(--background-dark);
+  border: none;
 }
