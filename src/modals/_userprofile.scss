@@ -1,4 +1,14 @@
 #app-mount .root-SR8cQa {
+
+  // Global styles
+  .size12-3cLvbJ,
+  .activityName-1IaRLn,
+  .nameNormal-2lqVQK,
+  .nameWrap-3Z4G_9 {
+    color: var(--text-normal);
+  }
+
+  // Playing banner
   .topSectionNormal-2-vo2m {
     background: var(--background-alt);
   }
@@ -12,6 +22,19 @@
   .tabBarContainer-1s1u-z {
     border: none;
   }
+
+
+  // Tab btns
+  .tabBarItem-1b8RUP {
+    color: var(--text-normal);
+    &[style*="255, 255, 255"] {
+      color: var(--text-focus) !important;
+      border-color: var(--text-focus) !important;
+    }
+  }
+
+
+
 
   .userInfoSection-2acyCx {
     border: none;

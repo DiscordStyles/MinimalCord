@@ -14,7 +14,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.8";
+  --version: "2.0.9";
 }
 
 .theme-light {
@@ -121,6 +121,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: transparent;
 }
 
+#app-mount .tooltipGrey-1hnvTt {
+  background: var(--background-light);
+}
 #app-mount .tooltipPrimary-1d1ph4 {
   background: var(--background-light);
   box-shadow: var(--box-shadow);
@@ -229,6 +232,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-radius: var(--border-radius);
   background: var(--background-light);
   box-shadow: var(--box-shadow);
+  color: var(--text-normal);
 }
 
 #app-mount .chat-3bRxxu {
@@ -510,6 +514,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   padding: 10px;
   height: auto;
   line-height: normal;
+  color: var(--text-normal);
 }
 #app-mount .jumpToPresentBar-G1R9s6 .spinner-1AwyAQ {
   padding-left: 12px;
@@ -990,6 +995,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   padding: 0 24px;
 }
 
+#app-mount .root-SR8cQa .size12-3cLvbJ,
+#app-mount .root-SR8cQa .activityName-1IaRLn,
+#app-mount .root-SR8cQa .nameNormal-2lqVQK,
+#app-mount .root-SR8cQa .nameWrap-3Z4G_9 {
+  color: var(--text-normal);
+}
 #app-mount .root-SR8cQa .topSectionNormal-2-vo2m {
   background: var(--background-alt);
 }
@@ -1001,6 +1012,13 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .root-SR8cQa .tabBarContainer-1s1u-z {
   border: none;
+}
+#app-mount .root-SR8cQa .tabBarItem-1b8RUP {
+  color: var(--text-normal);
+}
+#app-mount .root-SR8cQa .tabBarItem-1b8RUP[style*="255, 255, 255"] {
+  color: var(--text-focus) !important;
+  border-color: var(--text-focus) !important;
 }
 #app-mount .root-SR8cQa .userInfoSection-2acyCx {
   border: none;
