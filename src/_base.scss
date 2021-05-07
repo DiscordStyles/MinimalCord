@@ -1,14 +1,14 @@
-@import 'root';
-@import 'light';
-@import 'dark';
+@use 'root';
+@use 'light';
+@use 'dark';
 
-@import 'app/import';
-@import 'guilds/import';
-@import 'channels/import';
-@import 'chat/import';
-@import 'members/import';
-@import 'popouts/import';
-@import 'pages/import';
-@import 'inputs/import';
-@import 'settings/import';
-@import 'modals/import';
+@use 'app';
+@use 'guilds';
+@use 'channels';
+@use 'chat';
+@use 'members';
+@use 'popouts';
+@use 'pages';
+@use 'inputs';
+@use 'settings';
+@use 'modals';

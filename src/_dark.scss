@@ -1,6 +1,8 @@
 $background: #171a1f;
 
-.theme-dark {
+.theme-dark,
+html.theme-dark #app-mount .theme-light .root-1gCeng,
+html.theme-dark .force-theme.theme-light {
   // Background
   --background-light: #{lighten($background, 5%)};
   --background-light-alt: #{lighten($background, 3.5%)};

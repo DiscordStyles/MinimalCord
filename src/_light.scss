@@ -1,6 +1,6 @@
-$background: #171a1f;
-
-.theme-light {
+.theme-light,
+html.theme-light #app-mount .theme-light .root-1gCeng,
+html.theme-light .force-theme.theme-light {
   // Background
   --background-light: #fff;
   --background-light-alt: #fff;

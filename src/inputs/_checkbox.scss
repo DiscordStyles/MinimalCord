@@ -1,0 +1,20 @@
+#app-mount {
+  .checkboxWrapper-SkhIWG {
+    &.checked-3_4uQ9 .checkbox-1ix_J3 {
+      border-color: rgba(var(--accent), 1) !important;
+      background:rgba(var(--accent), 1) !important;
+      path {
+        fill: #fff !important;
+      }
+    }
+  }
+
+  // Checkbox row
+  .checkboxWrapper-SkhIWG.row-3QHy4I {
+    background: var(--background-light);
+    &.checked-3_4uQ9 .checkbox-1ix_J3 {
+      background: rgba(var(--accent), 1) !important;
+      border-color: rgba(var(--accent), 1) !important;
+    }
+  }
+}

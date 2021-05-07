@@ -1,0 +1,23 @@
+#app-mount {
+  .colorHeaderPrimary-26Jzh- {
+    color: var(--text-focus);
+  }
+  .colorHeaderSecondary-3Sp3Ft {
+    color: var(--text-normal);
+  }
+
+  .container-UC8Ug1 {
+    border-radius: var(--border-radius);
+    background: var(--background-alt);
+    &:hover {
+      background: var(--background-light-alt);
+    }
+  }
+
+  .backButton-iA7KIs {
+    color: var(--text-muted);
+    &:hover {
+      color: var(--text-normal);
+    }
+  }
+}

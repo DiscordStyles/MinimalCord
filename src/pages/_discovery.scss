@@ -1,0 +1,32 @@
+#app-mount {
+  .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+    background: rgba(var(--accent), 1);
+  }
+
+  .pageWrapper-1PgVDX {
+    background: var(--background);
+    .input-cIJ7To {
+      background: #fff;
+      border: none;
+    }
+  }
+
+  .card-3DjzTQ {
+    border-radius: var(--border-radius);
+    background: var(--background-alt);
+    foreignObject[mask="url(#svg-mask-squircle)"] {
+      mask: none;
+    }
+    &:hover {
+      background: var(--background-light-alt);
+      box-shadow: var(--box-shadow);
+      .iconMask-3b8GzQ {
+        background: var(--background-light-alt);
+      }
+    }
+  }
+  .iconMask-3b8GzQ {
+    border-radius: var(--border-radius);
+    background: var(--background-alt);  
+  }
+}

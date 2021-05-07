@@ -1,0 +1,19 @@
+/**
+ * @name MinimalCord
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
+ * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/MinimalCord
+ * @website https://www.gibbu.me
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --accent: 50, 131, 207;
+
+  --message-padding: 10px; /* Spacing in the messages. MUST END IN px | DEFAULT: 10px */
+  --message-spacing: 10px; /* Spacing around the messages. MUST END IN px | DEFAULT: 10px */
+
+  --font: 'Roboto';
+}
