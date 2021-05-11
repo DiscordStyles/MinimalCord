@@ -2,7 +2,7 @@
 Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
 
 - - -
-BetterDiscord Download: [https://betterdiscord.app/theme/RadialStatus](https://betterdiscord.app/Download?id=32)  
+BetterDiscord Download: [https://betterdiscord.app/theme/RadialStatus](https://betterdiscord.app/Download?id=125)  
 Powercord Install: `git clone https://github.com/DiscordStyles/MinimalCord`
 - - -
 
