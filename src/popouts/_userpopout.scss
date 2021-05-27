@@ -1,62 +1,31 @@
 #app-mount {
-  .userPopout-3XzG_A {
-    box-shadow: var(--box-shadow);
-    border-radius: var(--border-radius);
+	.userPopout-3XzG_A {
+		border-radius: var(--border-radius);
+		box-shadow: var(--box-shadow);
+	}
+	
+	.headerNormal-1l1Znk {
+		background: var(--background);
+	}
+	.headerTop-2y3V6H {
+		background: var(--background);
+	}
 
-    .headerTag-2pZJzA,
-    .headerText-1HLrL7,
-    .content-3JfFJh,
-    .text-AOoUen,
-    .customStatus-1bh2V9,
-    .headerTagUsernameNoNickname-2_H881 {
-      color: var(--text-normal);
-    }
-    .activityName-1IaRLn,
-    .nameNormal-2lqVQK,
-    .nameWrap-3Z4G_9 {
-      color: var(--text-focus);
-    }
+	.avatar-22FtUu {
+		border-color: var(--background);
+		background: var(--background);
+	}
 
-
-
-    .headerNormal-T_seeN {
-      background: var(--background);
-    }
-    .activity-11LB_k {
-      background: rgb(0 0 0 / .025);
-    }
-
-    .body-3iLsc4 {
-      background: var(--background-alt);
-    }
-
-    .footer-1fjuF6 {
-      background: var(--background-alt);
-      padding-bottom: 0;
-    }
-    .note-3HfJZ5 {
-      margin: 0;
-    }
-    .textarea-2r0oV8:focus {
-      background: var(--background-dark);
-    }
-    .input-2_SIlA {
-      background: var(--background-dark);
-      border: none;
-      font-weight: var(--font-weight-semibold);
-      margin-bottom: 20px;
-    }
-    .protip-YaFfgO {
-      display: none;
-    }
-  }
-
-  // Roles
-  .role-2irmRk {
+	.body-3iLsc4 {
+		background: var(--background);
+	}
+	
+	.role-2irmRk {
     position: relative;
     z-index: 1;
     overflow: hidden;
     border: none;
+		line-height: normal;
   }
   .roleCircle-3xAZ1j::after {
     content: "";
@@ -71,22 +40,7 @@
     z-index: -1;
   }
 
-  // States
-  .headerPlaying-j0WQBV {
-    background: var(--background);
-  }
-  .headerSpotify-zpWxgT {
-    background: var(--background);
-    .button-2IFFQ4 {
-      background: rgba(var(--discord-spotify) / 1);
-      border: none;
-      transition: box-shadow .15s ease;
-      &:hover, &:focus {
-        box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / 0.15);
-      }
-    }
-  }
-  .barInner-3NDaY_ {
-    background: rgb(var(--discord-spotify));
-  }
+	.footer-1fjuF6 {
+		background: var(--background);
+	}
 }

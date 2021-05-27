@@ -14,7 +14,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.10";
+  --version: "2.0.11";
 }
 
 .theme-light,
@@ -577,56 +577,29 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .userPopout-3XzG_A {
+  border-radius: var(--border-radius);
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
-  border-radius: var(--border-radius);
 }
-#app-mount .userPopout-3XzG_A .headerTag-2pZJzA,
-#app-mount .userPopout-3XzG_A .headerText-1HLrL7,
-#app-mount .userPopout-3XzG_A .content-3JfFJh,
-#app-mount .userPopout-3XzG_A .text-AOoUen,
-#app-mount .userPopout-3XzG_A .customStatus-1bh2V9,
-#app-mount .userPopout-3XzG_A .headerTagUsernameNoNickname-2_H881 {
-  color: var(--text-normal);
-}
-#app-mount .userPopout-3XzG_A .activityName-1IaRLn,
-#app-mount .userPopout-3XzG_A .nameNormal-2lqVQK,
-#app-mount .userPopout-3XzG_A .nameWrap-3Z4G_9 {
-  color: var(--text-focus);
-}
-#app-mount .userPopout-3XzG_A .headerNormal-T_seeN {
+#app-mount .headerNormal-1l1Znk {
   background: var(--background);
 }
-#app-mount .userPopout-3XzG_A .activity-11LB_k {
-  background: rgba(0, 0, 0, 0.025);
+#app-mount .headerTop-2y3V6H {
+  background: var(--background);
 }
-#app-mount .userPopout-3XzG_A .body-3iLsc4 {
-  background: var(--background-alt);
+#app-mount .avatar-22FtUu {
+  border-color: var(--background);
+  background: var(--background);
 }
-#app-mount .userPopout-3XzG_A .footer-1fjuF6 {
-  background: var(--background-alt);
-  padding-bottom: 0;
-}
-#app-mount .userPopout-3XzG_A .note-3HfJZ5 {
-  margin: 0;
-}
-#app-mount .userPopout-3XzG_A .textarea-2r0oV8:focus {
-  background: var(--background-dark);
-}
-#app-mount .userPopout-3XzG_A .input-2_SIlA {
-  background: var(--background-dark);
-  border: none;
-  font-weight: var(--font-weight-semibold);
-  margin-bottom: 20px;
-}
-#app-mount .userPopout-3XzG_A .protip-YaFfgO {
-  display: none;
+#app-mount .body-3iLsc4 {
+  background: var(--background);
 }
 #app-mount .role-2irmRk {
   position: relative;
   z-index: 1;
   overflow: hidden;
   border: none;
+  line-height: normal;
 }
 #app-mount .roleCircle-3xAZ1j::after {
   content: "";
@@ -641,26 +614,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   opacity: 0.3;
   z-index: -1;
 }
-#app-mount .headerPlaying-j0WQBV {
+#app-mount .footer-1fjuF6 {
   background: var(--background);
-}
-#app-mount .headerSpotify-zpWxgT {
-  background: var(--background);
-}
-#app-mount .headerSpotify-zpWxgT .button-2IFFQ4 {
-  background: rgba(var(--discord-spotify)/1);
-  border: none;
-  -webkit-transition: -webkit-box-shadow 0.15s ease;
-  transition: -webkit-box-shadow 0.15s ease;
-  transition: box-shadow 0.15s ease;
-  transition: box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
-}
-#app-mount .headerSpotify-zpWxgT .button-2IFFQ4:hover, #app-mount .headerSpotify-zpWxgT .button-2IFFQ4:focus {
-  -webkit-box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.15);
-          box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.15);
-}
-#app-mount .barInner-3NDaY_ {
-  background: rgb(var(--discord-spotify));
 }
 
 .theme-light .menu-3sdvDG {
@@ -853,6 +808,13 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .actionButton-uPB8Fs {
   background: var(--background-dark);
 }
+#app-mount .scroller-2ZPeAD {
+  border: none;
+  padding-left: 0;
+}
+#app-mount .container-lRFx4q {
+  background: var(--background);
+}
 #app-mount .nowPlayingColumn-2sl4cE {
   background: transparent;
 }
@@ -869,12 +831,16 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .wrapper-3D2qGf {
   background: var(--background-alt);
   border-radius: var(--border-radius);
+  border: none;
 }
 #app-mount .wrapper-3D2qGf:hover {
   background: var(--background-light);
 }
 #app-mount .wrapper-3D2qGf:hover .inset-3sAvek {
   background: var(--background-alt);
+}
+#app-mount .section-2gLsgF {
+  background: var(--background-light);
 }
 #app-mount .inset-3sAvek {
   background: var(--background);
