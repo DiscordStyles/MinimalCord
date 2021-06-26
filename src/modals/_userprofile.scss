@@ -1,4 +1,4 @@
-#app-mount .root-SR8cQa {
+#app-mount .root-3QyAh1 {
 
   // Global styles
   .size12-3cLvbJ,
@@ -9,19 +9,20 @@
   }
 
   // Playing banner
-  .topSectionNormal-2-vo2m {
-    background: var(--background-alt);
-  }
-  .topSectionPlaying-1J5E4n {
+  .topSection-y3p-_D {
     background: var(--background-alt);
   }
 
   .headerFill-adLl4x {
     background: transparent;
   }
-  .tabBarContainer-1s1u-z {
+  .tabBarContainer-37hZsr {
     border: none;
   }
+	.avatar-AvHqJA {
+		border-color: var(--background-alt);
+		background: var(--background-alt);
+	}
 
 
   // Tab btns
@@ -36,15 +37,15 @@
 
 
 
-  .userInfoSection-2acyCx {
+  .userInfoSection-q_35fn {
     border: none;
   }
-  .connectedAccounts-repVzS {
+  .connectedAccounts-QlRa4m {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
   }
-  .connectedAccount-36nQx7 {
+  .connectedAccount-2Jb-Z0 {
     background: var(--background-alt);
     border-radius: var(--border-radius);
     border: none;
@@ -53,9 +54,10 @@
     box-sizing: border-box;
   }
 
-  .body-3ND3kc {
+  .body-r6_QPy {
     background: var(--background);
     height: 320px;
+		border: none;
   }
 
   .note-QfFU8y {
@@ -65,4 +67,11 @@
     padding: 8px;
     height: auto !important;
   }
+
+	&[style*="--user-background"] {
+		.banner-2QYc2d:not(.bannerPremium-2hSAwz) {
+			height: 240px;
+			background: var(--user-background) center/cover;
+		}
+	}
 }

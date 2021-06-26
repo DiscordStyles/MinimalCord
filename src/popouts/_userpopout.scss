@@ -1,46 +1,60 @@
-#app-mount {
-	.userPopout-3XzG_A {
-		border-radius: var(--border-radius);
-		box-shadow: var(--box-shadow);
-	}
-	
-	.headerNormal-1l1Znk {
-		background: var(--background);
-	}
-	.headerTop-2y3V6H {
-		background: var(--background);
-	}
-
-	.avatar-22FtUu {
+#app-mount .userPopout-xaxa6l {
+	background: var(--background);
+	border-radius: var(--border-radius);
+	box-shadow: var(--box-shadow);
+	.avatar-AvHqJA {
 		border-color: var(--background);
 		background: var(--background);
 	}
-
-	.body-3iLsc4 {
+	.headerNormal-3KXFBt {
 		background: var(--background);
+	}
+	.headerTop-3vNv-a {
+		background: var(--background);
+	}
+
+
+	.body-3HBlXn,
+	.bodyInnerWrapper-26fQXj {
+		background: transparent;
 	}
 	
 	.role-2irmRk {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    border: none;
+		position: relative;
+		z-index: 1;
+		overflow: hidden;
+		border: none;
 		line-height: normal;
-  }
-  .roleCircle-3xAZ1j::after {
-    content: "";
-    position: absolute;
-    height: 24px;
-    width: 100%;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background: inherit;
-    opacity: 0.3;
-    z-index: -1;
-  }
+	}
+	.roleCircle-3xAZ1j::after {
+		content: "";
+		position: absolute;
+		height: 24px;
+		width: 100%;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		background: inherit;
+		opacity: 0.3;
+		z-index: -1;
+	}
 
-	.footer-1fjuF6 {
-		background: var(--background);
+	.note-1oo11U {
+		margin: 0;
+	}
+
+	.footer-3UKYOU {
+		background: transparent;
+	}
+
+	// User bg support
+	&[style*="--user-background"] {
+		.banner-2QYc2d:not(.bannerPremium-2hSAwz) {
+			height: 120px;
+			background: var(--user-background) center/cover;
+		}
+		.avatarPositionNormal-aZjAsn {
+			top: 76px;
+		}
 	}
 }

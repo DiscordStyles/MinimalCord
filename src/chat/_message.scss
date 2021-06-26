@@ -5,6 +5,22 @@
       background: var(--edit-message-box);
       box-shadow: none;
     }
+		// Buttons
+    .wrapper-2aW0bm {
+      background: var(--background-light);
+      box-shadow: var(--box-shadow-alt);
+    }
+    .button-1ZiXG9 {
+			height: 100%;
+      padding: 0 6px;
+      &:hover {
+        background: rgba(var(--accent), 1);
+        color: #fff;
+      }
+      &.dangerous-2r8KxV:hover {
+        background: rgba(var(--discord-red) / 1);
+      }
+    }
   }
 
   // Cozy
@@ -52,29 +68,6 @@
     .messageContent-2qWWxC {
       margin-left: -5px;
       padding-left: 5px;
-    }
-
-    // Buttons
-    .wrapper-2aW0bm {
-      background: var(--background-light);
-      height: 24px;
-      box-shadow: var(--box-shadow-alt);
-    }
-    .button-1ZiXG9 {
-      height: 24px;
-      width: 24px;
-      padding: 0;
-      svg {
-        width: 14px;
-        height: 14px;
-      }
-      &:hover {
-        background: rgba(var(--accent), 1);
-        color: #fff;
-      }
-      &.dangerous-2r8KxV:hover {
-        background: rgba(var(--discord-red) / 1);
-      }
     }
 
     // Timestamps
