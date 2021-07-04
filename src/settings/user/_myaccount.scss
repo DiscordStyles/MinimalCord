@@ -1,9 +1,9 @@
 #app-mount [aria-label="USER_SETTINGS"] {
-  .background-1QDuV2 {
-    background: var(--background-alt);
-    border-radius: var(--border-radius);
-  }
-  .fieldList-21DyL8 {
-    background: var(--background-light);
-  }
+  .accountProfileCard-1XCH88 {
+		background: var(--background-alt);
+	}
+	.background-1QDuV2,
+	.fieldList-21DyL8 {
+		background: var(--background);
+	}
 }

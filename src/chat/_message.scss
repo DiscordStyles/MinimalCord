@@ -130,8 +130,6 @@
     color: var(--text-muted);
   }
 
-  // Compact
-
   // Mentions & Chat jumps
   .wrapper-3WhCwL {
     background: rgba(var(--accent), 0.1);
@@ -213,4 +211,16 @@
     border-radius: var(--border-radius);
     border: none;
   }
+
+	// Reactions
+	.reaction-1hd86g {
+		background: var(--background);
+		&.reactionMe-wv5HKu {
+			background: rgba(var(--accent), 0.2);
+			border-color: rgba(var(--accent), 1);
+			.reactionCount-2mvXRV {
+				color: rgba(var(--accent), 1);
+			}
+		}
+	}
 }

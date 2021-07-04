@@ -2,6 +2,8 @@
   --border-radius: 5px;
 
   // Discord variables
+	--font-primary: var(--font);
+	--font-display: var(--font);
   --discord-green: 67 181 129;
   --discord-yellow: 219 171 9;
   --discord-red: 215 58 73;
@@ -19,5 +21,5 @@
 
   --channels-default: var(--text-normal);
 
-  --version: '2.0.12';
+  --version: '2.0.13';
 }
