@@ -1,0 +1,18 @@
+#app-mount {
+	.container-7uh5fX {
+		background: var(--background-light);
+		box-shadow: var(--box-shadow);
+		border-radius: var(--border-radius);
+	}
+	.header-1VS4tm {
+		background: var(--background-alt);
+	}
+	.container-2I9Hud {
+		background: var(--background-alt);
+		border-radius: var(--border-radius);
+		border: none;
+		&:hover {
+			background: var(--background);
+		}
+	}
+}

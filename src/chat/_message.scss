@@ -123,6 +123,13 @@
         border-color: var(--text-muted);
       }
     }
+
+    // Thread bar thingy
+    &.hasThread-2k82W0::after {
+      left: 1.8rem;
+      top: 3.5rem;
+      width: 1.5rem;
+    }
   }
 
   // Codeblocks
