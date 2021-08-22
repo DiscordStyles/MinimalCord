@@ -400,6 +400,15 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .cozy-3raOZG .repliedMessage-VokQwo:before {
   border-color: var(--text-muted);
 }
+#app-mount .cozy-3raOZG .repliedTextPreview-2NBljf .messageContent-2qWWxC {
+  padding-left: 8px;
+  padding-right: 4px;
+  margin-left: 0;
+}
+#app-mount .cozy-3raOZG .repliedTextPreview-2NBljf .messageContent-2qWWxC::after {
+  left: 4px;
+  width: 100%;
+}
 #app-mount .cozy-3raOZG.hasThread-2k82W0::after {
   left: 1.8rem;
   top: 3.5rem;
@@ -550,6 +559,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .jumpToPresentBar-G1R9s6 .spinner-1AwyAQ {
   padding-left: 12px;
+}
+#app-mount .attachedBars-tZDmyV {
+  background: var(--background);
+}
+#app-mount .replyBar-1YLQ2F {
+  background: var(--background-light);
 }
 
 #app-mount .threadSidebar-1o3BTy {

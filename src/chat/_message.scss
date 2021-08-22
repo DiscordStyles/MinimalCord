@@ -123,6 +123,15 @@
         border-color: var(--text-muted);
       }
     }
+    .repliedTextPreview-2NBljf .messageContent-2qWWxC {
+      padding-left: 8px;
+      padding-right: 4px;
+      margin-left: 0;
+      &::after {
+        left: 4px;
+        width: 100%;
+      }
+    }
 
     // Thread bar thingy
     &.hasThread-2k82W0::after {
