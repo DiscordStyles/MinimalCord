@@ -49,8 +49,8 @@ html.theme-dark .force-theme.theme-light {
   --background: #171a1f;
   --background-alt: #1b1f25;
   --background-dark: #131519;
-  --text-normal: #d1d1d2;
-  --text-muted: #686a6d;
+  --text-normal: #aeafb1;
+  --text-muted: #515357;
   --text-focus: #fff;
   --font-weight-light: 300;
   --font-weight-normal: 400;
@@ -348,7 +348,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .cozy-3raOZG.groupStart-23k01U {
   margin-top: var(--message-spacing);
 }
-#app-mount .cozy-3raOZG + .cozy-3raOZG:not(.groupStart-23k01U) {
+#app-mount .cozy-3raOZG.cozy-3raOZG:not(.groupStart-23k01U) {
   margin-top: calc(var(--message-padding) / -1);
   padding-top: 0.175rem;
 }

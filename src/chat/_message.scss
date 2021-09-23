@@ -60,7 +60,7 @@
       margin-top: var(--message-spacing);
     }
     // Every message after groupStart that's not groupStart
-    & + .cozy-3raOZG:not(.groupStart-23k01U) {
+    &.cozy-3raOZG:not(.groupStart-23k01U) {
       margin-top: calc(var(--message-padding) / -1);
       padding-top: .175rem;
     }

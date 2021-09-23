@@ -11,8 +11,8 @@ html.theme-dark .force-theme.theme-light {
   --background-dark: #{darken($background, 2%)};
 
   // Text colours
-  --text-normal: #{mix(#fff, $background, 80%)};
-  --text-muted: #{mix(#fff, $background, 35%)};
+  --text-normal: #{mix(#fff, $background, 65%)};
+  --text-muted: #{mix(#fff, $background, 25%)};
   --text-focus: #fff;
 
   // Font weights
