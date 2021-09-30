@@ -500,7 +500,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .divider-JfaTT5.isUnread-3Ef-o9 {
-  margin: calc(var(--message-padding) / -1 - 1px) 8px calc(var(--message-padding) / -1) calc(55px + (var(--message-padding) * 2));
+  margin: calc(var(--message-padding) / -1 + (var(--message-padding) / 2)) 8px var(--message-padding) calc(55px + (var(--message-padding) * 2));
   height: 0;
   top: 0;
 }
