@@ -1,7 +1,7 @@
 {
   "name": "minimalcord",
   "version": "1.0.0",
-  "description": "Discord redesigned to be simplified. Design by jacktompsett on Behance.",
+  "description": "Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.",
   "repository": "https://github.com/DiscordStyles/MinimalCord.git",
   "author": "Gibbu <Gibbu_@hotmail.com>",
   "license": "MIT",
