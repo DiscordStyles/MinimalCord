@@ -81,6 +81,9 @@
     &.mentioned-xhSam7 {
       .messageContent-2qWWxC {
         position: relative;
+        &:not(.repliedTextContent-1R3vnK) {
+          color: var(--text-focus);
+        }
         &:after {
           content: "";
           position: absolute;

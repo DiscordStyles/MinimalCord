@@ -17,4 +17,29 @@
       border-color: rgba(var(--accent), 1) !important;
     }
   }
+
+  // Menu Checkbox
+  [role="menuitemcheckbox"][aria-checked="true"] {
+    .checkbox-3s5GYZ {
+      color: rgba(var(--accent), 1);
+    }
+    &:hover {
+      .checkbox-3s5GYZ {
+        color: #fff;
+      }
+      .check-1JyqgN {
+        color: rgba(var(--accent), 1);
+      }
+    }
+  }
+
+  // Menu Radio
+  [role="menuitemradio"][aria-checked="true"] {
+    .radioSelection-1HmrQS {
+      color: rgba(var(--accent), 1);
+    }
+    &:hover .radioSelection-1HmrQS {
+      color: #fff;
+    }
+  }
 }

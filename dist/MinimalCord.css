@@ -61,6 +61,7 @@ html.theme-dark .force-theme.theme-light {
   --scrollbar-colour: var(--background-light);
   --edit-message-box: var(--background-light);
   --message-background: var(--background-alt);
+  --header-primary: var(--text-focus);
 }
 
 #app-mount .bg-h5JY_x {
@@ -146,6 +147,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   color: var(--text-focus);
   font-weight: var(--font-weight-bold);
 }
+#app-mount .tooltipContent-bqVLWK .guildNameText-3Zwx4p {
+  color: var(--text-focus);
+}
+#app-mount .tooltipContent-bqVLWK .muteText-gutGxh {
+  color: var(--text-normal);
+}
 
 #app-mount .info-1VyQPT .colorMuted-HdFt4q:first-child:before {
   content: "MinimalCord " var(--version);
@@ -168,10 +175,13 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .childWrapper-anI2G9 {
   background: var(--background-light);
 }
-#app-mount .circleIconButton-1QV--U {
+#app-mount .circleIconButton-1XqULR {
   background: var(--background-light);
 }
-#app-mount .circleIconButton-1QV--U:hover {
+#app-mount .circleIconButton-1XqULR:hover {
+  background: rgb(var(--discord-green)/1);
+}
+#app-mount .circleIconButton-1XqULR.selected-2jcQaY {
   background: rgb(var(--discord-green)/1);
 }
 
@@ -363,6 +373,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .cozy-3raOZG.mentioned-xhSam7 .messageContent-2qWWxC {
   position: relative;
+}
+#app-mount .cozy-3raOZG.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) {
+  color: var(--text-focus);
 }
 #app-mount .cozy-3raOZG.mentioned-xhSam7 .messageContent-2qWWxC:after {
   content: "";
@@ -998,20 +1011,42 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .css-gvi9bl-control,
-#app-mount .css-17e1tep-control {
+#app-mount .css-17e1tep-control,
+#app-mount .select-2fjwPw {
   background: var(--background);
   border-radius: var(--border-radius);
   border-color: var(--background);
   cursor: pointer;
 }
 #app-mount .css-gvi9bl-control:hover,
-#app-mount .css-17e1tep-control:hover {
+#app-mount .css-17e1tep-control:hover,
+#app-mount .select-2fjwPw:hover {
   border-color: var(--background-light);
 }
 #app-mount .css-6fzn47-control {
   background: var(--background);
   border-radius: var(--border-radius);
   border-color: rgba(var(--accent), 1);
+}
+#app-mount .popout-VcNcHB {
+  background: var(--background-dark);
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding-right: 0;
+}
+#app-mount .popout-VcNcHB::-webkit-scrollbar {
+  display: none;
+}
+#app-mount .option-3KoAJB:hover, #app-mount .option-3KoAJB:focus, #app-mount .option-3KoAJB.focused-1T6PE5 {
+  background: var(--background-alt);
+}
+#app-mount .option-3KoAJB[aria-selected=true] {
+  background: rgba(var(--accent), 1);
+  color: #fff;
+}
+#app-mount .option-3KoAJB[aria-selected=true] .selectedIcon-3uS11H {
+  color: #fff;
 }
 
 #app-mount [role=radiogroup] .item-26Dhrx {
@@ -1020,9 +1055,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount [role=radiogroup] .item-26Dhrx:hover {
   background: var(--background-light);
 }
-#app-mount [role=radiogroup] .item-26Dhrx[aria-checked=true] {
+#app-mount [role=radiogroup] .item-26Dhrx[aria-checked=true] .radioBar-bMNUI- {
   background: rgb(var(--accent));
   color: #fff;
+}
+#app-mount [role=radiogroup] .item-26Dhrx[aria-checked=true] .radioBar-bMNUI-[style*="--radio-bar-accent-color"] {
+  background: var(--radio-bar-accent-color);
 }
 #app-mount [role=radiogroup] .item-26Dhrx[aria-checked=true] .radioIconForeground-XwlXQN,
 #app-mount [role=radiogroup] .item-26Dhrx[aria-checked=true] .colorStandard-2KCXvj,
@@ -1060,6 +1098,21 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .checkboxWrapper-SkhIWG.row-3QHy4I.checked-3_4uQ9 .checkbox-1ix_J3 {
   background: rgba(var(--accent), 1) !important;
   border-color: rgba(var(--accent), 1) !important;
+}
+#app-mount [role=menuitemcheckbox][aria-checked=true] .checkbox-3s5GYZ {
+  color: rgba(var(--accent), 1);
+}
+#app-mount [role=menuitemcheckbox][aria-checked=true]:hover .checkbox-3s5GYZ {
+  color: #fff;
+}
+#app-mount [role=menuitemcheckbox][aria-checked=true]:hover .check-1JyqgN {
+  color: rgba(var(--accent), 1);
+}
+#app-mount [role=menuitemradio][aria-checked=true] .radioSelection-1HmrQS {
+  color: rgba(var(--accent), 1);
+}
+#app-mount [role=menuitemradio][aria-checked=true]:hover .radioSelection-1HmrQS {
+  color: #fff;
 }
 
 #app-mount .layer-3QrUeG[aria-label*=_SETTINGS] {

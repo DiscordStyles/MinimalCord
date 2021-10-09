@@ -2,7 +2,8 @@
 
   // Default
   .css-gvi9bl-control,
-  .css-17e1tep-control {
+  .css-17e1tep-control,
+  .select-2fjwPw {
     background: var(--background);
     border-radius: var(--border-radius);
     border-color: var(--background);
@@ -17,5 +18,29 @@
     background: var(--background);
     border-radius: var(--border-radius);
     border-color: rgba(var(--accent), 1);
+  }
+
+  // Dropdown
+  .popout-VcNcHB {
+    background: var(--background-dark);
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding-right: 0;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .option-3KoAJB {
+    &:hover, &:focus, &.focused-1T6PE5 {
+      background: var(--background-alt);
+    }
+    &[aria-selected="true"] {
+      background: rgba(var(--accent), 1);
+      color: #fff;
+      .selectedIcon-3uS11H {
+        color: #fff;
+      }
+    }
   }
 }

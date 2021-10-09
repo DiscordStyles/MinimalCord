@@ -5,8 +5,13 @@
       background: var(--background-light);
     }
     &[aria-checked="true"] {
-      background: rgb(var(--accent));
-      color: #fff;
+      .radioBar-bMNUI- {
+        background: rgb(var(--accent));
+        color: #fff;
+        &[style*="--radio-bar-accent-color"] {
+          background: var(--radio-bar-accent-color);
+        }
+      }
       .radioIconForeground-XwlXQN,
       .colorStandard-2KCXvj,
       .colorHeaderSecondary-3Sp3Ft {

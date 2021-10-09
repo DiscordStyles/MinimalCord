@@ -31,4 +31,7 @@ html.theme-dark .force-theme.theme-light {
   // Messages
   --edit-message-box: var(--background-light);
   --message-background: var(--background-alt);
+
+  // Stupid Discord vars
+  --header-primary: var(--text-focus);
 }
