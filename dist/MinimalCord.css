@@ -311,6 +311,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--edit-message-box);
   box-shadow: none;
 }
+#app-mount .message-2qnXI6 .scrollableContainer-2NUZem .slateTextArea-1Mkdgw {
+  padding-left: 15px;
+}
 #app-mount .message-2qnXI6 .wrapper-2aW0bm {
   background: var(--background-light);
   box-shadow: var(--box-shadow-alt);
