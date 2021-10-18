@@ -14,7 +14,7 @@ chokidar.watch('src', {persistent: true})
 		console.clear();
 
 		compile({
-			target: ['src', `MinimalCord.theme.scss`],
+			target: ['src', `main.scss`],
 			output: [themesFolder, `${name}.theme.css`]
 		});
 	});
