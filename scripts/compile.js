@@ -15,6 +15,12 @@ module.exports = (options) => {
 	console.clear();
 	console.log(`[${name}] Building ${options.target.join('/')} file...`);
 
+	// Check if path exists, if not make it.
+	const dirPath = options.output.filter(el => !el.includes('.')).join('/');
+	if (!fs.existsSync(!dirPath)) {
+		fs.mkdirSync(dirPath, {recursive: true});
+	}
+
 	sass.render({
 		file: path.join(...options.target),
 		outputStyle: 'expanded',
