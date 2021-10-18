@@ -1,32 +1,9 @@
-// Used to build scss files to the dist folder.
+// GitHub action used to build scss files to the dist folder.
 
-const sass = require('sass');
-const fs = require('fs');
-const postcss = require('postcss');
-const autoprefixer = require('autoprefixer');
+const compile = require('./compile');
+const {name} = require('./config.json');
 
-console.log('Building MinimalCord.css file...');
-
-sass.render({
-	file: 'src/_base.scss',
-	outputStyle: 'expanded'
-}, (err, result) => {
-	if (err) {
-		console.error(err);
-		return false;
-	}
-
-	const newRes = Buffer.from(result.css).toString();
-
-	postcss([autoprefixer])
-		.process(newRes, {
-			from: undefined,
-			to: undefined
-		})
-		.then(postcssRes => {
-			fs.writeFile('dist/MinimalCord.css', postcssRes.css, (err) => {
-				if (err) console.error(err);
-				else console.log(`Successfully built MinimalCord.css file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
-			})
-		})
-})
+compile({
+	target: ['src', '_base.scss'],
+	output: ['dist', 'dist', `${name}.css`]
+});
