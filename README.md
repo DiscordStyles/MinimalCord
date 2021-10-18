@@ -6,10 +6,10 @@ BetterDiscord Download: [https://betterdiscord.app/theme/MinimalCord](https://be
 Powercord Install: `git clone https://github.com/DiscordStyles/MinimalCord`
 - - -
 
-Server Chat - **DARK**
+Server Chat: **DARK**
 ![Server Chat](https://i.imgur.com/WdGfaDb.png)
 
-Server Chat - **LIGHT**
+Server Chat: **LIGHT**
 ![Server Chat](https://i.imgur.com/jBw6IRg.png)
 
 ## Contributing
