@@ -351,7 +351,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .cozy-3raOZG .contents-2mQqc9,
 #app-mount .cozy-3raOZG .container-1ov-mD {
-  margin-left: calc(40px + (var(--message-padding) * 2));
+  margin-left: calc(40px + var(--message-padding) * 2);
 }
 #app-mount .cozy-3raOZG .avatar-1BDn8e {
   left: var(--message-padding);
@@ -466,7 +466,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .wrapper-1F5TKx .contents-1R-xLu,
 #app-mount .wrapper-1F5TKx .attachmentContainer-2BK1nK {
-  padding-left: calc(40px + (var(--message-padding) * 2));
+  padding-left: calc(40px + var(--message-padding) * 2);
 }
 #app-mount .wrapper-1F5TKx .avatar-1BDn8e {
   left: var(--message-padding);
@@ -516,7 +516,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .divider-JfaTT5.isUnread-3Ef-o9 {
-  margin: calc(var(--message-padding) / -1 + (var(--message-padding) / 2)) 8px var(--message-padding) calc(55px + (var(--message-padding) * 2));
+  margin: calc(var(--message-padding) / -1 + var(--message-padding) / 2) 8px var(--message-padding) calc(55px + var(--message-padding) * 2);
   height: 0;
   top: 0;
 }
