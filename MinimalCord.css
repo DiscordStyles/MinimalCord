@@ -175,21 +175,18 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .childWrapper-anI2G9 {
   background: var(--background-light);
 }
-#app-mount .circleIconButton-1XqULR {
+#app-mount .circleIconButton-hZmpE8 {
   background: var(--background-light);
 }
-#app-mount .circleIconButton-1XqULR:hover {
-  background: rgb(var(--discord-green)/1);
-}
-#app-mount .circleIconButton-1XqULR.selected-2jcQaY {
+#app-mount .circleIconButton-hZmpE8:hover, #app-mount .circleIconButton-hZmpE8.selected-3mFF3I {
   background: rgb(var(--discord-green)/1);
 }
 
-#app-mount .expandedFolderBackground-1cujaW {
+#app-mount .expandedFolderBackground-3ZDF05 {
   z-index: -1;
   background: var(--background-light);
 }
-#app-mount .folder-1hbNCn {
+#app-mount .folder-2w6LX1 {
   background: var(--background-light);
 }
 
