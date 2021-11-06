@@ -590,9 +590,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   content: none;
 }
 
-#app-mount .members-1998pB {
-  background: transparent;
-}
+#app-mount .container-2wlB3z,
+#app-mount .members-1998pB,
 #app-mount .members-1998pB > div {
   background: transparent;
 }
