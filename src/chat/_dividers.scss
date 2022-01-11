@@ -1,16 +1,16 @@
-#app-mount .divider-JfaTT5 {
-  &.isUnread-3Ef-o9 {
+#app-mount .divider-2rZFJK {
+  &.isUnread-3Lojb- {
     margin: calc(var(--message-padding) / -1 + (var(--message-padding) / 2)) 8px var(--message-padding) calc(55px + (var(--message-padding) * 2));
     height: 0;
     top: 0;
-    &.beforeGroup-1rH1F0 {
+    &.beforeGroup-1BvJAt {
       margin: var(--message-spacing) 8px var(--message-spacing) 20px;
     }
   }
-  &.hasContent-1cNJDh {
+  &.hasContent-31hcsn {
     margin: var(--message-spacing) 0 var(--message-spacing) 20px;
 
-    .content-1o0f9g {
+    .content-3spvdd {
       background: var(--background-light);
       padding: 4px 8px;
       line-height: normal;
@@ -18,7 +18,7 @@
       border-radius: var(--border-radius);
     }
 
-    &:not(.isUnread-3Ef-o9) {
+    &:not(.isUnread-3Lojb-) {
       border-top: none;
       height: auto;
       &:before {

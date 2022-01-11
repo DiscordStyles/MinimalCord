@@ -1,25 +1,25 @@
-#app-mount .root-3QyAh1 {
+#app-mount .root-8LYsGj {
 
   // Global styles
-  .size12-3cLvbJ,
-  .activityName-1IaRLn,
-  .nameNormal-2lqVQK,
-  .nameWrap-3Z4G_9 {
+  .size12-oc4dx4,
+  .activityName-3YXl6e,
+  .nameNormal-2fPMD2,
+  .nameWrap-3TyM52 {
     color: var(--text-normal);
   }
 
   // Playing banner
-  .topSection-y3p-_D {
+  .topSection-13QKHs {
     background: var(--background-alt);
   }
 
   .headerFill-adLl4x {
     background: transparent;
   }
-  .tabBarContainer-37hZsr {
+  .tabBarContainer-sCZC4w {
     border: none;
   }
-	.avatar-AvHqJA {
+	.avatar-3QF_VA {
 		border-color: var(--background-alt);
 		background: var(--background-alt);
 	}
@@ -36,15 +36,15 @@
 
 
 
-  .userInfoSection-q_35fn {
+  .userInfoSection-2u2hir {
     border: none;
   }
-  .connectedAccounts-QlRa4m {
+  .connectedAccounts-1YaT2t {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
   }
-  .connectedAccount-2Jb-Z0 {
+  .connectedAccount-1xKpli {
     background: var(--background-alt);
     border-radius: var(--border-radius);
     border: none;
@@ -53,13 +53,13 @@
     box-sizing: border-box;
   }
 
-  .body-r6_QPy {
+  .body-1Ukv50 {
     background: var(--background);
     height: 320px;
 		border: none;
   }
 
-  .note-367eZJ {
+  .note-3M15gE {
     margin: 0;
   }
   textarea {
@@ -68,7 +68,7 @@
   }
 
 	&[style*="--user-background"] {
-		.banner-2QYc2d:not(.bannerPremium-2hSAwz) {
+		.banner-1YaD3N:not(.bannerPremium-kkSkPv) {
 			height: 240px;
 			background: var(--user-background) center/cover;
 		}

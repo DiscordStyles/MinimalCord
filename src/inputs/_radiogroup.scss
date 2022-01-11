@@ -1,31 +1,31 @@
 #app-mount {
-  [role="radiogroup"] .item-26Dhrx {
+  [role="radiogroup"] .item-2idW98 {
     background: var(--background-alt);
     &:hover {
       background: var(--background-light);
     }
     &[aria-checked="true"] {
-      .radioBar-bMNUI- {
+      .radioBar-3w9XY- {
         background: rgb(var(--accent));
         color: #fff;
         &[style*="--radio-bar-accent-color"] {
           background: var(--radio-bar-accent-color);
         }
       }
-      .radioIconForeground-XwlXQN,
-      .colorStandard-2KCXvj,
-      .colorHeaderSecondary-3Sp3Ft {
+      .radioIconForeground-2BMavi,
+      .colorStandard-21JIj7,
+      .colorHeaderSecondary-g5teka {
         color: #fff;
       }
     }
   }
-  .children-rWhLdy > .marginBottom40-2vIwTv .item-26Dhrx,
-  .marginBottom20-32qID7 .item-26Dhrx {
+  .children-1xdcWE > .marginBottom40-fvAlAV .item-2idW98,
+  .marginBottom20-315RVT .item-2idW98 {
     background: var(--background);
     &[aria-checked="true"] {
       background: rgb(var(--accent));
       color: #fff;
-      .radioIconForeground-XwlXQN {
+      .radioIconForeground-2BMavi {
         color: #fff;
       }
     }

@@ -1,6 +1,6 @@
 #app-mount {
-  .checkboxWrapper-SkhIWG {
-    &.checked-3_4uQ9 .checkbox-1ix_J3 {
+  .checkboxWrapper-2fDzaA {
+    &.checked-1pZh2h .checkbox-f1HnKB {
       border-color: rgba(var(--accent), 1) !important;
       background:rgba(var(--accent), 1) !important;
       path {
@@ -10,9 +10,9 @@
   }
 
   // Checkbox row
-  .checkboxWrapper-SkhIWG.row-3QHy4I {
+  .checkboxWrapper-2fDzaA.row-31nALW {
     background: var(--background-light);
-    &.checked-3_4uQ9 .checkbox-1ix_J3 {
+    &.checked-1pZh2h .checkbox-f1HnKB {
       background: rgba(var(--accent), 1) !important;
       border-color: rgba(var(--accent), 1) !important;
     }
@@ -20,11 +20,11 @@
 
   // Menu Checkbox
   [role="menuitemcheckbox"][aria-checked="true"] {
-    .checkbox-3s5GYZ {
+    .checkbox-hADx5o {
       color: rgba(var(--accent), 1);
     }
     &:hover {
-      .checkbox-3s5GYZ {
+      .checkbox-hADx5o {
         color: #fff;
       }
       .check-1JyqgN {
@@ -35,10 +35,10 @@
 
   // Menu Radio
   [role="menuitemradio"][aria-checked="true"] {
-    .radioSelection-1HmrQS {
+    .radioSelection-1UHp0b {
       color: rgba(var(--accent), 1);
     }
-    &:hover .radioSelection-1HmrQS {
+    &:hover .radioSelection-1UHp0b {
       color: #fff;
     }
   }

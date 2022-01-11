@@ -1,33 +1,33 @@
 #app-mount {
   // General messages
-  .message-2qnXI6 {
-    .scrollableContainer-2NUZem {
+  .message-2CShn3 {
+    .scrollableContainer-15eg7h {
       background: var(--edit-message-box);
       box-shadow: none;
-      .slateTextArea-1Mkdgw {
+      .slateTextArea-27tjG0 {
         padding-left: 15px;
       }
     }
 		// Buttons
-    .wrapper-2aW0bm {
+    .wrapper-2vIMkT {
       background: var(--background-light);
       box-shadow: var(--box-shadow-alt);
     }
-    .button-1ZiXG9 {
+    .button-3bklZh {
 			height: 100%;
       padding: 0 6px;
       &:hover {
         background: rgba(var(--accent), 1);
         color: #fff;
       }
-      &.dangerous-2r8KxV:hover {
+      &.dangerous-Y36ifs:hover {
         background: rgba(var(--discord-red) / 1);
       }
     }
   }
 
   // Cozy
-  .cozy-3raOZG {
+  .cozy-VmLDNB {
     background: transparent;
     padding-top: var(--message-padding);
     padding-bottom: var(--message-padding);
@@ -48,41 +48,41 @@
       z-index: -1;
     }
     // Fix positioning for message contents (text and images)
-    .contents-2mQqc9,
-    .container-1ov-mD {
+    .contents-2MsGLg,
+    .container-2sjPya {
       margin-left: calc(40px + (var(--message-padding) * 2));
     }
     // Fix positioning for avatar
-    .avatar-1BDn8e {
+    .avatar-2e8lTP {
       left: var(--message-padding);
       top: var(--message-padding);
       margin-top: 0;
     }
     // Add custom spacing between messages
-    &.groupStart-23k01U {
+    &.groupStart-3Mlgv1 {
       margin-top: var(--message-spacing);
     }
     // Every message after groupStart that's not groupStart
-    &.cozy-3raOZG:not(.groupStart-23k01U) {
+    &.cozy-VmLDNB:not(.groupStart-3Mlgv1) {
       margin-top: calc(var(--message-padding) / -1);
       padding-top: .175rem;
     }
     // Reduce negative margin and padding
-    .messageContent-2qWWxC {
+    .messageContent-2t3eCI {
       margin-left: -5px;
       padding-left: 5px;
     }
 
     // Timestamps
-    .timestamp-3ZCmNB.alt-1uNpEt {
+    .timestamp-p1Df1m.alt-1dvXnH {
       width: calc(40px + var(--message-padding));
       display: flex;
       justify-content: center;
     }
 
     // Mentioned
-    &.mentioned-xhSam7 {
-      .messageContent-2qWWxC {
+    &.mentioned-Tre-dv {
+      .messageContent-2t3eCI {
         position: relative;
         &:not(.repliedTextContent-1R3vnK) {
           color: var(--text-focus);
@@ -100,7 +100,7 @@
           pointer-events: none;
         }
       }
-      .container-1ov-mD {
+      .container-2sjPya {
         position: relative;
         &:before {
           content: "";
@@ -118,10 +118,10 @@
     }
 
     // Replied quote
-    .repliedMessage-VokQwo {
+    .repliedMessage-3Z6XBG {
       margin-left: calc(var(--message-padding) + 56px);
-      & + .contents-2mQqc9 {
-        .avatar-1BDn8e, img {
+      & + .contents-2MsGLg {
+        .avatar-2e8lTP, img {
           top: 32px;
         }
       }
@@ -129,7 +129,7 @@
         border-color: var(--text-muted);
       }
     }
-    .repliedTextPreview-2NBljf .messageContent-2qWWxC {
+    .repliedTextPreview-1bvxun .messageContent-2t3eCI {
       padding-left: 8px;
       padding-right: 4px;
       margin-left: 0;
@@ -140,7 +140,7 @@
     }
 
     // Thread bar thingy
-    &.hasThread-2k82W0::after {
+    &.hasThread-3h-KJV::after {
       left: 1.8rem;
       top: 3.5rem;
       width: 1.5rem;
@@ -153,7 +153,7 @@
   }
 
   // Mentions & Chat jumps
-  .wrapper-3WhCwL {
+  .wrapper-1ZcZW- {
     background: rgba(var(--accent), 0.1);
     color: rgba(var(--accent), 1);
     &:hover, &.popout-open {
@@ -163,11 +163,11 @@
   }
 
   // Message placeholders
-  .wrapper-3vR61M {
+  .wrapper-3HVHpV {
     background: transparent;
   }
   // Pretty much the same as #L3
-  .wrapper-1F5TKx {
+  .wrapper-15CKyy {
     background: transparent;
     padding-top: var(--message-padding);
     padding-bottom: var(--message-padding);
@@ -186,11 +186,11 @@
       background: var(--background-alt);
       z-index: -1;
     }
-    .contents-1R-xLu,
-    .attachmentContainer-2BK1nK {
+    .contents-1UYEBX,
+    .attachmentContainer-1zVy8E {
       padding-left: calc(40px + (var(--message-padding) * 2));
     }
-    .avatar-1BDn8e {
+    .avatar-2e8lTP {
       left: var(--message-padding);
       top: var(--message-padding);
       margin-top: 0;
@@ -198,30 +198,30 @@
     &[style*="margin-top"] {
       margin-top: var(--message-spacing) !important;
     }
-    & + .wrapper-1F5TKx:not([style*="margin-top"]) {
+    & + .wrapper-15CKyy:not([style*="margin-top"]) {
       margin-top: calc(var(--message-padding) / -1);
       padding-top: .175rem;
     }
   }
 
   // Embeds
-  .embedFull-2tM8-- {
+  .embedFull-1HGV2S {
     background: var(--background-dark);
   }
 
   // Attachments
-  .attachment-33OFj0,
-  .wrapperAudio-1jDe0Q {
+  .attachment-1PZZB2,
+  .wrapperAudio-1Bzv_Z {
     background: var(--background-dark);
     border-radius: var(--border-radius);
     border: none;
   }
-  .textContainer-C0szpm {
+  .textContainer-36wgKK {
     border: none;
     background: var(--background-dark);
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }
-  .footer-2yA7Ep {
+  .footer-GXWBBp {
     background: var(--background);
     border: none;
   }
@@ -235,12 +235,12 @@
   }
 
 	// Reactions
-	.reaction-1hd86g {
+	.reaction-2A2y9y {
 		background: var(--background);
-		&.reactionMe-wv5HKu {
+		&.reactionMe-3I9gFK {
 			background: rgba(var(--accent), 0.2);
 			border-color: rgba(var(--accent), 1);
-			.reactionCount-2mvXRV {
+			.reactionCount-1zkLcN {
 				color: rgba(var(--accent), 1);
 			}
 		}

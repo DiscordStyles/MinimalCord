@@ -1,4 +1,4 @@
-#app-mount .userPopout-xaxa6l {
+#app-mount .userPopout-2j1gM4 {
 	background: var(--background);
 	border-radius: var(--border-radius);
 	box-shadow: var(--box-shadow);
@@ -6,27 +6,27 @@
 		border-color: var(--background);
 		background: var(--background);
 	}
-	.headerNormal-3KXFBt {
+	.headerNormal-3Zn_yu {
 		background: var(--background);
 	}
-	.headerTop-3vNv-a {
+	.headerTop-3GPUSF {
 		background: var(--background);
 	}
 
 
-	.body-3HBlXn,
-	.bodyInnerWrapper-26fQXj {
+	.body-2wLx-E,
+	.bodyInnerWrapper-2bQs1k {
 		background: transparent;
 	}
 	
-	.role-2irmRk {
+	.role-2TIOKu {
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
 		border: none;
 		line-height: normal;
 	}
-	.roleCircle-3xAZ1j::after {
+	.roleCircle-1EgnFN::after {
 		content: "";
 		position: absolute;
 		height: 24px;
@@ -39,21 +39,21 @@
 		z-index: -1;
 	}
 
-	.note-1oo11U {
+	.note-Go5ZP2 {
 		margin: 0;
 	}
 
-	.footer-3UKYOU {
+	.footer-3naVBw {
 		background: transparent;
 	}
 
 	// User bg support
 	&[style*="--user-background"] {
-		.banner-2QYc2d:not(.bannerPremium-2hSAwz) {
+		.banner-1YaD3N:not(.bannerPremium-kkSkPv) {
 			height: 120px;
 			background: var(--user-background) center/cover;
 		}
-		.avatarPositionNormal-aZjAsn {
+		.avatarPositionNormal-2jWoC2 {
 			top: 76px;
 		}
 	}
