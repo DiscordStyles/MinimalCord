@@ -2,7 +2,7 @@
 	background: var(--background);
 	border-radius: var(--border-radius);
 	box-shadow: var(--box-shadow);
-	.avatar-AvHqJA {
+	.avatar-3QF_VA {
 		border-color: var(--background);
 		background: var(--background);
 	}
@@ -26,17 +26,20 @@
 		border: none;
 		line-height: normal;
 	}
-	.roleCircle-1EgnFN::after {
-		content: "";
-		position: absolute;
-		height: 24px;
-		width: 100%;
-		left: 0;
-		top: 50%;
-		transform: translateY(-50%);
-		background: inherit;
-		opacity: 0.3;
-		z-index: -1;
+	.roleCircle-1EgnFN {
+		filter: none;
+		&::after {
+			content: "";
+			position: absolute;
+			height: 24px;
+			width: 100%;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			background: inherit;
+			opacity: 0.3;
+			z-index: -1;
+		}
 	}
 
 	.note-Go5ZP2 {
