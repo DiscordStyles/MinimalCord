@@ -861,11 +861,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .container-2cd8Mz {
   background: var(--background);
 }
+#app-mount .container-2cd8Mz .title-338goq {
+  margin: 20px;
+}
 #app-mount .tabBody-2dgbAs:before {
   content: none;
-}
-#app-mount .title-338goq {
-  margin: 20px;
 }
 #app-mount .peopleListItem-u6dGxF {
   background: var(--background-alt);
