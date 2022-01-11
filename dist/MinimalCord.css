@@ -628,7 +628,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
-#app-mount .userPopout-2j1gM4 .avatar-AvHqJA {
+#app-mount .userPopout-2j1gM4 .avatar-3QF_VA {
   border-color: var(--background);
   background: var(--background);
 }
@@ -648,6 +648,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   overflow: hidden;
   border: none;
   line-height: normal;
+}
+#app-mount .userPopout-2j1gM4 .roleCircle-1EgnFN {
+  filter: none;
 }
 #app-mount .userPopout-2j1gM4 .roleCircle-1EgnFN::after {
   content: "";
