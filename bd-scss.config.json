@@ -5,7 +5,7 @@
 	"dev": [
 		{
 			"target": ["src", "main.scss"],
-			"output": ["MinimalCord.theme.css"]
+			"output": "MinimalCord.theme.css"
 		}
 	],
 	"build": [
