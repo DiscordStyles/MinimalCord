@@ -16,7 +16,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.13";
+  --version: "2.0.14";
 }
 
 .theme-light,
@@ -844,15 +844,15 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .channel-1Shao0 {
   margin-left: 0;
-  border-radius: 0;
+  border-radius: 0 4px 4px 0;
   padding: 0;
   margin-bottom: 3px;
 }
-#app-mount .channel-1Shao0 .layout-1qmrhw {
+#app-mount .channel-1Shao0 .layout-1LjVue {
   border-radius: 0 var(--border-radius) var(--border-radius) 0;
   padding-left: 16px;
 }
-#app-mount .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw:before {
+#app-mount .channel-1Shao0 .selected-3veCBZ::before {
   content: "";
   position: absolute;
   left: 0;
