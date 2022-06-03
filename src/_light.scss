@@ -1,12 +1,16 @@
 .theme-light,
 html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
+  --light-bg-h: var(--light-bg-hue, 200);
+  --light-bg-s: var(--light-bg-saturation, 12%);
+  --light-bg-l: var(--light-bg-lightness, 100%);
+
   // Background
-  --background-light: #fff;
-  --background-light-alt: #fff;
-  --background: #edf2f7;
-  --background-alt: #f7fafc;
-  --background-dark: #e2e8f0;
+  --background-light: hsl(var(--light-bg-h) var(--light-bg-s) var(--light-bg-l));
+  --background-light-alt: hsl(var(--light-bg-h) var(--light-bg-s) var(--light-bg-l));
+  --background: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 7%));
+  --background-alt: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 2%));
+  --background-dark: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 15%));
 
   // Text colours
   --text-normal: #2d3748;

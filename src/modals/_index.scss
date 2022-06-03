@@ -1,6 +1,7 @@
-@forward 'modal';
-@forward 'quickswitcher';
-@forward 'userprofile';
-@forward 'fileexpand';
-@forward 'addjoinserver';
-@forward 'uploadfile';
+@forward './modal';
+@forward './quickswitcher';
+@forward './userprofile';
+@forward './fileexpand';
+@forward './addjoinserver';
+@forward './uploadfile';
+@forward './deletemessage';

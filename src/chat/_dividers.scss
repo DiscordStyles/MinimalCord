@@ -8,7 +8,7 @@
     }
   }
   &.hasContent-31hcsn {
-    margin: var(--message-spacing) 0 var(--message-spacing) 20px;
+    margin: calc(var(--message-spacing) * 2) 0 calc(var(--message-spacing) * 2) 20px;
 
     .content-3spvdd {
       background: var(--background-light);
@@ -16,6 +16,7 @@
       line-height: normal;
       font-weight: var(--font-weight-semibold);
       border-radius: var(--border-radius);
+      color: var(--text-normal);
     }
 
     &:not(.isUnread-3Lojb-) {

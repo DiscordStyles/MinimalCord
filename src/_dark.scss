@@ -1,18 +1,20 @@
-$background: #171a1f;
-
 .theme-dark,
 html.theme-dark #app-mount .theme-light .root-1gCeng,
 html.theme-dark .force-theme.theme-light {
+  --dark-bg-h: var(--dark-bg-hue, 218);
+  --dark-bg-s: var(--dark-bg-saturation, 15%);
+  --dark-bg-l: var(--dark-bg-lightness, 11%);
+
   // Background
-  --background-light: #{lighten($background, 5%)};
-  --background-light-alt: #{lighten($background, 3.5%)};
-  --background: #{$background};
-  --background-alt: #{lighten($background, 2%)};
-  --background-dark: #{darken($background, 2%)};
+  --background-light: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 5%));
+  --background-light-alt: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 3.5%));
+  --background: hsl(var(--dark-bg-h) var(--dark-bg-s) var(--dark-bg-l));
+  --background-alt: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 2%));
+  --background-dark: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) - 2%));
 
   // Text colours
-  --text-normal: #{mix(#fff, $background, 65%)};
-  --text-muted: #{mix(#fff, $background, 25%)};
+  --text-normal: hsl(var(--dark-bg-h) 10% 65%);
+  --text-muted: hsl(var(--dark-bg-h) 10% 30%);
   --text-focus: #fff;
 
   // Font weights

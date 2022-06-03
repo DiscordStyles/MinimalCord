@@ -6,3 +6,8 @@
   background: rgba(var(--accent), 1);
   color: #fff;
 }
+
+#app-mount .info-3pQQBb .line-18uChy:first-child:before {
+  content: "MinimalCord " var(--minimalcord-version);
+  display: block;
+}

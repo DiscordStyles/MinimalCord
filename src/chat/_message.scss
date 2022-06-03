@@ -235,14 +235,19 @@
   }
 
 	// Reactions
-	.reaction-2A2y9y {
+	.reaction-3vwAF2 {
 		background: var(--background);
-		&.reactionMe-3I9gFK {
+		&.reactionMe-1PwQAc {
 			background: rgba(var(--accent), 0.2);
 			border-color: rgba(var(--accent), 1);
-			.reactionCount-1zkLcN {
+			.reactionCount-26U4As {
 				color: rgba(var(--accent), 1);
 			}
 		}
 	}
+
+  // Spoilers
+  .spoilerText-27bIiA.hidden-3B-Rum {
+    background: var(--background-dark)
+  }
 }

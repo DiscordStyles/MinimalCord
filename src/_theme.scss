@@ -10,10 +10,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
-  --accent: 50, 131, 207;
+	--accent: 50, 131, 207;
 
-  --message-padding: 10px; /* Spacing in the messages. MUST END IN px | DEFAULT: 10px */
-  --message-spacing: 10px; /* Spacing around the messages. MUST END IN px | DEFAULT: 10px */
+	--message-padding: 10px;
+	--message-spacing: 10px;
 
-  --font: 'Inter';
+	--dark-bg-hue: 218;
+	--dark-bg-saturation: 15%;
+	--dark-bg-lightness: 11%;
+
+	--light-bg-hue: 200;
+  --light-bg-saturation: 12%;
+  --light-bg-lightness: 100%;
+
+	--font: 'Inter';
 }

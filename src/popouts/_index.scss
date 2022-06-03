@@ -1,9 +1,8 @@
-@forward 'userpopout';
-@forward 'contextmenu';
-@forward 'pins';
-@forward 'search';
-@forward 'searchresults';
-@forward 'inbox';
-@forward 'emojipicker';
-@forward 'autocomplete';
-@forward 'threads';
+@forward './userpopout';
+@forward './contextmenu';
+@forward './pins';
+@forward './search';
+@forward './inbox';
+@forward './emojipicker';
+@forward './autocomplete';
+@forward './threads';
