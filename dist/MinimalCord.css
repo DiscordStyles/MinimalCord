@@ -16,17 +16,20 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.14";
+  --minimalcord-version: "2.1.0";
 }
 
 .theme-light,
 html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
-  --background-light: #fff;
-  --background-light-alt: #fff;
-  --background: #edf2f7;
-  --background-alt: #f7fafc;
-  --background-dark: #e2e8f0;
+  --light-bg-h: var(--light-bg-hue, 200);
+  --light-bg-s: var(--light-bg-saturation, 12%);
+  --light-bg-l: var(--light-bg-lightness, 100%);
+  --background-light: hsl(var(--light-bg-h) var(--light-bg-s) var(--light-bg-l));
+  --background-light-alt: hsl(var(--light-bg-h) var(--light-bg-s) var(--light-bg-l));
+  --background: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 7%));
+  --background-alt: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 2%));
+  --background-dark: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 15%));
   --text-normal: #2d3748;
   --text-muted: #718096;
   --text-focus: #1a202c;
@@ -44,13 +47,16 @@ html.theme-light .force-theme.theme-light {
 .theme-dark,
 html.theme-dark #app-mount .theme-light .root-1gCeng,
 html.theme-dark .force-theme.theme-light {
-  --background-light: #22262e;
-  --background-light-alt: #1f2329;
-  --background: #171a1f;
-  --background-alt: #1b1f25;
-  --background-dark: #131519;
-  --text-normal: #aeafb1;
-  --text-muted: #515357;
+  --dark-bg-h: var(--dark-bg-hue, 218);
+  --dark-bg-s: var(--dark-bg-saturation, 15%);
+  --dark-bg-l: var(--dark-bg-lightness, 11%);
+  --background-light: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 5%));
+  --background-light-alt: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 3.5%));
+  --background: hsl(var(--dark-bg-h) var(--dark-bg-s) var(--dark-bg-l));
+  --background-alt: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 2%));
+  --background-dark: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) - 2%));
+  --text-normal: hsl(var(--dark-bg-h) 10% 65%);
+  --text-muted: hsl(var(--dark-bg-h) 10% 30%);
   --text-focus: #fff;
   --font-weight-light: 300;
   --font-weight-normal: 400;
@@ -78,6 +84,11 @@ html.theme-dark .force-theme.theme-light {
   color: #fff;
 }
 
+#app-mount .info-3pQQBb .line-18uChy:first-child:before {
+  content: "MinimalCord " var(--minimalcord-version);
+  display: block;
+}
+
 ::-webkit-input-placeholder, body, button, input, select, textarea {
   font-family: var(--font, "Roboto"), "Whitney";
 }
@@ -94,7 +105,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .children-3xh0VB:after {
   content: none;
 }
-#app-mount .searchBar-zdmu7v {
+#app-mount .searchBar-jGtisZ {
   background: var(--background-dark);
 }
 
@@ -152,11 +163,6 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .tooltipContent-Nejnvh .muteText-13RgwP {
   color: var(--text-normal);
-}
-
-#app-mount .info-1VyQPT .colorMuted-HdFt4q:first-child:before {
-  content: "MinimalCord " var(--version);
-  display: block;
 }
 
 #app-mount .guilds-2JjMmN {
@@ -501,15 +507,18 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-radius: var(--border-radius);
   border: none;
 }
-#app-mount .reaction-2A2y9y {
+#app-mount .reaction-3vwAF2 {
   background: var(--background);
 }
-#app-mount .reaction-2A2y9y.reactionMe-3I9gFK {
+#app-mount .reaction-3vwAF2.reactionMe-1PwQAc {
   background: rgba(var(--accent), 0.2);
   border-color: rgba(var(--accent), 1);
 }
-#app-mount .reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
+#app-mount .reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
   color: rgba(var(--accent), 1);
+}
+#app-mount .spoilerText-27bIiA.hidden-3B-Rum {
+  background: var(--background-dark);
 }
 
 #app-mount .divider-2rZFJK.isUnread-3Lojb- {
@@ -521,7 +530,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   margin: var(--message-spacing) 8px var(--message-spacing) 20px;
 }
 #app-mount .divider-2rZFJK.hasContent-31hcsn {
-  margin: var(--message-spacing) 0 var(--message-spacing) 20px;
+  margin: calc(var(--message-spacing) * 2) 0 calc(var(--message-spacing) * 2) 20px;
 }
 #app-mount .divider-2rZFJK.hasContent-31hcsn .content-3spvdd {
   background: var(--background-light);
@@ -529,6 +538,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   line-height: normal;
   font-weight: var(--font-weight-semibold);
   border-radius: var(--border-radius);
+  color: var(--text-normal);
 }
 #app-mount .divider-2rZFJK.hasContent-31hcsn:not(.isUnread-3Lojb-) {
   border-top: none;
@@ -590,6 +600,42 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   content: none;
 }
 
+#app-mount .searchResultsWrap-5RVOkx {
+  background: var(--background-alt);
+  border-top-left-radius: var(--border-radius);
+}
+#app-mount .searchHeader-1r_ZSh {
+  background: var(--background-light);
+  box-shadow: var(--box-shadow-alt);
+}
+#app-mount .searchHeader-1r_ZSh .item-3XjbnG.selected-g-kMVV {
+  background: rgb(var(--accent));
+}
+#app-mount .channelName-3w2Y3c {
+  background: var(--background-alt);
+}
+#app-mount .searchResult-O9NDji {
+  border: none;
+  background: var(--background-light);
+}
+#app-mount .searchResult-O9NDji .cozy-VmLDNB {
+  margin: 0 !important;
+}
+#app-mount .searchResultMessage-1fxgXh .cozy-VmLDNB {
+  margin: 0;
+}
+#app-mount .searchResultMessage-1fxgXh:not(.hit-1fVM9e) .cozy-VmLDNB:before {
+  content: none;
+}
+#app-mount .searchResultMessage-1fxgXh.hit-1fVM9e {
+  box-shadow: 0 0 10px 6px var(--background-alt);
+  border: none;
+  border-radius: var(--border-radius);
+}
+#app-mount .searchResultMessage-1fxgXh.hit-1fVM9e .cozy-VmLDNB {
+  background: var(--background-light);
+}
+
 #app-mount .container-2o3qEW,
 #app-mount .members-3WRCEx,
 #app-mount .members-3WRCEx > div {
@@ -610,7 +656,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw .roleColor-rz2vM0,
 #app-mount .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw .activity-2EQDZv,
-#app-mount .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw .premiumIcon-1rDbWQ {
+#app-mount .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw .premiumIcon-1rDbWQ,
+#app-mount .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw .username-i5-wv- span {
   color: #fff !important;
 }
 #app-mount .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw rect[fill="#43b581"],
@@ -726,41 +773,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
   box-shadow: var(--box-shadow);
 }
-#app-mount .option-2KkUJO:after {
+#app-mount .option-ayUoaq:after {
   background: linear-gradient(90deg, transparent, var(--background-light));
 }
-#app-mount .option-2KkUJO.selected-rZcOL- {
+#app-mount .option-ayUoaq.selected-rZcOL- {
   background: var(--background-alt);
-}
-
-#app-mount .searchResultsWrap-5RVOkx {
-  background: var(--background-alt);
-  border-top-left-radius: var(--border-radius);
-}
-#app-mount .searchHeader-1r_ZSh {
-  background: var(--background-light);
-  box-shadow: var(--box-shadow-alt);
-}
-#app-mount .channelName-3w2Y3c {
-  background: var(--background-alt);
-}
-#app-mount .searchResult-O9NDji {
-  border: none;
-  background: var(--background-light);
-}
-#app-mount .searchResultMessage-1fxgXh .cozy-VmLDNB {
-  margin: 0;
-}
-#app-mount .searchResultMessage-1fxgXh:not(.hit-1fVM9e) .cozy-VmLDNB:before {
-  content: none;
-}
-#app-mount .searchResultMessage-1fxgXh.hit-1fVM9e {
-  box-shadow: 0 0 10px 6px var(--background-alt);
-  border: none;
-  border-radius: var(--border-radius);
-}
-#app-mount .searchResultMessage-1fxgXh.hit-1fVM9e .cozy-VmLDNB {
-  background: var(--background-light);
 }
 
 #app-mount .container-iA3Qrz {
@@ -1288,6 +1305,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background);
   box-shadow: none;
 }
+#app-mount .scroller-3_YDR2 {
+  background: transparent;
+}
 
 #app-mount .tierBody-x9kBBp {
   background: var(--background-alt);
@@ -1443,4 +1463,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .uploadModal-2ie9O_ .slateTextArea-27tjG0 {
   padding-left: 15px;
+}
+
+#app-mount .message-G6O-Wv {
+  background: var(--background-alt);
+  box-shadow: none;
+}
+#app-mount .message-G6O-Wv .cozy-VmLDNB {
+  margin: 0 !important;
 }
