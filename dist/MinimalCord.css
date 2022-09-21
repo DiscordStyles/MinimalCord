@@ -257,6 +257,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .header-3OsQeK:hover {
   background: transparent;
 }
+#app-mount .searchBar-3TnChZ {
+  box-shadow: none;
+}
+#app-mount .searchBarComponent-3N7dCG {
+  background: var(--background-dark);
+}
 
 #app-mount .sidebar-1tnWFu .bar-2eAyLE {
   border-radius: var(--border-radius);
@@ -590,13 +596,18 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 
-#app-mount .threadSidebar-1o3BTy {
+#app-mount .container-3XgAHv {
   background: var(--background);
 }
-#app-mount .container-3i3IzO {
-  background: var(--background-dark);
+#app-mount .divider-AZrXIA {
+  background: var(--background-light);
 }
-#app-mount .chat-3JZdy8::before {
+#app-mount .container-3YcgdM {
+  background: transparent;
+  border: none;
+  padding-right: 8px;
+}
+#app-mount .chat-25x62K::before {
   content: none;
 }
 
@@ -636,6 +647,60 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 
+#app-mount .container-3wLKDe {
+  background: var(--background);
+}
+#app-mount .header-1Uy0p6 {
+  background: var(--background-light);
+  border-radius: 5px;
+}
+#app-mount .header-1Uy0p6.headerWithMatchingPosts-1lTrVT {
+  border-radius: 5px 5px 0 0;
+}
+#app-mount .header-1Uy0p6 .container-JhuCwn {
+  cursor: default;
+}
+#app-mount .header-1Uy0p6 .titleContainer-2YK93J {
+  align-items: center;
+  gap: 12px;
+}
+#app-mount .header-1Uy0p6 .prefixElement-1U4XhR {
+  margin: 0;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  left: 24px;
+  pointer-events: none;
+}
+#app-mount .header-1Uy0p6 .input-2g-os5 {
+  height: 58px;
+  min-height: unset;
+  padding: 16px 16px 16px 48px;
+  margin: 0;
+}
+#app-mount .header-1Uy0p6 .guidelinesButton-3Vrz0u {
+  margin: 0;
+}
+#app-mount .matchingPostsRow-2IiEQ1 {
+  background: var(--background-alt);
+}
+#app-mount .tag-19iIl1 {
+  background: var(--background-light);
+}
+#app-mount .container-2qVG6q {
+  background: var(--background-alt);
+  border-radius: 5px;
+}
+#app-mount .container-2qVG6q .pill-3pRQlO {
+  background: var(--background-light);
+}
+#app-mount .sidebarCard-1Gn1ch {
+  background: var(--background-alt);
+  border: none;
+}
+
 #app-mount .container-2o3qEW,
 #app-mount .members-3WRCEx,
 #app-mount .members-3WRCEx > div {
@@ -670,59 +735,59 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   color: rgba(var(--accent), 1);
 }
 
-#app-mount .userPopout-2j1gM4 {
-  background: var(--background);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
+#app-mount .userPopout-3fydSP .messageInputContainer-2rGDH8 {
+  border: none;
 }
-#app-mount .userPopout-2j1gM4 .avatar-3QF_VA {
-  border-color: var(--background);
-  background: var(--background);
+#app-mount .userPopout-3fydSP .roles-3zC7MX {
+  gap: 4px;
 }
-#app-mount .userPopout-2j1gM4 .headerNormal-3Zn_yu {
-  background: var(--background);
+#app-mount .userPopout-3fydSP .roleRemoveButton-17oXnT {
+  position: unset;
 }
-#app-mount .userPopout-2j1gM4 .headerTop-3GPUSF {
-  background: var(--background);
-}
-#app-mount .userPopout-2j1gM4 .body-2wLx-E,
-#app-mount .userPopout-2j1gM4 .bodyInnerWrapper-2bQs1k {
-  background: transparent;
-}
-#app-mount .userPopout-2j1gM4 .role-2TIOKu {
+#app-mount .userPopout-3fydSP .roleRemoveButton-17oXnT + .roleName-2ZJJYR {
   position: relative;
   z-index: 1;
+}
+#app-mount .userPopout-3fydSP .role-2TIOKu {
+  margin: 0;
+  background: transparent;
+  position: relative;
+  border-radius: 10px;
   overflow: hidden;
-  border: none;
-  line-height: normal;
+  gap: 6px;
+  padding: 6px;
 }
-#app-mount .userPopout-2j1gM4 .roleCircle-1EgnFN {
+#app-mount .userPopout-3fydSP .role-2TIOKu .roleCircle-3K9O3d {
+  position: unset;
+  overflow: visible;
   filter: none;
-}
-#app-mount .userPopout-2j1gM4 .roleCircle-1EgnFN::after {
-  content: "";
-  position: absolute;
-  height: 24px;
-  width: 100%;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  background: inherit;
-  opacity: 0.3;
-  z-index: -1;
-}
-#app-mount .userPopout-2j1gM4 .note-Go5ZP2 {
   margin: 0;
 }
-#app-mount .userPopout-2j1gM4 .footer-3naVBw {
+#app-mount .userPopout-3fydSP .role-2TIOKu .roleCircle-3K9O3d::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+#app-mount .userPopout-3fydSP .role-2TIOKu .roleRemoveIcon-387wKV {
+  left: 12px;
+}
+#app-mount .userPopout-3fydSP .role-2TIOKu .roleName-2ZJJYR {
+  margin: 0;
+  color: var(--text-focus);
+}
+#app-mount .userPopout-3fydSP.userPopoutUnthemed-3WS0Xb {
+  background: var(--background-light-alt);
+}
+#app-mount .userPopoutInner-PA9zkU.userPopoutInnerNonPremium-3zrFkp {
   background: transparent;
 }
-#app-mount .userPopout-2j1gM4[style*="--user-background"] .banner-1YaD3N:not(.bannerPremium-kkSkPv) {
-  height: 120px;
-  background: var(--user-background) center/cover;
-}
-#app-mount .userPopout-2j1gM4[style*="--user-background"] .avatarPositionNormal-2jWoC2 {
-  top: 76px;
+#app-mount .userPopoutInner-PA9zkU.userPopoutInnerNonPremium-3zrFkp .overlayBackground-arbZMT,
+#app-mount .userPopoutInner-PA9zkU.userPopoutInnerNonPremium-3zrFkp .profileBadges-31rDHI {
+  background: var(--background);
 }
 
 .theme-light .menu-1QACrS {
