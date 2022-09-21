@@ -2,8 +2,8 @@
 
 Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
 
-![Server Chat - DARK](https://i.imgur.com/WdGfaDb.png)
-![Server Chat - LIGHT](https://i.imgur.com/jBw6IRg.png)
+![Server Chat - DARK](https://i.imgur.com/0VDtwzf.png)
+![Server Chat - LIGHT](https://i.imgur.com/omiHA0O.png)
 
 ## Download
 
