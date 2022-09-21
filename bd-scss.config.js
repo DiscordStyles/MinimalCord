@@ -3,7 +3,7 @@ export default {
 	meta: {
 		name: 'MinimalCord',
 		author: 'Gibbu',
-		version: '2.2.0',
+		version: '2.3.0',
 		description: 'Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.',
 		source: 'https://github.com/DiscordStyles/MinimalCord',
 		invite: 'ZHthyCw',

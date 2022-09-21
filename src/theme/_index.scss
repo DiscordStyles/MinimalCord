@@ -1,14 +1,14 @@
-@use 'root';
-@use 'light';
-@use 'dark';
+@use './root';
+@use './light';
+@use './dark';
 
-@use 'app';
-@use 'guilds';
-@use 'channels';
-@use 'chat';
-@use 'members';
-@use 'popouts';
-@use 'pages';
-@use 'inputs';
-@use 'settings';
-@use 'modals';
+@use './app';
+@use './guilds';
+@use './sidebar';
+@use './chat';
+@use './members';
+@use './popouts';
+@use './pages';
+@use './inputs';
+@use './settings';
+@use './modals';

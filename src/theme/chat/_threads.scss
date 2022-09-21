@@ -1,11 +1,16 @@
 #app-mount {
-	.threadSidebar-1o3BTy {
+	.container-3XgAHv {
 		background: var(--background);
 	}
-	.container-3i3IzO {
-		background: var(--background-dark);
+	.divider-AZrXIA {
+		background: var(--background-light);
 	}
-	.chat-3JZdy8::before {
+	.container-3YcgdM {
+		background: transparent;
+		border: none;
+		padding-right: 8px;
+	}
+	.chat-25x62K::before {
 		content: none;
 	}
 }

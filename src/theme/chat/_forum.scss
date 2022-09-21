@@ -1,0 +1,63 @@
+#app-mount {
+	.container-3wLKDe {
+		background: var(--background);
+	}
+
+	// Header
+	.header-1Uy0p6 {
+		background: var(--background-light);
+		border-radius: 5px;
+		&.headerWithMatchingPosts-1lTrVT {
+			border-radius: 5px 5px 0 0;
+		}
+		.container-JhuCwn {
+			cursor: default;
+		}
+		.titleContainer-2YK93J {
+			align-items: center;
+			gap: 12px
+		}
+		.prefixElement-1U4XhR {
+			margin: 0;
+			height: 58px;
+			display: flex;
+			align-items: center;
+			position: absolute;
+			z-index: 1;
+			left: 24px;
+			pointer-events: none;
+		}
+		.input-2g-os5 {
+			height: 58px;
+			min-height: unset;
+			padding: 16px 16px 16px 48px;
+			margin: 0;
+		}
+		.guidelinesButton-3Vrz0u {
+			margin: 0;
+		}
+	}
+	.matchingPostsRow-2IiEQ1 {
+		background: var(--background-alt);
+	}
+
+	// Tags
+	.tag-19iIl1 {
+		background: var(--background-light);
+	}
+
+	// Cards
+	.container-2qVG6q {
+		background: var(--background-alt);
+		border-radius: 5px;
+		.pill-3pRQlO {
+			background: var(--background-light);
+		}
+	}
+	
+	// Sidebar
+	.sidebarCard-1Gn1ch {
+		background: var(--background-alt);
+		border: none;
+	}
+}

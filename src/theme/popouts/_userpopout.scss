@@ -1,63 +1,63 @@
-#app-mount .userPopout-2j1gM4 {
-	background: var(--background);
-	border-radius: var(--border-radius);
-	box-shadow: var(--box-shadow);
-	.avatar-3QF_VA {
-		border-color: var(--background);
-		background: var(--background);
-	}
-	.headerNormal-3Zn_yu {
-		background: var(--background);
-	}
-	.headerTop-3GPUSF {
-		background: var(--background);
-	}
+#app-mount {
+	.userPopout-3fydSP {
+		.messageInputContainer-2rGDH8 {
+			border: none;
+		}
+
+		.roles-3zC7MX {
+			gap: 4px;
+		}
+		.roleRemoveButton-17oXnT {
+			position: unset;
+			& + .roleName-2ZJJYR {
+				position: relative;
+				z-index: 1;
+			}
+		}
+		.role-2TIOKu {
+			margin: 0;
+			background: transparent;
+			position: relative;
+			border-radius: 10px;
+			overflow: hidden;
+			gap: 6px;
+			padding: 6px;
+			.roleCircle-3K9O3d {
+				position: unset;
+				overflow: visible;
+				filter: none;
+				margin: 0;
+				&::before {
+					content: '';
+					position: absolute;
+					inset: 0;
+					background: inherit;
+					opacity: .15;
+					z-index: 0;
+					pointer-events: none;
+				}
+			}
+			.roleRemoveIcon-387wKV {
+				left: 12px;
+			}
+			.roleName-2ZJJYR {
+				margin: 0;
+				color: var(--text-focus);
+			}
+		}
 
 
-	.body-2wLx-E,
-	.bodyInnerWrapper-2bQs1k {
-		background: transparent;
-	}
-	
-	.role-2TIOKu {
-		position: relative;
-		z-index: 1;
-		overflow: hidden;
-		border: none;
-		line-height: normal;
-	}
-	.roleCircle-1EgnFN {
-		filter: none;
-		&::after {
-			content: "";
-			position: absolute;
-			height: 24px;
-			width: 100%;
-			left: 0;
-			top: 50%;
-			transform: translateY(-50%);
-			background: inherit;
-			opacity: 0.3;
-			z-index: -1;
+		&.userPopoutUnthemed-3WS0Xb {
+			background: var(--background-light-alt);
 		}
 	}
-
-	.note-Go5ZP2 {
-		margin: 0;
-	}
-
-	.footer-3naVBw {
-		background: transparent;
-	}
-
-	// User bg support
-	&[style*="--user-background"] {
-		.banner-1YaD3N:not(.bannerPremium-kkSkPv) {
-			height: 120px;
-			background: var(--user-background) center/cover;
-		}
-		.avatarPositionNormal-2jWoC2 {
-			top: 76px;
+	.userPopoutInner-PA9zkU {
+		&.userPopoutInnerNonPremium-3zrFkp {
+			background: transparent;
+			.overlayBackground-arbZMT,
+			.profileBadges-31rDHI {
+				background: var(--background)
+			}
 		}
 	}
 }
