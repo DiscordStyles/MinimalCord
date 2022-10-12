@@ -707,6 +707,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: transparent;
 }
 
+#app-mount .member-2gU6Ar {
+  background: transparent;
+}
 #app-mount .member-2gU6Ar .botTagRegular-kpctgU {
   background: rgba(var(--accent), 1);
 }
@@ -830,8 +833,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border: none;
 }
 #app-mount .messageGroupCozy-3v_RqN {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 !important;
+  padding: 8px 8px 8px 0 !important;
 }
 
 #app-mount .container-2McqkF {
