@@ -16,7 +16,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --minimalcord-version: "2.1.1";
+  --minimalcord-version: "2.1.2";
 }
 
 .theme-light,
@@ -208,6 +208,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: transparent;
 }
 #app-mount .container-1zzFcN {
+  background: transparent;
   border: none;
 }
 
@@ -272,6 +273,34 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
   box-shadow: var(--box-shadow);
   color: var(--text-normal);
+}
+
+#app-mount .privateChannels-oVe7HL {
+  background: transparent;
+}
+#app-mount .privateChannels-oVe7HL .scroller-WSmht3 {
+  background: transparent;
+}
+#app-mount .channel-1Shao0 {
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+  padding: 0;
+  margin-bottom: 3px;
+}
+#app-mount .channel-1Shao0 .layout-1LjVue {
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  padding-left: 16px;
+}
+#app-mount .channel-1Shao0 .selected-3veCBZ::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: rgba(var(--accent), 1);
+}
+#app-mount .userPanelOuter-xc-WYi {
+  background: var(--background-alt);
 }
 
 #app-mount .chat-2ZfjoI {
@@ -928,28 +957,6 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .container-2rzKKA:hover {
   background: var(--background);
-}
-
-#app-mount .privateChannels-oVe7HL {
-  background: transparent;
-}
-#app-mount .channel-1Shao0 {
-  margin-left: 0;
-  border-radius: 0 4px 4px 0;
-  padding: 0;
-  margin-bottom: 3px;
-}
-#app-mount .channel-1Shao0 .layout-1LjVue {
-  border-radius: 0 var(--border-radius) var(--border-radius) 0;
-  padding-left: 16px;
-}
-#app-mount .channel-1Shao0 .selected-3veCBZ::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: rgba(var(--accent), 1);
 }
 
 #app-mount .container-2cd8Mz {
