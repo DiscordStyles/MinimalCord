@@ -16,7 +16,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --minimalcord-version: "2.1.0";
+  --minimalcord-version: "2.1.1";
 }
 
 .theme-light,
@@ -204,6 +204,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .panels-3wFtMD {
   background: var(--background);
 }
+#app-mount .container-YkUktl {
+  background: transparent;
+}
 #app-mount .container-1zzFcN {
   border: none;
 }
@@ -279,6 +282,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .chat-2ZfjoI .content-1jQy2l:before {
   content: none;
+}
+#app-mount .chatContent-3KubbW {
+  background: transparent;
 }
 #app-mount .operations-3q3u6E > a {
   color: rgb(var(--accent), 1);
