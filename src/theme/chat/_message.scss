@@ -24,6 +24,11 @@
         background: rgba(var(--discord-red) / 1);
       }
     }
+    &.selected-2LX7Jy, &:hover {
+      &::before {
+        background: var(--message-hover, var(--background-alt));
+      }
+    }
   }
 
   // Cozy
