@@ -16,7 +16,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --minimalcord-version: "2.1.2";
+  --minimalcord-version: "2.1.3";
 }
 
 .theme-light,
@@ -372,6 +372,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .message-2CShn3 .button-3bklZh.dangerous-Y36ifs:hover {
   background: rgba(var(--discord-red)/1);
+}
+#app-mount .message-2CShn3.selected-2LX7Jy::before, #app-mount .message-2CShn3:hover::before {
+  background: var(--message-hover, var(--background-alt));
 }
 #app-mount .cozy-VmLDNB {
   background: transparent;
