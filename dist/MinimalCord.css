@@ -168,10 +168,10 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .guilds-2JjMmN {
   background: var(--background-dark);
 }
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 {
   background: var(--background-dark);
 }
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt::-webkit-scrollbar {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4::-webkit-scrollbar {
   display: none;
 }
 
@@ -189,7 +189,6 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .expandedFolderBackground-1kSAf6 {
-  z-index: -1;
   background: var(--background-light);
 }
 #app-mount .folder-241Joy {
