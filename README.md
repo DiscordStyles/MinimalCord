@@ -8,7 +8,8 @@ Changes Discord enough to give it a fresh feel while also making it darker. Supp
 ## Download
 
 BetterDiscord Download: [https://betterdiscord.app/theme/MinimalCord](https://betterdiscord.app/Download?id=125)  
-Powercord Install: `git clone https://github.com/DiscordStyles/MinimalCord`
+Powercord Install: `git clone https://github.com/DiscordStyles/MinimalCord`  
+Vencord link: `https://raw.githubusercontent.com/DiscordStyles/MinimalCord/deploy/MinimalCord.theme.css`
 
 ## Contributing
 
