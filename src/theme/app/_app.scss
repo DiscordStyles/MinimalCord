@@ -3,8 +3,8 @@
 }
 
 ::selection {
-  background: rgba(var(--accent), 1);
-  color: #fff;
+  background: rgb(var(--accent), 1);
+  color: var(--accent-text);
 }
 
 #app-mount .info-3pQQBb .line-18uChy:first-child:before {

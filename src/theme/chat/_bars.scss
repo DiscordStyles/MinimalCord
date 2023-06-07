@@ -1,10 +1,14 @@
 #app-mount {
   .newMessagesBar-1hF-9G {
-    background: rgba(var(--accent), 1);
+    background: rgb(var(--accent), 1);
     border-radius: var(--border-radius);
     top: 10px;
     left: 26px;
     right: 26px;
+    button {
+      color: var(--accent-text);
+      font-weight: 600;
+    }
   }
   .jumpToPresentBar-1cEnH0 {
     background: var(--background-light);

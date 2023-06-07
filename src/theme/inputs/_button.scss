@@ -1,10 +1,16 @@
 #app-mount {
   // Brand/Blurple buttons
-  .lookFilled-1Gx00P.colorBrand-3pXr91 {
-    background: rgba(var(--accent), 1);
+  .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+    background: rgb(var(--accent), 1);
+    color: var(--accent-text);
+    font-weight: 600;
     transition: box-shadow 0.2s ease;
     &:hover {
-      box-shadow: inset 0 0 0 100vmax rgba(0,0,0,0.1);
+      box-shadow: inset 0 0 0 100vmax rgb(0,0,0,0.1);
+    }
+    &:focus,
+    &:active {
+      box-shadow: inset 0 0 0 100vmax rgb(0,0,0,0.2);
     }
   }
 
@@ -14,14 +20,11 @@
     color: var(--text-normal);
   }
 
-
-
-
   // Panel buttons
-  .button-1EGGcP.buttonColor-3bP3fX {
+  .button-ejjZWC.buttonColor-3bP3fX {
     background: var(--background-light);
     &:hover {
-      background: rgba(var(--accent), 1);
+      background: rgb(var(--accent), 1);
       color: #fff;
     }
   }

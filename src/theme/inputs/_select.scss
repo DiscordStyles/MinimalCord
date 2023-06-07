@@ -17,7 +17,7 @@
   .css-6fzn47-control {
     background: var(--background);
     border-radius: var(--border-radius);
-    border-color: rgba(var(--accent), 1);
+    border-color: rgb(var(--accent), 1);
   }
 
   // Dropdown
@@ -36,7 +36,7 @@
       background: var(--background-alt);
     }
     &[aria-selected="true"] {
-      background: rgba(var(--accent), 1);
+      background: rgb(var(--accent), 1);
       color: #fff;
       .selectedIcon-19TbzU {
         color: #fff;

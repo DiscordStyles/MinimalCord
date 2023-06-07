@@ -1,5 +1,5 @@
 .theme-dark,
-html.theme-dark #app-mount .theme-light .root-1gCeng,
+html.theme-dark #app-mount .theme-light .root-1CAIjD,
 html.theme-dark .force-theme.theme-light {
   --dark-bg-h: var(--dark-bg-hue, 218);
   --dark-bg-s: var(--dark-bg-saturation, 15%);
@@ -24,8 +24,8 @@ html.theme-dark .force-theme.theme-light {
   --font-weight-bold: 700;
 
   // Box shadows
-  --box-shadow: 0 4px 9px rgba(0 0 0 / 0.4);
-  --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.3);
+  --box-shadow: 0 4px 9px rgb(0 0 0 / 0.4);
+  --box-shadow-alt: 0 2px 5px rgb(0 0 0 / 0.3);
 
   // Scrollbars
   --scrollbar-colour: var(--background-light);

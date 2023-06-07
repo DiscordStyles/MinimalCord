@@ -24,11 +24,11 @@ html.theme-light .force-theme.theme-light {
   --font-weight-bold: 700;
 
   // Box shadows
-  --box-shadow: 0 4px 9px rgba(0 0 0 / 0.2);
-  --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.1);
+  --box-shadow: 0 4px 9px rgb(0 0 0 / 0.2);
+  --box-shadow-alt: 0 2px 5px rgb(0 0 0 / 0.1);
 
   // Scrollbars
-  --scrollbar-colour: rgba(0 0 0 / 0.2);
+  --scrollbar-colour: rgb(0 0 0 / 0.2);
 
   // Messages
   --edit-message-box: var(--background-light);

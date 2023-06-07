@@ -1,5 +1,9 @@
 :root {
+  --minimalcord-version: '2.2.0';
+
   --border-radius: 5px;
+
+  --accent-text: white;
 
   // Discord variables
 	--font-primary: var(--font);
@@ -20,6 +24,5 @@
   --background-modifier-active: var(--background-light);
 
   --channels-default: var(--text-normal);
-
-  --minimalcord-version: '2.1.3';
+  --text-link: rgb(var(--accent));
 }

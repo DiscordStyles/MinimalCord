@@ -17,11 +17,11 @@
 			height: 100%;
       padding: 0 6px;
       &:hover {
-        background: rgba(var(--accent), 1);
-        color: #fff;
+        background: rgb(var(--accent), 1);
+        color: var(--accent-text);
       }
       &.dangerous-Y36ifs:hover {
-        background: rgba(var(--discord-red) / 1);
+        background: rgb(var(--discord-red) / 1);
       }
     }
     &.selected-2LX7Jy, &:hover {
@@ -100,7 +100,7 @@
           border-radius: 0 var(--border-radius) 0 0;
           height: 100%;
           width: calc(100% - var(--message-padding));
-          border-left: 2px solid rgba(var(--discord-yellow) / 1);
+          border-left: 2px solid rgb(var(--discord-yellow) / 1);
           background: var(--background-mentioned);
           pointer-events: none;
         }
@@ -115,7 +115,7 @@
           left: -5px;
           height: 100%;
           width: calc(100% - var(--message-padding) + 5px);
-          border-left: 2px solid rgba(var(--discord-yellow) / 1);
+          border-left: 2px solid rgb(var(--discord-yellow) / 1);
           background: var(--background-mentioned);
           border-radius: 0 0 var(--border-radius) 0;
         }
@@ -159,11 +159,11 @@
 
   // Mentions & Chat jumps
   .wrapper-1ZcZW- {
-    background: rgba(var(--accent), 0.1);
-    color: rgba(var(--accent), 1);
+    background: rgb(var(--accent), 0.1);
+    color: rgb(var(--accent), 1);
     &:hover, &.popout-open {
-      background: rgba(var(--accent), 1);
-      color: #fff;
+      background: rgb(var(--accent), 1);
+      color: var(--accent-text);
     }
   }
 
@@ -243,10 +243,10 @@
 	.reaction-3vwAF2 {
 		background: var(--background);
 		&.reactionMe-1PwQAc {
-			background: rgba(var(--accent), 0.2);
-			border-color: rgba(var(--accent), 1);
+			background: rgb(var(--accent), 0.2);
+			border-color: rgb(var(--accent), 1);
 			.reactionCount-26U4As {
-				color: rgba(var(--accent), 1);
+				color: rgb(var(--accent), 1);
 			}
 		}
 	}

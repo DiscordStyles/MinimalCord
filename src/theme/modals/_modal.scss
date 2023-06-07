@@ -1,14 +1,18 @@
 #app-mount {
   .modal-3O0aXp,
-  .root-g14mjS {
-    background: var(--background);
+  .root-1CAIjD {
+    background: var(--background-alt);
     box-shadow: var(--box-shadow);
   }
-  .header-1zd7se {
+  .header-1ffhsl {
     box-shadow: none;
   }
-  .footer-31IekZ {
-    background: var(--background-alt);
+  .content-18dVld {
+    padding: 0 24px 24px 24px;
+  }
+  .footer-IubaaS {
+    background: var(--background);
     box-shadow: none;
+    padding: 24px;
   }
 }

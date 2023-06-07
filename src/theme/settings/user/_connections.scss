@@ -1,5 +1,27 @@
-#app-mount [aria-label="USER_SETTINGS"] {
-  .accountList-305sx3 {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
+  .connectContainer-1hylYM {
+    background: var(--background-light);
+    margin-bottom: 55px;
+  }
+  .accountButtonInner-33vCDY {
+    background-color: var(--background-light-alt);
+    &:hover {
+      background-color: var(--background);
+    }
+  }
+
+  .connection-YOVI9j {
+    background: var(--background-alt);
+  }
+  .connectionHeader-Ixbb1s {
+    background: var(--background-light-alt);
+  }
+
+  .metadataContainer-35U-On {
+    background: var(--background);
+    padding: 16px;
+  }
+  .integration-1qC-fv {
     background: var(--background-alt);
   }
 }

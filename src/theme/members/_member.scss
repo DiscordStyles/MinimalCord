@@ -1,7 +1,11 @@
 #app-mount .member-2gU6Ar {
   background: transparent;
   .botTagRegular-kpctgU {
-    background: rgba(var(--accent), 1);
+    background: rgb(var(--accent), 1);
+    color: var(--accent-text);
+    .botText-1fD6Qk {
+      font-weight: 600;
+    }
   }
 
   &:hover .layout-1qmrhw {
@@ -11,12 +15,13 @@
     background: var(--background-light);
   }
   &.selected-1-Z6gm .layout-1qmrhw {
-    background: rgba(var(--accent), 1);
+    background: rgb(var(--accent), 1);
     .roleColor-rz2vM0,
     .activity-2EQDZv,
     .premiumIcon-1rDbWQ,
+    .username-i5-wv-,
     .username-i5-wv- span {
-      color: #fff !important;
+      color: var(--accent-text) !important;
     }
     rect[fill="#43b581"],
     rect[fill="#faa61a"],
@@ -24,8 +29,8 @@
       fill: #fff;
     }
     .botTagRegular-kpctgU {
-      background: #fff;
-      color: rgba(var(--accent), 1);
+      background: var(--accent-text);
+      color: rgb(var(--accent), 1);
     }
   }
 }

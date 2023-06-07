@@ -1,11 +1,11 @@
-#app-mount .input-2g-os5 {
-  background: var(--background-dark);
-  border: 1px solid var(--background-dark);
+#app-mount .input-3O04eu:not(.multiInput-1VARjC) {
+  background: var(--background);
+  border: 1px solid var(--background);
   border-radius: var(--border-radius);
   &:hover {
     border-color: var(--background-light);
   }
   &:focus {
-    border-color: rgba(var(--accent), 1)
+    border-color: rgb(var(--accent), 1)
   }
 }
