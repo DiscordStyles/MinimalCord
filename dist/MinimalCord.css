@@ -1,5 +1,5 @@
 :root {
-  --minimalcord-version: "2.2.0";
+  --minimalcord-version: "2.2.1";
   --border-radius: 5px;
   --accent-text: white;
   --font-primary: var(--font);
@@ -206,10 +206,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .panels-3wFtMD {
   background: var(--background);
 }
-#app-mount .container-YkUktl {
+#app-mount .activityPanel-9icbyU .container-YkUktl {
   background: transparent;
 }
-#app-mount .container-1zzFcN {
+#app-mount .container-1CH86i,
+#app-mount .activityPanel-9icbyU {
   background: transparent;
   border: none;
 }
@@ -305,23 +306,23 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-alt);
 }
 
-#app-mount .chat-2ZfjoI {
+#app-mount .chat-9g_3Xj {
   background: var(--background);
 }
-#app-mount .chat-2ZfjoI .scrollerSpacer-3AqkT9 {
+#app-mount .chat-9g_3Xj .scrollerSpacer-3AqkT9 {
   height: 25px;
 }
-#app-mount .chat-2ZfjoI .content-1jQy2l:before {
+#app-mount .chat-9g_3Xj .content-18rAwf:before {
   content: none;
 }
-#app-mount .chatContent-3KubbW {
+#app-mount .chatContent-2O4SXb {
   background: transparent;
 }
 #app-mount .operations-3q3u6E > a {
   color: rgb(var(--accent), 1);
 }
 
-#app-mount .form-3gdLxP:before {
+#app-mount .form-3qe0Ni:before {
   content: none;
 }
 #app-mount .scrollableContainer-15eg7h {
@@ -329,13 +330,13 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
 }
-#app-mount .placeholder-1_mJY1 {
+#app-mount .placeholder-1rCBhr {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1.5px;
   font-size: 12px;
 }
-#app-mount .placeholder-1_mJY1,
+#app-mount .placeholder-1rCBhr,
 #app-mount .slateTextArea-27tjG0 {
   padding: 15px 15px 15px 0;
 }
@@ -745,9 +746,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border: none;
 }
 
-#app-mount .container-2o3qEW,
-#app-mount .members-3WRCEx,
-#app-mount .members-3WRCEx > div {
+#app-mount .container-2vWgD2,
+#app-mount .members-2y1nVj,
+#app-mount .members-2y1nVj > div {
   background: transparent;
 }
 
