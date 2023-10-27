@@ -1,27 +1,27 @@
-#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
-  .paymentPane-ut5qKZ {
+#app-mount .layer__2efaa :not(.baseLayer__8fda3) {
+  .paymentPane__9cf01 {
     background: var(--background-alt);
   }
-  .paginator-1eqD2g {
+  .paginator_e620d3 {
     background: transparent;
   }
-  .bottomDivider-ZmTm-j {
+  .bottomDivider_a59d97 {
     border: none;
     &::-webkit-scrollbar {
       display: none;
     }
   }
-  .payment-2bOh4k {
+  .payment__7d702 {
     background: transparent;
     &:hover {
       background: var(--background-light-alt);
     }
-    &:not(.hoverablePayment-lE1s4t) {
+    &:not(.hoverablePayment__3ea24) {
       background: var(--background-light);
       padding-bottom: 20px;
     }
   }
-  .expandedInfo-1W31i3 {
+  .expandedInfo__47bad {
     background: var(--background-light-alt);
     margin: 0 20px;
   }

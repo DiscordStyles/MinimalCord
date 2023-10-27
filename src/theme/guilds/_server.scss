@@ -1,20 +1,20 @@
 #app-mount {
   // Server
-  .wrapper-3kah-n {
-    &.selected-1Drb7Z .childWrapper-1j_1ub {
+  .wrapper_d281dd {
+    &.selected_f5ec8e .childWrapper__01b9c {
       background: rgb(var(--accent), 1);
       color: var(--accent-text);
     }
   }
-  .childWrapper-1j_1ub {
+  .childWrapper__01b9c {
     background: var(--background-light);
   }
 
   // Add/Join server & Server Discovery
-  .circleIconButton-1VxDrg {
+  .circleIconButton_d8df29 {
     background: var(--background-light);
     &:hover,
-    &.selected-2r1Hvo {
+    &.selected__5250e {
       background: rgb(var(--discord-green) / 1);
     }
   }
