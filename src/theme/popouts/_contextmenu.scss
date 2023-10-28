@@ -1,47 +1,47 @@
-.theme-light .menu-2TXYjN {
+.theme-light .menu_dc52c6 {
   background: var(--background-light);
 }
-.theme-dark .menu-2TXYjN {
+.theme-dark .menu_dc52c6 {
   background: var(--background-light-alt);
 }
 
 #app-mount {
-  .menu-2TXYjN {
+  .menu_dc52c6 {
     box-shadow: var(--box-shadow);
 
     // Quick reactions
-    .button-1zW0-r {
+    .button__3ecb4 {
       background: var(--background);
     }
   }
-  .item-5ApiZt {
+  .item__183e8 {
     line-height: normal;
 
-    .iconContainer-Ksy8Oj {
+    .iconContainer__829e7 {
       display: flex;
       align-items: center;
       justify-content: center;
     }
-    .caret-1TZU-U {
+    .caret_ce50ce {
       color: var(--text-normal);
     }
 
-    &:active, &.focused-3LIdPu:not(.colorDanger-3umuSx) {
+    &:active, &.focused__27621:not(.colorDanger_eec36d) {
       background: rgb(var(--accent), 1);
       color: var(--accent-text);
-      .caret-1TZU-U {
+      .caret_ce50ce {
         color: var(--accent-text);
       }
     }
-    &.colorBrand-26tvUE {
+    &.colorBrand__471df {
       color: rgb(var(--accent));
-      &.focused-3LIdPu {
+      &.focused__27621 {
         color: var(--accent-text);
       }
     }
     &.colorPremium-p4p7qO {
       color: rgb(var(--discord-nitro) / 1);
-      &.focused-3LIdPu {
+      &.focused__27621 {
         color: #fff;
         background: rgb(var(--discord-nitro) / 1);
       }

@@ -1,42 +1,42 @@
 #app-mount {
   // Chat box
-  .form-3qe0Ni {
+  .form__13a2c {
     &:before {
       content: none;
     }
   }
-  .scrollableContainer-15eg7h {
+  .scrollableContainer__33e06 {
     background: var(--background-alt);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
 
   }
-  .placeholder-1rCBhr {
+  .placeholder_e68c63 {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1.5px;
     font-size: 12px;
   }
-  .placeholder-1rCBhr,
-  .slateTextArea-27tjG0 {
+  .placeholder_e68c63,
+  .slateTextArea__0661c {
     padding: 15px 15px 15px 0;
   }
 
-  .attachButton-_ACFSu {
+  .attachButton_b1db83 {
     padding: 15px 16px;
     height: 52px;
   }
-  .buttons-uaqb-5 {
+  .buttons_ce5b56 {
     height: 52px;
   }
 
 	// Announcement bar thingy
-	.wrapper-2SplAX {
+	.wrapper_fbbb73 {
 		background: var(--background-light);
 	}
 
 	// No perms
-	.channelTextArea-1deLlK {
+	.channelTextArea__2e60f {
 		background: var(--background-alt);
 	}
 }

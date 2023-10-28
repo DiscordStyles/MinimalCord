@@ -1,9 +1,9 @@
 #app-mount {
-  .searchResultsWrap-5RVOkx {
+  .searchResultsWrap__9f374 {
     background: var(--background-alt);
     border-top-left-radius: var(--border-radius);
   }
-  .searchHeader-1r_ZSh {
+  .searchHeader__19d87 {
     background: var(--background-light);
     box-shadow: var(--box-shadow-alt);
     .item-3XjbnG.selected-g-kMVV {
@@ -14,26 +14,26 @@
     background: var(--background-alt);
   }
 
-  .searchResult-O9NDji {
+  .searchResult_dcd237 {
     border: none;
     background: var(--background-light);
-    .cozy-VmLDNB {
+    .cozy_f5c119 {
       margin: 0 !important;
     }
   }
   .searchResultMessage-1fxgXh {
-    .cozy-VmLDNB {
+    .cozy_f5c119 {
       margin: 0;
     }
 
-    &:not(.hit-1fVM9e) .cozy-VmLDNB:before {
+    &:not(.hit-1fVM9e) .cozy_f5c119:before {
       content: none;
     }
     &.hit-1fVM9e {
       box-shadow: 0 0 10px 6px var(--background-alt);
       border: none;
       border-radius: var(--border-radius);
-      .cozy-VmLDNB {
+      .cozy_f5c119 {
         background: var(--background-light);
       }
     }
