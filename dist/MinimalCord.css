@@ -1,5 +1,5 @@
 :root {
-  --minimalcord-version: "2.2.1";
+  --minimalcord-version: "2.3.0";
   --border-radius: 5px;
   --accent-text: white;
   --font-primary: var(--font);
@@ -1275,109 +1275,109 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   color: rgb(var(--accent), 1);
 }
 
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) {
   background: var(--background);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .children_b15c64 > .marginBottom40__9109c:not(.divider-3y7HAB) {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .children_b15c64 > .marginBottom40__9109c:not(.divider-3y7HAB) {
   background: var(--background-alt);
   border-radius: var(--border-radius);
   padding: 16px;
   border: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .children_b15c64 > .marginBottom40__9109c:not(.divider-3y7HAB) .marginTop8__83d4b {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .children_b15c64 > .marginBottom40__9109c:not(.divider-3y7HAB) .marginTop8__83d4b {
   margin-top: 0;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .children_b15c64 > .marginBottom20__64605:not(.title-3hptVQ) {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .children_b15c64 > .marginBottom20__64605:not(.title-3hptVQ) {
   background: var(--background-alt);
   border-radius: var(--border-radius);
   padding: 16px;
   border: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .children_b15c64 > [class*=marginBottom] .container-1zDvAE:last-child {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .children_b15c64 > [class*=marginBottom] .container-1zDvAE:last-child {
   margin-bottom: 0;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .children_b15c64 > [class*=marginBottom] [class*=marginBottom] {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .children_b15c64 > [class*=marginBottom] [class*=marginBottom] {
   padding: 0;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .children_b15c64 > .divider-3wNib3 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .children_b15c64 > .divider-3wNib3 {
   background: var(--background-alt);
   border-radius: var(--border-radius);
   padding: 16px;
   border: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .children_b15c64 .children_b15c64 .flex_f5fbb7.flex__909d4 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .children_b15c64 .children_b15c64 .flex_f5fbb7.flex__909d4 {
   padding: 0 !important;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .divider-3y7HAB {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .divider-3y7HAB {
   display: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .formNotice-2nS8ey {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .formNotice-2nS8ey {
   padding: 0;
   background: transparent;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .card-16VQ8C {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .card-16VQ8C {
   background: var(--background-light);
   border: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .sidebarRegionScroller__1fa7e {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .sidebarRegionScroller__1fa7e {
   background: var(--background-dark);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .contentRegionScroller__86c79,
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .contentRegion__0bec1 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .contentRegionScroller__86c79,
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .contentRegion__0bec1 {
   background: var(--background);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .elevationHigh__312fd {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .elevationHigh__312fd {
   background: var(--background-light) !important;
   box-shadow: var(--box-shadow);
 }
 
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountProfileCard__22589 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountProfileCard__22589 {
   background: var(--background-alt);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .background_b61fcc,
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .fieldList_aab0de {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .background_b61fcc,
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .fieldList_aab0de {
   background: var(--background);
 }
 
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .authedApp__51b26 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .authedApp__51b26 {
   background: var(--background-alt);
   border-radius: var(--border-radius);
   border: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountBtnInner-3XK70s {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountBtnInner-3XK70s {
   background-color: var(--background-light);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .connection-107AGH {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connection-107AGH {
   background: var(--background-alt);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .connectionHeader-2rV1ze {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionHeader-2rV1ze {
   background: var(--background-light-alt);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .integration-1f5IUi {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .integration-1f5IUi {
   background: var(--background);
 }
 
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .connectContainer__8050b {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectContainer__8050b {
   background: var(--background-light);
   margin-bottom: 55px;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountButtonInner__80e3a {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountButtonInner__80e3a {
   background-color: var(--background-light-alt);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountButtonInner__80e3a:hover {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountButtonInner__80e3a:hover {
   background-color: var(--background);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .connection_fff5f6 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connection_fff5f6 {
   background: var(--background-alt);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .connectionHeader__3c82d {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionHeader__3c82d {
   background: var(--background-light-alt);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .metadataContainer__7b316 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .metadataContainer__7b316 {
   background: var(--background);
   padding: 16px;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .integration_d2f026 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .integration_d2f026 {
   background: var(--background-alt);
 }
 
@@ -1402,29 +1402,29 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: none;
 }
 
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .paymentPane__9cf01 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .paymentPane__9cf01 {
   background: var(--background-alt);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .paginator_e620d3 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .paginator_e620d3 {
   background: transparent;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .bottomDivider_a59d97 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .bottomDivider_a59d97 {
   border: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .bottomDivider_a59d97::-webkit-scrollbar {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .bottomDivider_a59d97::-webkit-scrollbar {
   display: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .payment__7d702 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .payment__7d702 {
   background: transparent;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .payment__7d702:hover {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .payment__7d702:hover {
   background: var(--background-light-alt);
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .payment__7d702:not(.hoverablePayment__3ea24) {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .payment__7d702:not(.hoverablePayment__3ea24) {
   background: var(--background-light);
   padding-bottom: 20px;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .expandedInfo__47bad {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .expandedInfo__47bad {
   background: var(--background-light-alt);
   margin: 0 20px;
 }
