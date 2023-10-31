@@ -237,7 +237,7 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: rgb(var(--accent), 1);
   z-index: 1;
 }
-#app-mount .wrapper__7bcde.typeThread__2f91c .wrapper__7bcde {
+#app-mount .wrapper__7bcde.typeThread__2f91c .link__95dc0 {
   padding-left: 42px;
 }
 #app-mount .spine__88e6d {
@@ -246,6 +246,8 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .wrapper__7bcde {
   margin-left: 0;
   border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+#app-mount .link__95dc0 {
   padding-left: 16px;
 }
 #app-mount .unread__48cf4 {
