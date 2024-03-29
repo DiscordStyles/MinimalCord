@@ -1,17 +1,17 @@
 #app-mount {
-  .container__871ba {
+  .container__2ed72 {
     transition: .15s ease background-color;
     background: var(--background-dark) !important;
-    &.checked__6bdb0 {
+    &.checked__36fdc {
       background: rgb(var(--accent)) !important;
     }
-    &:not([style*="rgb(128"], .checked__6bdb0) {
+    &:not([style*="rgb(128"], .checked__36fdc) {
       background: rgb(var(--accent), .5) !important;
     }
   }
 
   // Checkbox row
-  .control_f6cce7.row-31nALW {
+  .control__6a084.row-31nALW {
     background: var(--background-light);
     &.checked-1pZh2h .slider__41d94 {
       background: rgb(var(--accent), 1) !important;
@@ -21,14 +21,14 @@
 
   // Menu Checkbox
   [role="menuitemcheckbox"][aria-checked="true"] {
-    .checkbox__45366 {
+    .checkbox__378d3 {
       color: rgb(var(--accent), 1);
     }
     .check__8d1bd {
       color: var(--accent-text);
     }
-    &.focused__27621 {
-      .checkbox__45366 {
+    &.focused_dcafb9 {
+      .checkbox__378d3 {
         color: var(--accent-text);
       }
       .check__8d1bd {

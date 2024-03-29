@@ -5,31 +5,31 @@
       background: var(--background-light);
     }
     &[aria-checked="true"] {
-      .radioBar__40e1b {
+      .radioBar__70669 {
         background: rgb(var(--accent));
         color: var(--accent-text);
         &[style*="--radio-bar-accent-color"] {
           background: var(--radio-bar-accent-color);
           color: #fff;
-          .radioIconForeground__99b9b {
+          .radioIconForeground__9ca1e {
             color: #fff;
           }
         }
       }
-      .radioIconForeground__99b9b,
+      .radioIconForeground__9ca1e,
       .colorStandard-21JIj7,
       .colorHeaderSecondary-g5teka {
         color: var(--accent-text);
       }
     }
   }
-  .children_b15c64 > .marginBottom40__9109c .item_b7fb7e,
-  .marginBottom20__64605 .item_b7fb7e {
+  .children_aba8cb > .marginBottom40_f4d1a4 .item_b7fb7e,
+  .marginBottom20__9fcf3 .item_b7fb7e {
     background: var(--background-alt);
     &[aria-checked="true"] {
       background: rgb(var(--accent));
       color: var(--accent-text);
-      .radioIconForeground__99b9b {
+      .radioIconForeground__9ca1e {
         color: var(--accent-text);
       }
     }
@@ -37,10 +37,10 @@
 
   // Menu Radio
   [role="menuitemradio"][aria-checked="true"] {
-    .radioSelection__5ed39 {
+    .radioSelection__41d1e {
       color: rgb(var(--accent), 1);
     }
-    &.focused__27621 .radioSelection__5ed39 {
+    &.focused_dcafb9 .radioSelection__41d1e {
       color: #fff;
     }
   }

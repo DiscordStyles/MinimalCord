@@ -1,17 +1,17 @@
 #app-mount {
-  .wrapper__7bcde {
+  .wrapper__612a5 {
     height: auto;
     margin-bottom: 2px;
-    &.modeMuted__0aeea .name__8d1ec {
+    &.modeMuted_f0a72e .name__4eb92 {
       color: var(--text-muted);
     }
 
-    &.modeUnread_f74c03 .icon_eff5d4 {
+    &.modeUnreadImportant__35358 .icon__67ab4 {
       color: var(--text-focus);
     }
 
-    &.modeSelected__487d6 {
-      .icon_eff5d4 {
+    &.modeSelected__473f1 {
+      .icon__67ab4 {
         color: var(--text-focus);
       }
       &:before {
@@ -25,18 +25,18 @@
       }
     }
 
-    &.typeThread__2f91c .link__95dc0 {
+    &.typeThread__5fb37 .link_ddbb36 {
       padding-left: 42px;
     }
   }
   .spine__88e6d {
     z-index: 1;
   }
-  .wrapper__7bcde {
+  .wrapper__612a5 {
     margin-left: 0;
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
   }
-  .link__95dc0 {
+  .link_ddbb36 {
     padding-left: 16px;
   }
   .unread__48cf4 {
@@ -45,7 +45,7 @@
 
 
   // Voice
-  .avatarSpeaking_c95053 {
+  .avatarSpeaking_f239de {
     box-shadow: inset 0 0 0 2px rgb(var(--accent), 1), inset 0 0 0 3px var(--background);
   }
 }

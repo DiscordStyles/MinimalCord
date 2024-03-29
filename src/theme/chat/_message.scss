@@ -1,30 +1,30 @@
 #app-mount {
   // General messages
-  .message__80c10 {
-    .scrollableContainer__33e06 {
+  .message_ccca67 {
+    .scrollableContainer_ff917f {
       background: var(--edit-message-box);
       box-shadow: none;
-      .slateTextArea__0661c {
+      .slateTextArea_b19976 {
         padding-left: 15px;
       }
     }
 		// Buttons
-    .wrapper_c727b6 {
+    .wrapper__4e6b6 {
       background: var(--background-light);
       box-shadow: var(--box-shadow-alt);
     }
-    .button_d553e5 {
+    .button_d4bf9b {
 			height: 100%;
       padding: 0 6px;
       &:hover {
         background: rgb(var(--accent), 1);
         color: var(--accent-text);
       }
-      &.dangerous_b60ec0:hover {
+      &.dangerous__8fbad:hover {
         background: rgb(var(--discord-red) / 1);
       }
     }
-    &.selected_fd9051, &:hover {
+    &.selected_e3bc5d, &:hover {
       &::before {
         background: var(--message-hover, var(--background-alt));
       }
@@ -53,8 +53,8 @@
       z-index: -1;
     }
     // Fix positioning for message contents (text and images)
-    .contents_f41bb2,
-    .container_dbadf5 {
+    .contents_d3ae0d,
+    .container__62863 {
       margin-left: calc(40px + (var(--message-padding) * 2));
     }
     // Fix positioning for avatar
@@ -64,30 +64,30 @@
       margin-top: 0;
     }
     // Add custom spacing between messages
-    &.groupStart__56db5 {
+    &.groupStart__7b93c {
       margin-top: var(--message-spacing);
     }
     // Every message after groupStart that's not groupStart
-    &.cozy_f5c119:not(.groupStart__56db5) {
+    &.cozy_f5c119:not(.groupStart__7b93c) {
       margin-top: calc(var(--message-padding) / -1);
       padding-top: .175rem;
     }
     // Reduce negative margin and padding
-    .messageContent__21e69 {
+    .messageContent_abea64 {
       margin-left: -5px;
       padding-left: 5px;
     }
 
     // Timestamps
-    .timestamp_cdbd93.alt__6c563 {
+    .timestamp_c79dd2.alt__6c563 {
       width: calc(40px + var(--message-padding));
       display: flex;
       justify-content: center;
     }
 
     // Mentioned
-    &.mentioned__58017 {
-      .messageContent__21e69 {
+    &.mentioned_fa6fd2 {
+      .messageContent_abea64 {
         position: relative;
         &:not(.repliedTextContent-1R3vnK) {
           color: var(--text-focus);
@@ -105,7 +105,7 @@
           pointer-events: none;
         }
       }
-      .container_dbadf5 {
+      .container__62863 {
         position: relative;
         &:before {
           content: "";
@@ -123,9 +123,9 @@
     }
 
     // Replied quote
-    .repliedMessage_e2bf4a {
+    .repliedMessage__636d2 {
       margin-left: calc(var(--message-padding) + 56px);
-      & + .contents_f41bb2 {
+      & + .contents_d3ae0d {
         .avatar__08316, img {
           top: 32px;
         }
@@ -134,7 +134,7 @@
         border-color: var(--text-muted);
       }
     }
-    .repliedTextPreview__90311 .messageContent__21e69 {
+    .repliedTextPreview__1a8a4 .messageContent_abea64 {
       padding-left: 8px;
       padding-right: 4px;
       margin-left: 0;
@@ -145,7 +145,7 @@
     }
 
     // Thread bar thingy
-    &.hasThread__58ee2::after {
+    &.hasThread__44ae4::after {
       left: 1.8rem;
       top: 3.5rem;
       width: 1.5rem;
@@ -158,7 +158,7 @@
   }
 
   // Mentions & Chat jumps
-  .wrapper__2d9b1 {
+  .wrapper_f5f4c9 {
     background: rgb(var(--accent), 0.1);
     color: rgb(var(--accent), 1);
     &:hover, &.popout-open {
@@ -168,11 +168,11 @@
   }
 
   // Message placeholders
-  .wrapper_b8c724 {
+  .wrapper__11501 {
     background: transparent;
   }
   // Pretty much the same as #L3
-  .wrapper__5c5cd {
+  .wrapper__6b7d8 {
     background: transparent;
     padding-top: var(--message-padding);
     padding-bottom: var(--message-padding);
@@ -191,8 +191,8 @@
       background: var(--background-alt);
       z-index: -1;
     }
-    .contents__15d74,
-    .attachmentContainer__6bdf6 {
+    .contents_d2b4c7,
+    .attachmentContainer__019be {
       padding-left: calc(40px + (var(--message-padding) * 2));
     }
     .avatar__08316 {
@@ -203,30 +203,30 @@
     &[style*="margin-top"] {
       margin-top: var(--message-spacing) !important;
     }
-    & + .wrapper__5c5cd:not([style*="margin-top"]) {
+    & + .wrapper__6b7d8:not([style*="margin-top"]) {
       margin-top: calc(var(--message-padding) / -1);
       padding-top: .175rem;
     }
   }
 
   // Embeds
-  .embedFull__8dc21 {
+  .embedFull__14919 {
     background: var(--background-dark);
   }
 
   // Attachments
-  .attachment_f3cf2c,
-  .wrapperAudio__555ce {
+  .attachment__06ca3,
+  .wrapperAudio__178e9 {
     background: var(--background-dark);
     border-radius: var(--border-radius);
     border: none;
   }
-  .textContainer__709ff {
+  .textContainer__65f57 {
     border: none;
     background: var(--background-dark);
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }
-  .footer__06f4b {
+  .footer__90194 {
     background: var(--background);
     border: none;
   }
@@ -240,12 +240,12 @@
   }
 
 	// Reactions
-	.reaction_b90ab0 {
+	.reaction_ef7e09 {
 		background: var(--background);
-		&.reactionMe_bf6909 {
+		&.reactionMe__9fc5c {
 			background: rgb(var(--accent), 0.2);
 			border-color: rgb(var(--accent), 1);
-			.reactionCount__60448 {
+			.reactionCount_b780c8 {
 				color: rgb(var(--accent), 1);
 			}
 		}

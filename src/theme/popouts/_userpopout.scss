@@ -1,13 +1,13 @@
 #app-mount {
-	.userPopoutOuter_d739b2 {
-		.messageInputContainer__768e6 {
+	.userPopoutOuter__3884e {
+		.messageInputContainer_a93946 {
 			border: none;
 		}
 
 		.roles__74a2b {
 			gap: 4px;
 		}
-		.role__631a3 {
+		.role_d81130 {
 			margin: 0;
 			background: transparent;
 			position: relative;
@@ -15,7 +15,7 @@
 			overflow: hidden;
 			gap: 6px;
 			padding: 6px;
-			.roleCircle_bae511 {
+			.roleCircle__61ad8 {
 				position: unset;
 				overflow: visible;
 				filter: none;
@@ -30,17 +30,17 @@
 					pointer-events: none;
 				}
 			}
-			.roleRemoveButton__737f2 {
+			.roleRemoveButton__20c70 {
 				position: unset;
-				& + .roleName_d19d33 {
+				& + .roleName__851c9 {
 					position: relative;
 					z-index: 1;
 				}
 			}
-			.roleRemoveIcon__7f63d {
+			.roleRemoveIcon_c3913a {
 				left: 12px;
 			}
-			.roleName_d19d33 {
+			.roleName__851c9 {
 				margin: 0;
 				color: var(--text-focus);
 			}
@@ -49,17 +49,17 @@
 		&.userPopoutUnthemed-3WS0Xb {
 			background: var(--background-light-alt);
 		}
-		&.userProfileOuterUnthemed__48723 {
+		&.userProfileOuterUnthemed_e14365 {
 			background: var(--background-light-alt);
-			.userPopoutInner_f545a3 {
+			.userPopoutInner_e90432 {
 				background: transparent;
 			}
-			.overlayBackground__86b78 {
+			.overlayBackground__2666e {
 				background: var(--background-light);
 			}
 		}
 	}
-	.userPopoutInner_f545a3 {
+	.userPopoutInner_e90432 {
 		&.userPopoutInnerNonPremium-3zrFkp {
 			background: transparent;
 			.overlayBackground-arbZMT,

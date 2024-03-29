@@ -1,23 +1,23 @@
-.theme-light .menu_dc52c6 {
+.theme-light .menu__088f7 {
   background: var(--background-light);
 }
-.theme-dark .menu_dc52c6 {
+.theme-dark .menu__088f7 {
   background: var(--background-light-alt);
 }
 
 #app-mount {
-  .menu_dc52c6 {
+  .menu__088f7 {
     box-shadow: var(--box-shadow);
 
     // Quick reactions
-    .button__3ecb4 {
+    .button_bfb8e1 {
       background: var(--background);
     }
   }
   .item__183e8 {
     line-height: normal;
 
-    .iconContainer__829e7 {
+    .iconContainer__5d61c {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -26,22 +26,22 @@
       color: var(--text-normal);
     }
 
-    &:active, &.focused__27621:not(.colorDanger_eec36d) {
+    &:active, &.focused_dcafb9:not(.colorDanger__08c25) {
       background: rgb(var(--accent), 1);
       color: var(--accent-text);
       .caret_ce50ce {
         color: var(--accent-text);
       }
     }
-    &.colorBrand__471df {
+    &.colorBrand__9bb0f {
       color: rgb(var(--accent));
-      &.focused__27621 {
+      &.focused_dcafb9 {
         color: var(--accent-text);
       }
     }
     &.colorPremium-p4p7qO {
       color: rgb(var(--discord-nitro) / 1);
-      &.focused__27621 {
+      &.focused_dcafb9 {
         color: #fff;
         background: rgb(var(--discord-nitro) / 1);
       }
