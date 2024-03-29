@@ -252,6 +252,7 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 #app-mount .unread__48cf4 {
   z-index: 2;
+  left: 0;
 }
 #app-mount .avatarSpeaking_f239de {
   box-shadow: inset 0 0 0 2px rgb(var(--accent), 1), inset 0 0 0 3px var(--background);
