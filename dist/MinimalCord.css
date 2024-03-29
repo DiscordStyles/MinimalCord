@@ -1322,11 +1322,11 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: var(--background-light);
   border: none;
 }
-#app-mount .layer__2efaa:not(.baseLayer__8fda3) .sidebarRegionScroller__1fa7e {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .sidebarRegionScroller__8113e {
   background: var(--background-dark);
 }
-#app-mount .layer__2efaa:not(.baseLayer__8fda3) .contentRegionScroller__86c79,
-#app-mount .layer__2efaa:not(.baseLayer__8fda3) .contentRegion__0bec1 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .contentRegionScroller__9ae20,
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .contentRegion__08eba {
   background: var(--background);
 }
 #app-mount .layer__2efaa:not(.baseLayer__8fda3) .elevationHigh__312fd {
