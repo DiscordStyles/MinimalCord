@@ -1,30 +1,30 @@
 #app-mount {
   // General messages
-  .message_ccca67 {
-    .scrollableContainer_ff917f {
+  .message_d5deea {
+    .scrollableContainer_d0696b {
       background: var(--edit-message-box);
       box-shadow: none;
-      .slateTextArea_b19976 {
+      .slateTextArea_e52116 {
         padding-left: 15px;
       }
     }
 		// Buttons
-    .wrapper__4e6b6 {
+    .wrapper_ef319f {
       background: var(--background-light);
       box-shadow: var(--box-shadow-alt);
     }
-    .button_d4bf9b {
+    .button_ef319f {
 			height: 100%;
       padding: 0 6px;
       &:hover {
         background: rgb(var(--accent), 1);
         color: var(--accent-text);
       }
-      &.dangerous__8fbad:hover {
+      &.dangerous_ef319f:hover {
         background: rgb(var(--discord-red) / 1);
       }
     }
-    &.selected_e3bc5d, &:hover {
+    &.selected_d5deea, &:hover {
       &::before {
         background: var(--message-hover, var(--background-alt));
       }
@@ -32,7 +32,7 @@
   }
 
   // Cozy
-  .cozy_f5c119 {
+  .cozy_ec86aa {
     background: transparent;
     padding-top: var(--message-padding);
     padding-bottom: var(--message-padding);
@@ -53,41 +53,41 @@
       z-index: -1;
     }
     // Fix positioning for message contents (text and images)
-    .contents_d3ae0d,
-    .container__62863 {
+    .contents_ec86aa,
+    .container_b558d0 {
       margin-left: calc(40px + (var(--message-padding) * 2));
     }
     // Fix positioning for avatar
-    .avatar__08316 {
+    .avatar_ec86aa {
       left: var(--message-padding);
       top: var(--message-padding);
       margin-top: 0;
     }
     // Add custom spacing between messages
-    &.groupStart__7b93c {
+    &.groupStart_d5deea {
       margin-top: var(--message-spacing);
     }
     // Every message after groupStart that's not groupStart
-    &.cozy_f5c119:not(.groupStart__7b93c) {
+    &.cozy_ec86aa:not(.groupStart_d5deea) {
       margin-top: calc(var(--message-padding) / -1);
       padding-top: .175rem;
     }
     // Reduce negative margin and padding
-    .messageContent_abea64 {
+    .messageContent_ec86aa {
       margin-left: -5px;
       padding-left: 5px;
     }
 
     // Timestamps
-    .timestamp_c79dd2.alt__6c563 {
+    .timestamp_ec86aa.alt_ec86aa {
       width: calc(40px + var(--message-padding));
       display: flex;
       justify-content: center;
     }
 
     // Mentioned
-    &.mentioned_fa6fd2 {
-      .messageContent_abea64 {
+    &.mentioned_d5deea {
+      .messageContent_ec86aa {
         position: relative;
         &:not(.repliedTextContent-1R3vnK) {
           color: var(--text-focus);
@@ -105,7 +105,7 @@
           pointer-events: none;
         }
       }
-      .container__62863 {
+      .container_b558d0 {
         position: relative;
         &:before {
           content: "";
@@ -123,10 +123,10 @@
     }
 
     // Replied quote
-    .repliedMessage__636d2 {
+    .repliedMessage_ec86aa {
       margin-left: calc(var(--message-padding) + 56px);
-      & + .contents_d3ae0d {
-        .avatar__08316, img {
+      & + .contents_ec86aa {
+        .avatar_ec86aa, img {
           top: 32px;
         }
       }
@@ -134,7 +134,7 @@
         border-color: var(--text-muted);
       }
     }
-    .repliedTextPreview__1a8a4 .messageContent_abea64 {
+    .repliedTextPreview_ec86aa .messageContent_ec86aa {
       padding-left: 8px;
       padding-right: 4px;
       margin-left: 0;
@@ -145,7 +145,7 @@
     }
 
     // Thread bar thingy
-    &.hasThread__44ae4::after {
+    &.hasThread_ec86aa::after {
       left: 1.8rem;
       top: 3.5rem;
       width: 1.5rem;
@@ -158,7 +158,7 @@
   }
 
   // Mentions & Chat jumps
-  .wrapper_f5f4c9 {
+  .wrapper_d4fa29 {
     background: rgb(var(--accent), 0.1);
     color: rgb(var(--accent), 1);
     &:hover, &.popout-open {
@@ -168,11 +168,11 @@
   }
 
   // Message placeholders
-  .wrapper__11501 {
+  .wrapper_ba0ffb {
     background: transparent;
   }
   // Pretty much the same as #L3
-  .wrapper__6b7d8 {
+  .wrapper_b211c6 {
     background: transparent;
     padding-top: var(--message-padding);
     padding-bottom: var(--message-padding);
@@ -191,11 +191,11 @@
       background: var(--background-alt);
       z-index: -1;
     }
-    .contents_d2b4c7,
-    .attachmentContainer__019be {
+    .contents_b211c6,
+    .attachmentContainer_b211c6 {
       padding-left: calc(40px + (var(--message-padding) * 2));
     }
-    .avatar__08316 {
+    .avatar_ec86aa {
       left: var(--message-padding);
       top: var(--message-padding);
       margin-top: 0;
@@ -203,30 +203,30 @@
     &[style*="margin-top"] {
       margin-top: var(--message-spacing) !important;
     }
-    & + .wrapper__6b7d8:not([style*="margin-top"]) {
+    & + .wrapper_b211c6:not([style*="margin-top"]) {
       margin-top: calc(var(--message-padding) / -1);
       padding-top: .175rem;
     }
   }
 
   // Embeds
-  .embedFull__14919 {
+  .embedFull_ad0b71 {
     background: var(--background-dark);
   }
 
   // Attachments
-  .attachment__06ca3,
-  .wrapperAudio__178e9 {
+  .attachment_a4623d,
+  .wrapperAudio_f316dd {
     background: var(--background-dark);
     border-radius: var(--border-radius);
     border: none;
   }
-  .textContainer__65f57 {
+  .textContainer_ad9cbd {
     border: none;
     background: var(--background-dark);
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }
-  .footer__90194 {
+  .footer_ad9cbd {
     background: var(--background);
     border: none;
   }
@@ -240,12 +240,12 @@
   }
 
 	// Reactions
-	.reaction_ef7e09 {
+	.reaction_f61c73 {
 		background: var(--background);
-		&.reactionMe__9fc5c {
+		&.reactionMe_f61c73 {
 			background: rgb(var(--accent), 0.2);
 			border-color: rgb(var(--accent), 1);
-			.reactionCount_b780c8 {
+			.reactionCount_f61c73 {
 				color: rgb(var(--accent), 1);
 			}
 		}

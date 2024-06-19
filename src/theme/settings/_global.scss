@@ -1,18 +1,18 @@
-#app-mount .layer__2efaa:not(.baseLayer__8fda3) {
+#app-mount .layer_d4b6c5:not(.baseLayer_d4b6c5) {
   background: var(--background);
 
   // Groups
-  .children_b15c64 {
-    & > .marginBottom40__9109c:not(.divider-3y7HAB) {
+  .children_a6ae9b {
+    & > .marginBottom40_f7730b:not(.divider-3y7HAB) {
       background: var(--background-alt);
       border-radius: var(--border-radius);
       padding: 16px;
       border: none;
-      .marginTop8__83d4b {
+      .marginTop8_f7730b {
         margin-top: 0;
       }
     }
-    & > .marginBottom20__64605:not(.title-3hptVQ) {
+    & > .marginBottom20_f7730b:not(.title-3hptVQ) {
       background: var(--background-alt);
       border-radius: var(--border-radius);
       padding: 16px;
@@ -32,7 +32,7 @@
       padding: 16px;
       border: none;
     }
-    .children_b15c64 .flex_f5fbb7.flex__909d4 {
+    .children_a6ae9b .flex_bba380.flex_ec1a20 {
       padding: 0 !important;
     }
   }
@@ -53,17 +53,17 @@
   }
 
 
-  .sidebarRegionScroller__8113e {
+  .sidebarRegionScroller_c25c6d {
     background: var(--background-dark);
   }
 
-  .contentRegionScroller__9ae20,
-  .contentRegion__08eba {
+  .contentRegionScroller_c25c6d,
+  .contentRegion_c25c6d {
     background: var(--background);
   }
 
 	// Save changes
-	.elevationHigh__312fd {
+	.elevationHigh__08882 {
 		background: var(--background-light) !important;
 		box-shadow: var(--box-shadow);
 	}
