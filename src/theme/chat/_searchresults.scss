@@ -17,23 +17,23 @@
   .searchResult_ddc613 {
     border: none;
     background: var(--background-light);
-    .cozy_ec86aa {
+    .cozy_f9f2ca {
       margin: 0 !important;
     }
   }
   .searchResultMessage-1fxgXh {
-    .cozy_ec86aa {
+    .cozy_f9f2ca {
       margin: 0;
     }
 
-    &:not(.hit-1fVM9e) .cozy_ec86aa:before {
+    &:not(.hit-1fVM9e) .cozy_f9f2ca:before {
       content: none;
     }
     &.hit-1fVM9e {
       box-shadow: 0 0 10px 6px var(--background-alt);
       border: none;
       border-radius: var(--border-radius);
-      .cozy_ec86aa {
+      .cozy_f9f2ca {
         background: var(--background-light);
       }
     }

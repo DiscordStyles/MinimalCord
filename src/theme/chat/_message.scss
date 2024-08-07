@@ -9,18 +9,18 @@
       }
     }
 		// Buttons
-    .wrapper_ef319f {
+    .wrapper_f7e168 {
       background: var(--background-light);
       box-shadow: var(--box-shadow-alt);
     }
-    .button_ef319f {
+    .button_f7e168 {
 			height: 100%;
       padding: 0 6px;
       &:hover {
         background: rgb(var(--accent), 1);
         color: var(--accent-text);
       }
-      &.dangerous_ef319f:hover {
+      &.dangerous_f7e168:hover {
         background: rgb(var(--discord-red) / 1);
       }
     }
@@ -32,7 +32,7 @@
   }
 
   // Cozy
-  .cozy_ec86aa {
+  .cozy_f9f2ca {
     background: transparent;
     padding-top: var(--message-padding);
     padding-bottom: var(--message-padding);
@@ -53,12 +53,12 @@
       z-index: -1;
     }
     // Fix positioning for message contents (text and images)
-    .contents_ec86aa,
+    .contents_f9f2ca,
     .container_b558d0 {
       margin-left: calc(40px + (var(--message-padding) * 2));
     }
     // Fix positioning for avatar
-    .avatar_ec86aa {
+    .avatar_f9f2ca {
       left: var(--message-padding);
       top: var(--message-padding);
       margin-top: 0;
@@ -68,18 +68,18 @@
       margin-top: var(--message-spacing);
     }
     // Every message after groupStart that's not groupStart
-    &.cozy_ec86aa:not(.groupStart_d5deea) {
+    &.cozy_f9f2ca:not(.groupStart_d5deea) {
       margin-top: calc(var(--message-padding) / -1);
       padding-top: .175rem;
     }
     // Reduce negative margin and padding
-    .messageContent_ec86aa {
+    .messageContent_f9f2ca {
       margin-left: -5px;
       padding-left: 5px;
     }
 
     // Timestamps
-    .timestamp_ec86aa.alt_ec86aa {
+    .timestamp_f9f2ca.alt_f9f2ca {
       width: calc(40px + var(--message-padding));
       display: flex;
       justify-content: center;
@@ -87,7 +87,7 @@
 
     // Mentioned
     &.mentioned_d5deea {
-      .messageContent_ec86aa {
+      .messageContent_f9f2ca {
         position: relative;
         &:not(.repliedTextContent-1R3vnK) {
           color: var(--text-focus);
@@ -123,10 +123,10 @@
     }
 
     // Replied quote
-    .repliedMessage_ec86aa {
+    .repliedMessage_f9f2ca {
       margin-left: calc(var(--message-padding) + 56px);
-      & + .contents_ec86aa {
-        .avatar_ec86aa, img {
+      & + .contents_f9f2ca {
+        .avatar_f9f2ca, img {
           top: 32px;
         }
       }
@@ -134,7 +134,7 @@
         border-color: var(--text-muted);
       }
     }
-    .repliedTextPreview_ec86aa .messageContent_ec86aa {
+    .repliedTextPreview_f9f2ca .messageContent_f9f2ca {
       padding-left: 8px;
       padding-right: 4px;
       margin-left: 0;
@@ -145,7 +145,7 @@
     }
 
     // Thread bar thingy
-    &.hasThread_ec86aa::after {
+    &.hasThread_f9f2ca::after {
       left: 1.8rem;
       top: 3.5rem;
       width: 1.5rem;
@@ -172,7 +172,7 @@
     background: transparent;
   }
   // Pretty much the same as #L3
-  .wrapper_b211c6 {
+  .wrapper_b75bb9 {
     background: transparent;
     padding-top: var(--message-padding);
     padding-bottom: var(--message-padding);
@@ -191,11 +191,11 @@
       background: var(--background-alt);
       z-index: -1;
     }
-    .contents_b211c6,
-    .attachmentContainer_b211c6 {
+    .contents_b75bb9,
+    .attachmentContainer_b75bb9 {
       padding-left: calc(40px + (var(--message-padding) * 2));
     }
-    .avatar_ec86aa {
+    .avatar_f9f2ca {
       left: var(--message-padding);
       top: var(--message-padding);
       margin-top: 0;
@@ -203,30 +203,30 @@
     &[style*="margin-top"] {
       margin-top: var(--message-spacing) !important;
     }
-    & + .wrapper_b211c6:not([style*="margin-top"]) {
+    & + .wrapper_b75bb9:not([style*="margin-top"]) {
       margin-top: calc(var(--message-padding) / -1);
       padding-top: .175rem;
     }
   }
 
   // Embeds
-  .embedFull_ad0b71 {
+  .embedFull_b0068a {
     background: var(--background-dark);
   }
 
   // Attachments
-  .attachment_a4623d,
+  .attachment_b52bef,
   .wrapperAudio_f316dd {
     background: var(--background-dark);
     border-radius: var(--border-radius);
     border: none;
   }
-  .textContainer_ad9cbd {
+  .textContainer_d8e2d0 {
     border: none;
     background: var(--background-dark);
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }
-  .footer_ad9cbd {
+  .footer_d8e2d0 {
     background: var(--background);
     border: none;
   }
