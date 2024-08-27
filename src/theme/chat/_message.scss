@@ -200,6 +200,10 @@
       top: var(--message-padding);
       margin-top: 0;
     }
+    .avatarDecoration_f9f2ca {
+      left: calc((9px) - (var(--custom-message-avatar-decoration-size) - var(--custom-message-avatar-size))/2) !important;
+      margin-top: calc(2px - var(--custom-message-spacing-vertical-container-cozy) - (var(--custom-message-avatar-decoration-size) - var(--custom-message-avatar-size))/2) !important;
+    }
     &[style*="margin-top"] {
       margin-top: var(--message-spacing) !important;
     }
