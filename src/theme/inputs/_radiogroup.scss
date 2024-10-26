@@ -1,47 +1,47 @@
 #app-mount {
-  [role="radiogroup"] .item_eb92a8 {
-    background: var(--background-alt);
-    &:hover {
-      background: var(--background-light);
-    }
-    &[aria-checked="true"] {
-      .radioBar_eb92a8 {
-        background: rgb(var(--accent));
-        color: var(--accent-text);
-        &[style*="--radio-bar-accent-color"] {
-          background: var(--radio-bar-accent-color);
-          color: #fff;
-          .radioIconForeground_eb92a8 {
-            color: #fff;
-          }
-        }
-      }
-      .radioIconForeground_eb92a8,
-      .colorStandard-21JIj7,
-      .colorHeaderSecondary-g5teka {
-        color: var(--accent-text);
-      }
-    }
-  }
-  .children_a6ae9b > .marginBottom40_f7730b .item_eb92a8,
-  .marginBottom20_f7730b .item_eb92a8 {
-    background: var(--background-alt);
-    &[aria-checked="true"] {
-      background: rgb(var(--accent));
-      color: var(--accent-text);
-      .radioIconForeground_eb92a8 {
-        color: var(--accent-text);
-      }
-    }
-  }
+	[role='radiogroup'] .item_eb92a8 {
+		background: var(--background-alt);
+		&:hover {
+			background: var(--background-light);
+		}
+		&[aria-checked='true'] {
+			.radioBar_eb92a8 {
+				background: rgb(var(--accent));
+				color: var(--accent-text);
+				&[style*='--radio-bar-accent-color'] {
+					background: var(--radio-bar-accent-color);
+					color: #fff;
+					.radioIconForeground_eb92a8 {
+						color: #fff;
+					}
+				}
+			}
+			.radioIconForeground_eb92a8,
+			.colorStandard-21JIj7,
+			.colorHeaderSecondary-g5teka {
+				color: var(--accent-text);
+			}
+		}
+	}
+	.children_a6ae9b > .marginBottom40_f7730b .item_eb92a8,
+	.marginBottom20_f7730b .item_eb92a8 {
+		background: var(--background-alt);
+		&[aria-checked='true'] {
+			background: rgb(var(--accent));
+			color: var(--accent-text);
+			.radioIconForeground_eb92a8 {
+				color: var(--accent-text);
+			}
+		}
+	}
 
-  // Menu Radio
-  [role="menuitemradio"][aria-checked="true"] {
-    .radioSelection_d90b3d {
-      color: rgb(var(--accent), 1);
-    }
-    &.focused_d90b3d .radioSelection_d90b3d {
-      color: #fff;
-    }
-  }
+	// Menu Radio
+	[role='menuitemradio'][aria-checked='true'] {
+		.radioSelection_d90b3d {
+			color: rgb(var(--accent), 1);
+		}
+		&.focused_d90b3d .radioSelection_d90b3d {
+			color: #fff;
+		}
+	}
 }

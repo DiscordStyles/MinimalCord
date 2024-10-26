@@ -1,50 +1,51 @@
 .theme-light .menu_d90b3d {
-  background: var(--background-light);
+	background: var(--background-light);
 }
 .theme-dark .menu_d90b3d {
-  background: var(--background-light-alt);
+	background: var(--background-light-alt);
 }
 
 #app-mount {
-  .menu_d90b3d {
-    box-shadow: var(--box-shadow);
+	.menu_d90b3d {
+		box-shadow: var(--box-shadow);
 
-    // Quick reactions
-    .button_a24e84 {
-      background: var(--background);
-    }
-  }
-  .item_d90b3d {
-    line-height: normal;
+		// Quick reactions
+		.button_a24e84 {
+			background: var(--background);
+		}
+	}
+	.item_d90b3d {
+		line-height: normal;
 
-    .iconContainer_d90b3d {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .caret_d90b3d {
-      color: var(--text-normal);
-    }
+		.iconContainer_d90b3d {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.caret_d90b3d {
+			color: var(--text-normal);
+		}
 
-    &:active, &.focused_d90b3d:not(.colorDanger_d90b3d) {
-      background: rgb(var(--accent), 1);
-      color: var(--accent-text);
-      .caret_d90b3d {
-        color: var(--accent-text);
-      }
-    }
-    &.colorBrand_d90b3d {
-      color: rgb(var(--accent));
-      &.focused_d90b3d {
-        color: var(--accent-text);
-      }
-    }
-    &.colorPremium-p4p7qO {
-      color: rgb(var(--discord-nitro) / 1);
-      &.focused_d90b3d {
-        color: #fff;
-        background: rgb(var(--discord-nitro) / 1);
-      }
-    }
-  }
+		&:active,
+		&.focused_d90b3d:not(.colorDanger_d90b3d) {
+			background: rgb(var(--accent), 1);
+			color: var(--accent-text);
+			.caret_d90b3d {
+				color: var(--accent-text);
+			}
+		}
+		&.colorBrand_d90b3d {
+			color: rgb(var(--accent));
+			&.focused_d90b3d {
+				color: var(--accent-text);
+			}
+		}
+		&.colorPremium-p4p7qO {
+			color: rgb(var(--discord-nitro) / 1);
+			&.focused_d90b3d {
+				color: #fff;
+				background: rgb(var(--discord-nitro) / 1);
+			}
+		}
+	}
 }

@@ -1,28 +1,28 @@
 #app-mount .layer_d4b6c5:not(.baseLayer_d4b6c5) {
-  .paymentPane_f66684 {
-    background: var(--background-alt);
-  }
-  .paginator_f66684 {
-    background: transparent;
-  }
-  .bottomDivider_f66684 {
-    border: none;
-    &::-webkit-scrollbar {
-      display: none;
-    }
-  }
-  .payment_a28a08 {
-    background: transparent;
-    &:hover {
-      background: var(--background-light-alt);
-    }
-    &:not(.hoverablePayment_a28a08) {
-      background: var(--background-light);
-      padding-bottom: 20px;
-    }
-  }
-  .expandedInfo_a28a08 {
-    background: var(--background-light-alt);
-    margin: 0 20px;
-  }
+	.paymentPane_f66684 {
+		background: var(--background-alt);
+	}
+	.paginator_f66684 {
+		background: transparent;
+	}
+	.bottomDivider_f66684 {
+		border: none;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+	.payment_a28a08 {
+		background: transparent;
+		&:hover {
+			background: var(--background-light-alt);
+		}
+		&:not(.hoverablePayment_a28a08) {
+			background: var(--background-light);
+			padding-bottom: 20px;
+		}
+	}
+	.expandedInfo_a28a08 {
+		background: var(--background-light-alt);
+		margin: 0 20px;
+	}
 }

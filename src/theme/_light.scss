@@ -1,36 +1,36 @@
 .theme-light,
 html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
-  --light-bg-h: var(--light-bg-hue, 200);
-  --light-bg-s: var(--light-bg-saturation, 12%);
-  --light-bg-l: var(--light-bg-lightness, 100%);
+	--light-bg-h: var(--light-bg-hue, 200);
+	--light-bg-s: var(--light-bg-saturation, 12%);
+	--light-bg-l: var(--light-bg-lightness, 100%);
 
-  // Background
-  --background-light: hsl(var(--light-bg-h) var(--light-bg-s) var(--light-bg-l));
-  --background-light-alt: hsl(var(--light-bg-h) var(--light-bg-s) var(--light-bg-l));
-  --background: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 7%));
-  --background-alt: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 2%));
-  --background-dark: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 15%));
+	// Background
+	--background-light: hsl(var(--light-bg-h) var(--light-bg-s) var(--light-bg-l));
+	--background-light-alt: hsl(var(--light-bg-h) var(--light-bg-s) var(--light-bg-l));
+	--background: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 7%));
+	--background-alt: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 2%));
+	--background-dark: hsl(var(--light-bg-h) var(--light-bg-s) calc(var(--light-bg-l) - 15%));
 
-  // Text colours
-  --text-normal: #2d3748;
-  --text-muted: #718096;
-  --text-focus: #1a202c;
+	// Text colours
+	--text-normal: #2d3748;
+	--text-muted: #718096;
+	--text-focus: #1a202c;
 
-  // Font weights
-  --font-weight-light: 400;
-  --font-weight-normal: 500;
-  --font-weight-semibold: 700;
-  --font-weight-bold: 700;
+	// Font weights
+	--font-weight-light: 400;
+	--font-weight-normal: 500;
+	--font-weight-semibold: 700;
+	--font-weight-bold: 700;
 
-  // Box shadows
-  --box-shadow: 0 4px 9px rgb(0 0 0 / 0.2);
-  --box-shadow-alt: 0 2px 5px rgb(0 0 0 / 0.1);
+	// Box shadows
+	--box-shadow: 0 4px 9px rgb(0 0 0 / 0.2);
+	--box-shadow-alt: 0 2px 5px rgb(0 0 0 / 0.1);
 
-  // Scrollbars
-  --scrollbar-colour: rgb(0 0 0 / 0.2);
+	// Scrollbars
+	--scrollbar-colour: rgb(0 0 0 / 0.2);
 
-  // Messages
-  --edit-message-box: var(--background-light);
-  --message-background: var(--background-light);
+	// Messages
+	--edit-message-box: var(--background-light);
+	--message-background: var(--background-light);
 }

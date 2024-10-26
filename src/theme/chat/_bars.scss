@@ -1,42 +1,42 @@
 #app-mount {
-  .newMessagesBar_cf58b5 {
-    background: rgb(var(--accent), 1);
-    border-radius: var(--border-radius);
-    top: 10px;
-    left: 26px;
-    right: 26px;
-    button {
-      color: var(--accent-text);
-      font-weight: 600;
-    }
-  }
-  .jumpToPresentBar_cf58b5 {
-    background: var(--background-light);
-    opacity: 1;
-    border-radius: var(--border-radius);
-    left: auto;
-    box-shadow: var(--box-shadow);
-    bottom: 20px;
-    padding-bottom: 0;
-    .barButtonMain-3K-jeJ {
-      display: none;
-    }
-    .barButtonBase_cf58b5 {
-      padding: 10px;
-      height: auto;
-      line-height: normal;
-      color: var(--text-normal);
-    }
-    .spinner_cf58b5 {
-      padding-left: 12px;
-    }
-  }
+	.newMessagesBar_cf58b5 {
+		background: rgb(var(--accent), 1);
+		border-radius: var(--border-radius);
+		top: 10px;
+		left: 26px;
+		right: 26px;
+		button {
+			color: var(--accent-text);
+			font-weight: 600;
+		}
+	}
+	.jumpToPresentBar_cf58b5 {
+		background: var(--background-light);
+		opacity: 1;
+		border-radius: var(--border-radius);
+		left: auto;
+		box-shadow: var(--box-shadow);
+		bottom: 20px;
+		padding-bottom: 0;
+		.barButtonMain-3K-jeJ {
+			display: none;
+		}
+		.barButtonBase_cf58b5 {
+			padding: 10px;
+			height: auto;
+			line-height: normal;
+			color: var(--text-normal);
+		}
+		.spinner_cf58b5 {
+			padding-left: 12px;
+		}
+	}
 
-  // Reply to message
-  .attachedBars_d0696b {
-    background: var(--background);
-  }
-  .replyBar_b11c5e {
-    background: var(--background-light);
-  }
+	// Reply to message
+	.attachedBars_d0696b {
+		background: var(--background);
+	}
+	.replyBar_b11c5e {
+		background: var(--background-light);
+	}
 }

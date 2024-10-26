@@ -1,14 +1,14 @@
 #app-mount {
-  .container_eedf95 {
-    background: var(--background-light);
-    box-shadow: var(--box-shadow);
-  }
-  .option_b0286e {
-    &:after {
-      background: linear-gradient(90deg, transparent, var(--background-light));
-    }
-    &.selected-rZcOL- {
-      background: var(--background-alt);
-    }
-  }
+	.container_eedf95 {
+		background: var(--background-light);
+		box-shadow: var(--box-shadow);
+	}
+	.option_b0286e {
+		&:after {
+			background: linear-gradient(90deg, transparent, var(--background-light));
+		}
+		&.selected-rZcOL- {
+			background: var(--background-alt);
+		}
+	}
 }

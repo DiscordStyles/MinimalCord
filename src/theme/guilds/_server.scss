@@ -1,21 +1,21 @@
 #app-mount {
-  // Server
-  .wrapper__8436d {
-    &.selected_ae80f7 .childWrapper_a6ce15 {
-      background: rgb(var(--accent), 1);
-      color: var(--accent-text);
-    }
-  }
-  .childWrapper_a6ce15 {
-    background: var(--background-light);
-  }
+	// Server
+	.wrapper__8436d {
+		&.selected_ae80f7 .childWrapper_a6ce15 {
+			background: rgb(var(--accent), 1);
+			color: var(--accent-text);
+		}
+	}
+	.childWrapper_a6ce15 {
+		background: var(--background-light);
+	}
 
-  // Add/Join server & Server Discovery
-  .circleIconButton_db6521 {
-    background: var(--background-light);
-    &:hover,
-    &.selected_db6521 {
-      background: rgb(var(--discord-green) / 1);
-    }
-  }
+	// Add/Join server & Server Discovery
+	.circleIconButton_db6521 {
+		background: var(--background-light);
+		&:hover,
+		&.selected_db6521 {
+			background: rgb(var(--discord-green) / 1);
+		}
+	}
 }

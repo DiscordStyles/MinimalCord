@@ -1,39 +1,39 @@
 #app-mount {
-  .container_cebd1c {
-    transition: .15s ease background-color;
-    background: var(--background-dark) !important;
-    &.checked_cebd1c {
-      background: rgb(var(--accent)) !important;
-    }
-    &:not([style*="rgb(128"], .checked_cebd1c) {
-      background: rgb(var(--accent), .5) !important;
-    }
-  }
+	.container_cebd1c {
+		transition: 0.15s ease background-color;
+		background: var(--background-dark) !important;
+		&.checked_cebd1c {
+			background: rgb(var(--accent)) !important;
+		}
+		&:not([style*='rgb(128'], .checked_cebd1c) {
+			background: rgb(var(--accent), 0.5) !important;
+		}
+	}
 
-  // Checkbox row
-  .control_ed1d57.row-31nALW {
-    background: var(--background-light);
-    &.checked-1pZh2h .slider_cebd1c {
-      background: rgb(var(--accent), 1) !important;
-      border-color: rgb(var(--accent), 1) !important;
-    }
-  }
+	// Checkbox row
+	.control_ed1d57.row-31nALW {
+		background: var(--background-light);
+		&.checked-1pZh2h .slider_cebd1c {
+			background: rgb(var(--accent), 1) !important;
+			border-color: rgb(var(--accent), 1) !important;
+		}
+	}
 
-  // Menu Checkbox
-  [role="menuitemcheckbox"][aria-checked="true"] {
-    .checkbox_d90b3d {
-      color: rgb(var(--accent), 1);
-    }
-    .check_d90b3d {
-      color: var(--accent-text);
-    }
-    &.focused_d90b3d {
-      .checkbox_d90b3d {
-        color: var(--accent-text);
-      }
-      .check_d90b3d {
-        color: rgb(var(--accent), 1);
-      }
-    }
-  }
+	// Menu Checkbox
+	[role='menuitemcheckbox'][aria-checked='true'] {
+		.checkbox_d90b3d {
+			color: rgb(var(--accent), 1);
+		}
+		.check_d90b3d {
+			color: var(--accent-text);
+		}
+		&.focused_d90b3d {
+			.checkbox_d90b3d {
+				color: var(--accent-text);
+			}
+			.check_d90b3d {
+				color: rgb(var(--accent), 1);
+			}
+		}
+	}
 }

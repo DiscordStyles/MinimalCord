@@ -1,17 +1,17 @@
 #app-mount {
-  .chat_a7d72e {
-    background: var(--background);
-    .scrollerSpacer_e2e187 {
-      height: 25px;
-    }
-    .content_a7d72e:before {
-      content: none;
-    }
-  }
-  .chatContent_a7d72e {
-    background: transparent;
-  }
-  .operations_baf0d6 > a {
-    color: rgb(var(--accent), 1);
-  }
+	.chat_a7d72e {
+		background: var(--background);
+		.scrollerSpacer_e2e187 {
+			height: 25px;
+		}
+		.content_a7d72e:before {
+			content: none;
+		}
+	}
+	.chatContent_a7d72e {
+		background: transparent;
+	}
+	.operations_baf0d6 > a {
+		color: rgb(var(--accent), 1);
+	}
 }

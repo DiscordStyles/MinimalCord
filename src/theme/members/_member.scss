@@ -1,36 +1,36 @@
 #app-mount .member_a31c43 {
-  background: transparent;
-  .botTagRegular_c89c9a {
-    background: rgb(var(--accent), 1);
-    color: var(--accent-text);
-    .botText_a9e77f {
-      font-weight: 600;
-    }
-  }
+	background: transparent;
+	.botTagRegular_c89c9a {
+		background: rgb(var(--accent), 1);
+		color: var(--accent-text);
+		.botText_a9e77f {
+			font-weight: 600;
+		}
+	}
 
-  &:hover .layout_d808b0 {
-    background: var(--background-alt);
-  }
-  &:active .layout_d808b0 {
-    background: var(--background-light);
-  }
-  &.selected_d808b0 .layout_d808b0 {
-    background: rgb(var(--accent), 1);
-    .roleColor-rz2vM0,
-    .activity_a31c43,
-    .premiumIcon-1rDbWQ,
-    .username_a31c43,
-    .username_a31c43 span {
-      color: var(--accent-text) !important;
-    }
-    rect[fill="#43b581"],
-    rect[fill="#faa61a"],
-    rect[fill="#f04747"] {
-      fill: #fff;
-    }
-    .botTagRegular_c89c9a {
-      background: var(--accent-text);
-      color: rgb(var(--accent), 1);
-    }
-  }
+	&:hover .layout_d808b0 {
+		background: var(--background-alt);
+	}
+	&:active .layout_d808b0 {
+		background: var(--background-light);
+	}
+	&.selected_d808b0 .layout_d808b0 {
+		background: rgb(var(--accent), 1);
+		.roleColor-rz2vM0,
+		.activity_a31c43,
+		.premiumIcon-1rDbWQ,
+		.username_a31c43,
+		.username_a31c43 span {
+			color: var(--accent-text) !important;
+		}
+		rect[fill='#43b581'],
+		rect[fill='#faa61a'],
+		rect[fill='#f04747'] {
+			fill: #fff;
+		}
+		.botTagRegular_c89c9a {
+			background: var(--accent-text);
+			color: rgb(var(--accent), 1);
+		}
+	}
 }

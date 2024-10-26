@@ -1,11 +1,11 @@
 #app-mount .input_f8bc55:not(.multiInput-1VARjC) {
-  background: var(--background);
-  border: 1px solid var(--background);
-  border-radius: var(--border-radius);
-  &:hover {
-    border-color: var(--background-light);
-  }
-  &:focus {
-    border-color: rgb(var(--accent), 1)
-  }
+	background: var(--background);
+	border: 1px solid var(--background);
+	border-radius: var(--border-radius);
+	&:hover {
+		border-color: var(--background-light);
+	}
+	&:focus {
+		border-color: rgb(var(--accent), 1);
+	}
 }

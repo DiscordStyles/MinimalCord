@@ -1,66 +1,65 @@
 #app-mount .layer_d4b6c5:not(.baseLayer_d4b6c5) {
-  background: var(--background);
+	background: var(--background);
 
-  // Groups
-  .children_a6ae9b {
-    & > .marginBottom40_f7730b:not(.divider-3y7HAB) {
-      background: var(--background-alt);
-      border-radius: var(--border-radius);
-      padding: 16px;
-      border: none;
-      .marginTop8_f7730b {
-        margin-top: 0;
-      }
-    }
-    & > .marginBottom20_f7730b:not(.title-3hptVQ) {
-      background: var(--background-alt);
-      border-radius: var(--border-radius);
-      padding: 16px;
-      border: none;
-    }
-    & > [class*="marginBottom"] {
-      .container-1zDvAE:last-child {
-        margin-bottom: 0;
-      }
-      [class*="marginBottom"] {
-        padding: 0;
-      }
-    }
-    & > .divider-3wNib3 {
-      background: var(--background-alt);
-      border-radius: var(--border-radius);
-      padding: 16px;
-      border: none;
-    }
-    .children_a6ae9b .flex_dc333f.flex_ec1a20 {
-      padding: 0 !important;
-    }
-  }
+	// Groups
+	.children_a6ae9b {
+		& > .marginBottom40_f7730b:not(.divider-3y7HAB) {
+			background: var(--background-alt);
+			border-radius: var(--border-radius);
+			padding: 16px;
+			border: none;
+			.marginTop8_f7730b {
+				margin-top: 0;
+			}
+		}
+		& > .marginBottom20_f7730b:not(.title-3hptVQ) {
+			background: var(--background-alt);
+			border-radius: var(--border-radius);
+			padding: 16px;
+			border: none;
+		}
+		& > [class*='marginBottom'] {
+			.container-1zDvAE:last-child {
+				margin-bottom: 0;
+			}
+			[class*='marginBottom'] {
+				padding: 0;
+			}
+		}
+		& > .divider-3wNib3 {
+			background: var(--background-alt);
+			border-radius: var(--border-radius);
+			padding: 16px;
+			border: none;
+		}
+		.children_a6ae9b .flex_dc333f.flex_ec1a20 {
+			padding: 0 !important;
+		}
+	}
 
-  // Dividers
-  .divider-3y7HAB {
-    display: none;
-  }
+	// Dividers
+	.divider-3y7HAB {
+		display: none;
+	}
 
-  // Notices
-  .formNotice-2nS8ey {
-    padding: 0;
-    background: transparent;
-  }
-  .card-16VQ8C {
-    background: var(--background-light);
-    border: none;
-  }
+	// Notices
+	.formNotice-2nS8ey {
+		padding: 0;
+		background: transparent;
+	}
+	.card-16VQ8C {
+		background: var(--background-light);
+		border: none;
+	}
 
+	.sidebarRegionScroller_c25c6d {
+		background: var(--background-dark);
+	}
 
-  .sidebarRegionScroller_c25c6d {
-    background: var(--background-dark);
-  }
-
-  .contentRegionScroller_c25c6d,
-  .contentRegion_c25c6d {
-    background: var(--background);
-  }
+	.contentRegionScroller_c25c6d,
+	.contentRegion_c25c6d {
+		background: var(--background);
+	}
 
 	// Save changes
 	.elevationHigh__08882 {

@@ -1,29 +1,29 @@
 #app-mount {
 	.privateChannels_f0963d {
-    background: transparent;
+		background: transparent;
 		.scroller_c47fa9 {
 			background: transparent;
 		}
-  }
-  .channel_c91bad {
-    margin-left: 0;
-    border-radius: 0 4px 4px 0;
-    padding: 0;
-    margin-bottom: 3px;
-    .layout_ec8679 {
-      border-radius: 0 var(--border-radius) var(--border-radius) 0;
-      padding-left: 16px;
-    }
+	}
+	.channel_c91bad {
+		margin-left: 0;
+		border-radius: 0 4px 4px 0;
+		padding: 0;
+		margin-bottom: 3px;
+		.layout_ec8679 {
+			border-radius: 0 var(--border-radius) var(--border-radius) 0;
+			padding-left: 16px;
+		}
 
-    .selected-3veCBZ::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      width: 4px;
-      height: 100%;
-      background: rgb(var(--accent), 1);
-    }
-  }
+		.selected-3veCBZ::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 4px;
+			height: 100%;
+			background: rgb(var(--accent), 1);
+		}
+	}
 
 	// right user profile
 	.userPanelOuter-xc-WYi {

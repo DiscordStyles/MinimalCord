@@ -1,33 +1,31 @@
 #app-mount {
-  .container_c2739c {
-    background: var(--background);
-    .title_d1da5f {
-      margin: 20px;
-    }
-  }
-  .tabBody_c2739c:before {
-    content: none;
-  }
+	.container_c2739c {
+		background: var(--background);
+		.title_d1da5f {
+			margin: 20px;
+		}
+	}
+	.tabBody_c2739c:before {
+		content: none;
+	}
 
-  .peopleListItem_d51464 {
-    background: var(--background-alt);
-    border-radius: var(--border-radius);
-    border: none;
-    line-height: normal;
-    margin: 0 20px 10px 20px;
-    padding: 0 15px;
-    &:hover {
-      background: var(--background-light);
-      .actionButton_e01b91 {
-        background: var(--background);
-      }
-    }
-  }
-  .actionButton_e01b91 {
-    background: var(--background-dark);
-  }
-
-
+	.peopleListItem_d51464 {
+		background: var(--background-alt);
+		border-radius: var(--border-radius);
+		border: none;
+		line-height: normal;
+		margin: 0 20px 10px 20px;
+		padding: 0 15px;
+		&:hover {
+			background: var(--background-light);
+			.actionButton_e01b91 {
+				background: var(--background);
+			}
+		}
+	}
+	.actionButton_e01b91 {
+		background: var(--background-dark);
+	}
 
 	.scroller_bf550a {
 		border: none;
@@ -36,35 +34,35 @@
 	.container_bf550a {
 		background: var(--background);
 	}
-  .nowPlayingColumn_c2739c {
-    background: transparent;
-  }
-  .nowPlayingScroller__5cd67 {
-    padding: 20px;
-  }
-  .header-13Cw0- {
-    padding: 0 0 20px 0;
-  }
-  .emptyCard_f02fcf {
-    background: var(--background-alt);
-    border-radius: var(--border-radius);
-  }
+	.nowPlayingColumn_c2739c {
+		background: transparent;
+	}
+	.nowPlayingScroller__5cd67 {
+		padding: 20px;
+	}
+	.header-13Cw0- {
+		padding: 0 0 20px 0;
+	}
+	.emptyCard_f02fcf {
+		background: var(--background-alt);
+		border-radius: var(--border-radius);
+	}
 
-  .wrapper_cd82a7 {
-    background: var(--background-alt);
-    border-radius: var(--border-radius);
+	.wrapper_cd82a7 {
+		background: var(--background-alt);
+		border-radius: var(--border-radius);
 		border: none;
-    &:hover {
-      background: var(--background-light);
-      .inset_ac5d22 {
-        background: var(--background-alt);
-      }
-    }
-  }
+		&:hover {
+			background: var(--background-light);
+			.inset_ac5d22 {
+				background: var(--background-alt);
+			}
+		}
+	}
 	.section_cd82a7 {
 		background: var(--background-light);
 	}
-  .inset_ac5d22 {
-    background: var(--background);
-  }
+	.inset_ac5d22 {
+		background: var(--background);
+	}
 }

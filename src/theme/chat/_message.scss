@@ -1,243 +1,246 @@
 #app-mount {
-  // General messages
-  .message_d5deea {
-    .scrollableContainer_d0696b {
-      background: var(--edit-message-box);
-      box-shadow: none;
-      .slateTextArea_e52116 {
-        padding-left: 15px;
-      }
-    }
+	// General messages
+	.message_d5deea {
+		.scrollableContainer_d0696b {
+			background: var(--edit-message-box);
+			box-shadow: none;
+			.slateTextArea_e52116 {
+				padding-left: 15px;
+			}
+		}
 		// Buttons
-    .wrapper_f7e168 {
-      background: var(--background-light);
-      box-shadow: var(--box-shadow-alt);
-    }
-    .button_f7e168 {
+		.wrapper_f7e168 {
+			background: var(--background-light);
+			box-shadow: var(--box-shadow-alt);
+		}
+		.button_f7e168 {
 			height: 100%;
-      padding: 0 6px;
-      &:hover {
-        background: rgb(var(--accent), 1);
-        color: var(--accent-text);
-      }
-      &.dangerous_f7e168:hover {
-        background: rgb(var(--discord-red) / 1);
-      }
-    }
-    &.selected_d5deea, &:hover {
-      &::before {
-        background: var(--message-hover, var(--background-alt));
-      }
-    }
-  }
+			padding: 0 6px;
+			&:hover {
+				background: rgb(var(--accent), 1);
+				color: var(--accent-text);
+			}
+			&.dangerous_f7e168:hover {
+				background: rgb(var(--discord-red) / 1);
+			}
+		}
+		&.selected_d5deea,
+		&:hover {
+			&::before {
+				background: var(--message-hover, var(--background-alt));
+			}
+		}
+	}
 
-  // Cozy
-  .cozy_f9f2ca {
-    background: transparent;
-    padding-top: var(--message-padding);
-    padding-bottom: var(--message-padding);
-    padding-left: 0;
-    margin-left: 16px;
-    margin-right: 8px;
-    position: relative;
-    // Rounded background
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border-radius: var(--message-border-radius, var(--border-radius));
-      background: var(--background-alt);
-      z-index: -1;
-    }
-    // Fix positioning for message contents (text and images)
-    .contents_f9f2ca,
-    .container_b558d0 {
-      margin-left: calc(40px + (var(--message-padding) * 2));
-    }
-    // Fix positioning for avatar
-    .avatar_f9f2ca {
-      left: var(--message-padding);
-      top: var(--message-padding);
-      margin-top: 0;
-    }
-    // Add custom spacing between messages
-    &.groupStart_d5deea {
-      margin-top: var(--message-spacing);
-    }
-    // Every message after groupStart that's not groupStart
-    &.cozy_f9f2ca:not(.groupStart_d5deea) {
-      margin-top: calc(var(--message-padding) / -1);
-      padding-top: .175rem;
-    }
-    // Reduce negative margin and padding
-    .messageContent_f9f2ca {
-      margin-left: -5px;
-      padding-left: 5px;
-    }
+	// Cozy
+	.cozy_f9f2ca {
+		background: transparent;
+		padding-top: var(--message-padding);
+		padding-bottom: var(--message-padding);
+		padding-left: 0;
+		margin-left: 16px;
+		margin-right: 8px;
+		position: relative;
+		// Rounded background
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border-radius: var(--message-border-radius, var(--border-radius));
+			background: var(--background-alt);
+			z-index: -1;
+		}
+		// Fix positioning for message contents (text and images)
+		.contents_f9f2ca,
+		.container_b558d0 {
+			margin-left: calc(40px + (var(--message-padding) * 2));
+		}
+		// Fix positioning for avatar
+		.avatar_f9f2ca {
+			left: var(--message-padding);
+			top: var(--message-padding);
+			margin-top: 0;
+		}
+		// Add custom spacing between messages
+		&.groupStart_d5deea {
+			margin-top: var(--message-spacing);
+		}
+		// Every message after groupStart that's not groupStart
+		&.cozy_f9f2ca:not(.groupStart_d5deea) {
+			margin-top: calc(var(--message-padding) / -1);
+			padding-top: 0.175rem;
+		}
+		// Reduce negative margin and padding
+		.messageContent_f9f2ca {
+			margin-left: -5px;
+			padding-left: 5px;
+		}
 
-    // Timestamps
-    .timestamp_f9f2ca.alt_f9f2ca {
-      width: calc(40px + var(--message-padding));
-      display: flex;
-      justify-content: center;
-    }
+		// Timestamps
+		.timestamp_f9f2ca.alt_f9f2ca {
+			width: calc(40px + var(--message-padding));
+			display: flex;
+			justify-content: center;
+		}
 
-    // Mentioned
-    &.mentioned_d5deea {
-      .messageContent_f9f2ca {
-        position: relative;
-        &:not(.repliedTextContent-1R3vnK) {
-          color: var(--text-focus);
-        }
-        &:after {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          border-radius: 0 var(--border-radius) 0 0;
-          height: 100%;
-          width: calc(100% - var(--message-padding));
-          border-left: 2px solid rgb(var(--discord-yellow) / 1);
-          background: var(--background-mentioned);
-          pointer-events: none;
-        }
-      }
-      .container_b558d0 {
-        position: relative;
-        &:before {
-          content: "";
-          position: absolute;
-          pointer-events: none;
-          top: 0;
-          left: -5px;
-          height: 100%;
-          width: calc(100% - var(--message-padding) + 5px);
-          border-left: 2px solid rgb(var(--discord-yellow) / 1);
-          background: var(--background-mentioned);
-          border-radius: 0 0 var(--border-radius) 0;
-        }
-      }
-    }
+		// Mentioned
+		&.mentioned_d5deea {
+			.messageContent_f9f2ca {
+				position: relative;
+				&:not(.repliedTextContent-1R3vnK) {
+					color: var(--text-focus);
+				}
+				&:after {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					border-radius: 0 var(--border-radius) 0 0;
+					height: 100%;
+					width: calc(100% - var(--message-padding));
+					border-left: 2px solid rgb(var(--discord-yellow) / 1);
+					background: var(--background-mentioned);
+					pointer-events: none;
+				}
+			}
+			.container_b558d0 {
+				position: relative;
+				&:before {
+					content: '';
+					position: absolute;
+					pointer-events: none;
+					top: 0;
+					left: -5px;
+					height: 100%;
+					width: calc(100% - var(--message-padding) + 5px);
+					border-left: 2px solid rgb(var(--discord-yellow) / 1);
+					background: var(--background-mentioned);
+					border-radius: 0 0 var(--border-radius) 0;
+				}
+			}
+		}
 
-    // Replied quote
-    .repliedMessage_f9f2ca {
-      margin-left: calc(var(--message-padding) + 56px);
-      & + .contents_f9f2ca {
-        .avatar_f9f2ca, img {
-          top: 32px;
-        }
-      }
-      &:before {
-        border-color: var(--text-muted);
-      }
-    }
-    .repliedTextPreview_f9f2ca .messageContent_f9f2ca {
-      padding-left: 8px;
-      padding-right: 4px;
-      margin-left: 0;
-      &::after {
-        left: 4px;
-        width: 100%;
-      }
-    }
+		// Replied quote
+		.repliedMessage_f9f2ca {
+			margin-left: calc(var(--message-padding) + 56px);
+			& + .contents_f9f2ca {
+				.avatar_f9f2ca,
+				img {
+					top: 32px;
+				}
+			}
+			&:before {
+				border-color: var(--text-muted);
+			}
+		}
+		.repliedTextPreview_f9f2ca .messageContent_f9f2ca {
+			padding-left: 8px;
+			padding-right: 4px;
+			margin-left: 0;
+			&::after {
+				left: 4px;
+				width: 100%;
+			}
+		}
 
-    // Thread bar thingy
-    &.hasThread_f9f2ca::after {
-      left: 1.8rem;
-      top: 3.5rem;
-      width: 1.5rem;
-    }
-  }
+		// Thread bar thingy
+		&.hasThread_f9f2ca::after {
+			left: 1.8rem;
+			top: 3.5rem;
+			width: 1.5rem;
+		}
+	}
 
-  // Codeblocks
-  .hljs-comment {
-    color: var(--text-muted);
-  }
+	// Codeblocks
+	.hljs-comment {
+		color: var(--text-muted);
+	}
 
-  // Mentions & Chat jumps
-  .wrapper_d4fa29 {
-    background: rgb(var(--accent), 0.1);
-    color: rgb(var(--accent), 1);
-    &:hover, &.popout-open {
-      background: rgb(var(--accent), 1);
-      color: var(--accent-text);
-    }
-  }
+	// Mentions & Chat jumps
+	.wrapper_d4fa29 {
+		background: rgb(var(--accent), 0.1);
+		color: rgb(var(--accent), 1);
+		&:hover,
+		&.popout-open {
+			background: rgb(var(--accent), 1);
+			color: var(--accent-text);
+		}
+	}
 
-  // Message placeholders
-  .wrapper_ba0ffb {
-    background: transparent;
-  }
-  // Pretty much the same as #L3
-  .wrapper_b75bb9 {
-    background: transparent;
-    padding-top: var(--message-padding);
-    padding-bottom: var(--message-padding);
-    padding-left: 0;
-    margin-left: 16px;
-    margin-right: 8px;
-    position: relative;
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border-radius: var(--message-border-radius, var(--border-radius));
-      background: var(--background-alt);
-      z-index: -1;
-    }
-    .contents_b75bb9,
-    .attachmentContainer_b75bb9 {
-      padding-left: calc(40px + (var(--message-padding) * 2));
-    }
-    .avatar_f9f2ca {
-      left: var(--message-padding);
-      top: var(--message-padding);
-      margin-top: 0;
-    }
-    &[style*="margin-top"] {
-      margin-top: var(--message-spacing) !important;
-    }
-    & + .wrapper_b75bb9:not([style*="margin-top"]) {
-      margin-top: calc(var(--message-padding) / -1);
-      padding-top: .175rem;
-    }
-  }
+	// Message placeholders
+	.wrapper_ba0ffb {
+		background: transparent;
+	}
+	// Pretty much the same as #L3
+	.wrapper_b75bb9 {
+		background: transparent;
+		padding-top: var(--message-padding);
+		padding-bottom: var(--message-padding);
+		padding-left: 0;
+		margin-left: 16px;
+		margin-right: 8px;
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border-radius: var(--message-border-radius, var(--border-radius));
+			background: var(--background-alt);
+			z-index: -1;
+		}
+		.contents_b75bb9,
+		.attachmentContainer_b75bb9 {
+			padding-left: calc(40px + (var(--message-padding) * 2));
+		}
+		.avatar_f9f2ca {
+			left: var(--message-padding);
+			top: var(--message-padding);
+			margin-top: 0;
+		}
+		&[style*='margin-top'] {
+			margin-top: var(--message-spacing) !important;
+		}
+		& + .wrapper_b75bb9:not([style*='margin-top']) {
+			margin-top: calc(var(--message-padding) / -1);
+			padding-top: 0.175rem;
+		}
+	}
 
-  // Embeds
-  .embedFull_b0068a {
-    background: var(--background-dark);
-  }
+	// Embeds
+	.embedFull_b0068a {
+		background: var(--background-dark);
+	}
 
-  // Attachments
-  .attachment_b52bef,
-  .wrapperAudio_f316dd {
-    background: var(--background-dark);
-    border-radius: var(--border-radius);
-    border: none;
-  }
-  .textContainer_d8e2d0 {
-    border: none;
-    background: var(--background-dark);
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
-  }
-  .footer_d8e2d0 {
-    background: var(--background);
-    border: none;
-  }
+	// Attachments
+	.attachment_b52bef,
+	.wrapperAudio_f316dd {
+		background: var(--background-dark);
+		border-radius: var(--border-radius);
+		border: none;
+	}
+	.textContainer_d8e2d0 {
+		border: none;
+		background: var(--background-dark);
+		border-radius: var(--border-radius) var(--border-radius) 0 0;
+	}
+	.footer_d8e2d0 {
+		background: var(--background);
+		border: none;
+	}
 
-  // Code blocks
-  pre code,
-  code.inline {
-    background: var(--background-dark);
-    border-radius: var(--border-radius);
-    border: none;
-  }
+	// Code blocks
+	pre code,
+	code.inline {
+		background: var(--background-dark);
+		border-radius: var(--border-radius);
+		border: none;
+	}
 
 	// Reactions
 	.reaction_f61c73 {
@@ -251,8 +254,8 @@
 		}
 	}
 
-  // Spoilers
-  .spoilerText-27bIiA.hidden-3B-Rum {
-    background: var(--background-dark)
-  }
+	// Spoilers
+	.spoilerText-27bIiA.hidden-3B-Rum {
+		background: var(--background-dark);
+	}
 }

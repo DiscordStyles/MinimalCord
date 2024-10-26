@@ -1,9 +1,12 @@
 #app-mount .guilds_a4d4d9 {
-  background: var(--background-dark);
-  .scrollerBase_c49869 {
-    background: var(--background-dark);
-    &::-webkit-scrollbar {
-      display: none;
-    }
-  }
+	background: var(--background-dark);
+	.footer_aa1bff {
+		--background-tertiary: var(--background-dark);
+	}
+	.scrollerBase_c49869 {
+		background: var(--background-dark);
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
 }

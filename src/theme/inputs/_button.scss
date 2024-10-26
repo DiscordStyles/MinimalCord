@@ -1,31 +1,31 @@
 #app-mount {
-  // Brand/Blurple buttons
-  .lookFilled_dd4f85.colorBrand_dd4f85 {
-    background: rgb(var(--accent), 1);
-    color: var(--accent-text);
-    font-weight: 600;
-    transition: box-shadow 0.2s ease;
-    &:hover {
-      box-shadow: inset 0 0 0 100vmax rgb(0,0,0,0.1);
-    }
-    &:focus,
-    &:active {
-      box-shadow: inset 0 0 0 100vmax rgb(0,0,0,0.2);
-    }
-  }
+	// Brand/Blurple buttons
+	.lookFilled_dd4f85.colorBrand_dd4f85 {
+		background: rgb(var(--accent), 1);
+		color: var(--accent-text);
+		font-weight: 600;
+		transition: box-shadow 0.2s ease;
+		&:hover {
+			box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, 0.1);
+		}
+		&:focus,
+		&:active {
+			box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, 0.2);
+		}
+	}
 
-  // Outlined
-  .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-    border-color: var(--text-normal);
-    color: var(--text-normal);
-  }
+	// Outlined
+	.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+		border-color: var(--text-normal);
+		color: var(--text-normal);
+	}
 
-  // Panel buttons
-  .button_dd4f85.buttonColor_adcaac {
-    background: var(--background-light);
-    &:hover {
-      background: rgb(var(--accent), 1);
-      color: #fff;
-    }
-  }
+	// Panel buttons
+	.button_dd4f85.buttonColor_adcaac {
+		background: var(--background-light);
+		&:hover {
+			background: rgb(var(--accent), 1);
+			color: #fff;
+		}
+	}
 }

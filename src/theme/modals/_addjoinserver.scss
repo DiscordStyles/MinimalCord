@@ -1,23 +1,23 @@
 #app-mount {
-  .colorHeaderPrimary-jN_yGr {
-    color: var(--text-focus);
-  }
-  .colorHeaderSecondary-g5teka {
-    color: var(--text-normal);
-  }
+	.colorHeaderPrimary-jN_yGr {
+		color: var(--text-focus);
+	}
+	.colorHeaderSecondary-g5teka {
+		color: var(--text-normal);
+	}
 
-  .container-x8Y1ix {
-    border-radius: var(--border-radius);
-    background: var(--background-alt);
-    &:hover {
-      background: var(--background-light-alt);
-    }
-  }
+	.container-x8Y1ix {
+		border-radius: var(--border-radius);
+		background: var(--background-alt);
+		&:hover {
+			background: var(--background-light-alt);
+		}
+	}
 
-  .backButton-2Ps-B8 {
-    color: var(--text-muted);
-    &:hover {
-      color: var(--text-normal);
-    }
-  }
+	.backButton-2Ps-B8 {
+		color: var(--text-muted);
+		&:hover {
+			color: var(--text-normal);
+		}
+	}
 }

@@ -1,27 +1,27 @@
-#app-mount [aria-label="GUILD_SETTINGS"] {
-  [data-list-id="audit-log"] {
-    background: var(--background-alt);
-    border-radius: var(--border-radius);
-    margin-top: 20px;
-    [role="listitem"] {
-      background: transparent;
-      &[aria-expanded="true"] {
-        background: var(--background-light);
-      }
-    }
-  }
-  .auditLog-3jNbM6 {
-    border: none;
-    margin: 0;
-    .divider-1pnAR2 {
-      display: none;
-    }
-    &:hover {
-      background: var(--background-light);
-    }
-  }
-  .headerExpanded-CUEwZ5,
-  .changeDetails-bk98pu {
-    background: var(--background-light);
-  }
+#app-mount [aria-label='GUILD_SETTINGS'] {
+	[data-list-id='audit-log'] {
+		background: var(--background-alt);
+		border-radius: var(--border-radius);
+		margin-top: 20px;
+		[role='listitem'] {
+			background: transparent;
+			&[aria-expanded='true'] {
+				background: var(--background-light);
+			}
+		}
+	}
+	.auditLog-3jNbM6 {
+		border: none;
+		margin: 0;
+		.divider-1pnAR2 {
+			display: none;
+		}
+		&:hover {
+			background: var(--background-light);
+		}
+	}
+	.headerExpanded-CUEwZ5,
+	.changeDetails-bk98pu {
+		background: var(--background-light);
+	}
 }

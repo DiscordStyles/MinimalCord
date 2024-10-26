@@ -1,14 +1,13 @@
 #app-mount {
-  .panels_a4d4d9 {
-    background: var(--background);
-  }
-  .activityPanel_a4d4d9
-  .container_b2ca13 {
-    background: transparent;
-  }
-  .container_b2ca13,
-  .activityPanel_a4d4d9 {
-    background: transparent;
-    border: none;
-  }
+	.panels_a4d4d9 {
+		background: var(--background);
+	}
+	.activityPanel_a4d4d9 .container_b2ca13 {
+		background: transparent;
+	}
+	.container_b2ca13,
+	.activityPanel_a4d4d9 {
+		background: transparent;
+		border: none;
+	}
 }

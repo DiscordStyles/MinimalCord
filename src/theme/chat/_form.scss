@@ -1,34 +1,42 @@
 #app-mount {
-  // Chat box
-  .form_a7d72e {
-    &:before {
-      content: none;
-    }
-  }
-  .scrollableContainer_d0696b {
-    background: var(--background-alt);
-    box-shadow: var(--box-shadow);
-    border-radius: var(--border-radius);
+	// Chat box
+	.form_a7d72e {
+		--custom-channel-textarea-text-area-height: 52px;
+		&::before {
+			content: none;
+		}
+	}
+	.scrollableContainer_bdf0de {
+		background: var(--background-alt);
+		box-shadow: var(--box-shadow);
+		border-radius: var(--border-radius);
+	}
+	.placeholder_a552a6 {
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		font-size: 12px;
+	}
+	.placeholder_a552a6,
+	.slateTextArea_e52116 {
+		padding: 15px 15px 15px 0;
+	}
 
-  }
-  .placeholder_a552a6 {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    font-size: 12px;
-  }
-  .placeholder_a552a6,
-  .slateTextArea_e52116 {
-    padding: 15px 15px 15px 0;
-  }
-
-  .attachButton_f298d4 {
-    padding: 15px 16px;
-    height: 52px;
-  }
-  .buttons_d0696b {
-    height: 52px;
-  }
+	.attachButton_f298d4 {
+		padding: 15px 16px;
+		height: 52px;
+	}
+	.buttons_bdf0de {
+		height: 52px;
+	}
+	// App launch button thing (WHY DISCORD????)
+	.button_df39bd {
+		background: var(--background-alt);
+		box-shadow: var(--box-shadow);
+		&:hover {
+			background: var(--background-light);
+		}
+	}
 
 	// Announcement bar thingy
 	.wrapper_faf5ab {

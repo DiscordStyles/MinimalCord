@@ -1,18 +1,18 @@
 #app-mount {
-  .selected_fd6364 .header_fd6364 {
-    background: transparent;
-  }
-  .header_fd6364 {
-    box-shadow: none;
-    &:hover {
-      background: transparent;
-    }
-  }
+	.selected_fd6364 .header_fd6364 {
+		background: transparent;
+	}
+	.header_fd6364 {
+		box-shadow: none;
+		&:hover {
+			background: transparent;
+		}
+	}
 
-  .searchBar_f0963d {
-    box-shadow: none;
-  }
-  .searchBarComponent_f0963d {
-    background: var(--background-dark);
-  }
+	.searchBar_f0963d {
+		box-shadow: none;
+	}
+	.searchBarComponent_f0963d {
+		background: var(--background-dark);
+	}
 }

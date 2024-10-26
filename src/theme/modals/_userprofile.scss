@@ -1,73 +1,69 @@
 #app-mount .root-8LYsGj {
+	// Global styles
+	.size12-oc4dx4,
+	.activityName_c1d9fd,
+	.nameNormal_c1d9fd,
+	.nameWrap_c1d9fd {
+		color: var(--text-normal);
+	}
 
-  // Global styles
-  .size12-oc4dx4,
-  .activityName_c1d9fd,
-  .nameNormal_c1d9fd,
-  .nameWrap_c1d9fd {
-    color: var(--text-normal);
-  }
+	// Playing banner
+	.topSection-13QKHs {
+		background: var(--background-alt);
+	}
 
-  // Playing banner
-  .topSection-13QKHs {
-    background: var(--background-alt);
-  }
-
-  .headerFill-adLl4x {
-    background: transparent;
-  }
-  .tabBarContainer-sCZC4w {
-    border: none;
-  }
+	.headerFill-adLl4x {
+		background: transparent;
+	}
+	.tabBarContainer-sCZC4w {
+		border: none;
+	}
 	.avatar-3QF_VA {
 		border-color: var(--background-alt);
 		background: var(--background-alt);
 	}
 
+	// Tab btns
+	.tabBarItem-1b8RUP {
+		color: var(--text-normal);
+		&[style*='255, 255, 255'] {
+			color: var(--text-focus) !important;
+			border-color: var(--text-focus) !important;
+		}
+	}
 
-  // Tab btns
-  .tabBarItem-1b8RUP {
-    color: var(--text-normal);
-    &[style*="255, 255, 255"] {
-      color: var(--text-focus) !important;
-      border-color: var(--text-focus) !important;
-    }
-  }
-
-
-
-  .userInfoSection-2u2hir {
-    border: none;
-  }
-  .connectedAccounts-1YaT2t {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
-  }
-  .connectedAccount-1xKpli {
-    background: var(--background-alt);
-    border-radius: var(--border-radius);
-    border: none;
-    margin: 0;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .body-1Ukv50 {
-    background: var(--background);
-    height: 320px;
+	.userInfoSection-2u2hir {
 		border: none;
-  }
+	}
+	.connectedAccounts-1YaT2t {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 16px;
+	}
+	.connectedAccount-1xKpli {
+		background: var(--background-alt);
+		border-radius: var(--border-radius);
+		border: none;
+		margin: 0;
+		width: 100%;
+		box-sizing: border-box;
+	}
 
-  .note-3M15gE {
-    margin: 0;
-  }
-  textarea {
-    padding: 8px;
-    height: auto !important;
-  }
+	.body-1Ukv50 {
+		background: var(--background);
+		height: 320px;
+		border: none;
+	}
 
-	&[style*="--user-background"] {
+	.note-3M15gE {
+		margin: 0;
+	}
+	textarea {
+		padding: 8px;
+		height: auto !important;
+	}
+
+	&[style*='--user-background'] {
 		.banner_c3e427:not(.bannerPremium_c3e427) {
 			height: 240px;
 			background: var(--user-background) center/cover;
