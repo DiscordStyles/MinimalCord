@@ -91,13 +91,18 @@ html.theme-dark .force-theme.theme-light {
   display: block;
 }
 
-::-webkit-input-placeholder, body, button, input, select, textarea {
+::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
   font-family: var(--font, "Roboto"), "Whitney";
 }
 
-html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
-  -webkit-backface-visibility: hidden !important;
-          backface-visibility: hidden !important;
+html,
+span:not([class*=spinner_]):not([class*=spinnerItem]) {
+  backface-visibility: hidden !important;
 }
 
 #app-mount .title-3qD0b-,
@@ -169,6 +174,9 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 
 #app-mount .guilds_a4d4d9 {
   background: var(--background-dark);
+}
+#app-mount .guilds_a4d4d9 .footer_aa1bff {
+  --background-tertiary: var(--background-dark);
 }
 #app-mount .guilds_a4d4d9 .scrollerBase_c49869 {
   background: var(--background-dark);
@@ -325,10 +333,13 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   color: rgb(var(--accent), 1);
 }
 
-#app-mount .form_a7d72e:before {
+#app-mount .form_a7d72e {
+  --custom-channel-textarea-text-area-height: 52px;
+}
+#app-mount .form_a7d72e::before {
   content: none;
 }
-#app-mount .scrollableContainer_d0696b {
+#app-mount .scrollableContainer_bdf0de {
   background: var(--background-alt);
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
@@ -347,8 +358,15 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   padding: 15px 16px;
   height: 52px;
 }
-#app-mount .buttons_d0696b {
+#app-mount .buttons_bdf0de {
   height: 52px;
+}
+#app-mount .button_df39bd {
+  background: var(--background-alt);
+  box-shadow: var(--box-shadow);
+}
+#app-mount .button_df39bd:hover {
+  background: var(--background-light);
 }
 #app-mount .wrapper_faf5ab {
   background: var(--background-light);
@@ -463,7 +481,8 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .cozy_f9f2ca .repliedMessage_f9f2ca {
   margin-left: calc(var(--message-padding) + 56px);
 }
-#app-mount .cozy_f9f2ca .repliedMessage_f9f2ca + .contents_f9f2ca .avatar_f9f2ca, #app-mount .cozy_f9f2ca .repliedMessage_f9f2ca + .contents_f9f2ca img {
+#app-mount .cozy_f9f2ca .repliedMessage_f9f2ca + .contents_f9f2ca .avatar_f9f2ca,
+#app-mount .cozy_f9f2ca .repliedMessage_f9f2ca + .contents_f9f2ca img {
   top: 32px;
 }
 #app-mount .cozy_f9f2ca .repliedMessage_f9f2ca:before {
