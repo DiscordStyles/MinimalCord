@@ -1,36 +1,36 @@
 #app-mount {
 	// Chat box
-	.form_a7d72e {
+	.form_f75fb0 {
 		--custom-channel-textarea-text-area-height: 52px;
 		&::before {
 			content: none;
 		}
 	}
-	.scrollableContainer_bdf0de {
+	.scrollableContainer__74017 {
 		background: var(--background-alt);
 		box-shadow: var(--box-shadow);
 		border-radius: var(--border-radius);
 	}
-	.placeholder_a552a6 {
+	.placeholder__1b31f {
 		text-transform: uppercase;
 		font-weight: bold;
 		letter-spacing: 1.5px;
 		font-size: 12px;
 	}
-	.placeholder_a552a6,
-	.slateTextArea_e52116 {
+	.placeholder__1b31f,
+	.slateTextArea_ec4baf {
 		padding: 15px 15px 15px 0;
 	}
 
-	.attachButton_f298d4 {
+	.attachButton__0923f {
 		padding: 15px 16px;
 		height: 52px;
 	}
-	.buttons_bdf0de {
+	.buttons__74017 {
 		height: 52px;
 	}
 	// App launch button thing (WHY DISCORD????)
-	.button_df39bd {
+	.button_e6e74f {
 		background: var(--background-alt);
 		box-shadow: var(--box-shadow);
 		&:hover {
@@ -39,12 +39,12 @@
 	}
 
 	// Announcement bar thingy
-	.wrapper_faf5ab {
+	.wrapper__44df5 {
 		background: var(--background-light);
 	}
 
 	// No perms
-	.channelTextArea_a7d72e {
+	.channelTextArea_f75fb0 {
 		background: var(--background-alt);
 	}
 }

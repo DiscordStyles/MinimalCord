@@ -1,27 +1,27 @@
-#app-mount .layer_d4b6c5:not(.baseLayer_d4b6c5) {
-	.paymentPane_f66684 {
+#app-mount .layer__960e4:not(.baseLayer__960e4) {
+	.paymentPane__01014 {
 		background: var(--background-alt);
 	}
-	.paginator_f66684 {
+	.paginator__01014 {
 		background: transparent;
 	}
-	.bottomDivider_f66684 {
+	.bottomDivider__01014 {
 		border: none;
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
-	.payment_a28a08 {
+	.payment_e9cb00 {
 		background: transparent;
 		&:hover {
 			background: var(--background-light-alt);
 		}
-		&:not(.hoverablePayment_a28a08) {
+		&:not(.hoverablePayment_e9cb00) {
 			background: var(--background-light);
 			padding-bottom: 20px;
 		}
 	}
-	.expandedInfo_a28a08 {
+	.expandedInfo_e9cb00 {
 		background: var(--background-light-alt);
 		margin: 0 20px;
 	}

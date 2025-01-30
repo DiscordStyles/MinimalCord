@@ -1,48 +1,48 @@
-.theme-light .menu_d90b3d {
+.theme-light .menu_c1e9c4 {
 	background: var(--background-light);
 }
-.theme-dark .menu_d90b3d {
+.theme-dark .menu_c1e9c4 {
 	background: var(--background-light-alt);
 }
 
 #app-mount {
-	.menu_d90b3d {
+	.menu_c1e9c4 {
 		box-shadow: var(--box-shadow);
 
 		// Quick reactions
-		.button_a24e84 {
+		.button_f563df {
 			background: var(--background);
 		}
 	}
-	.item_d90b3d {
+	.item_c1e9c4 {
 		line-height: normal;
 
-		.iconContainer_d90b3d {
+		.iconContainer_c1e9c4 {
 			display: flex;
 			align-items: center;
 			justify-content: center;
 		}
-		.caret_d90b3d {
+		.caret_c1e9c4 {
 			color: var(--text-normal);
 		}
 
 		&:active,
-		&.focused_d90b3d:not(.colorDanger_d90b3d) {
+		&.focused_c1e9c4:not(.colorDanger_c1e9c4) {
 			background: rgb(var(--accent), 1);
 			color: var(--accent-text);
-			.caret_d90b3d {
+			.caret_c1e9c4 {
 				color: var(--accent-text);
 			}
 		}
-		&.colorBrand_d90b3d {
+		&.colorBrand_c1e9c4 {
 			color: rgb(var(--accent));
-			&.focused_d90b3d {
+			&.focused_c1e9c4 {
 				color: var(--accent-text);
 			}
 		}
 		&.colorPremium-p4p7qO {
 			color: rgb(var(--discord-nitro) / 1);
-			&.focused_d90b3d {
+			&.focused_c1e9c4 {
 				color: #fff;
 				background: rgb(var(--discord-nitro) / 1);
 			}

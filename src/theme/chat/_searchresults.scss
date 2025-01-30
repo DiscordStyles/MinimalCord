@@ -1,9 +1,9 @@
 #app-mount {
-	.searchResultsWrap_c2b47d {
+	.searchResultsWrap_a9e706 {
 		background: var(--background-alt);
 		border-top-left-radius: var(--border-radius);
 	}
-	.searchHeader_b7c924 {
+	.searchHeader_f3b986 {
 		background: var(--background-light);
 		box-shadow: var(--box-shadow-alt);
 		.item-3XjbnG.selected-g-kMVV {
@@ -14,26 +14,26 @@
 		background: var(--background-alt);
 	}
 
-	.searchResult_ddc613 {
+	.searchResult__02a39 {
 		border: none;
 		background: var(--background-light);
-		.cozy_f9f2ca {
+		.cozy_c19a55 {
 			margin: 0 !important;
 		}
 	}
 	.searchResultMessage-1fxgXh {
-		.cozy_f9f2ca {
+		.cozy_c19a55 {
 			margin: 0;
 		}
 
-		&:not(.hit-1fVM9e) .cozy_f9f2ca:before {
+		&:not(.hit-1fVM9e) .cozy_c19a55:before {
 			content: none;
 		}
 		&.hit-1fVM9e {
 			box-shadow: 0 0 10px 6px var(--background-alt);
 			border: none;
 			border-radius: var(--border-radius);
-			.cozy_f9f2ca {
+			.cozy_c19a55 {
 				background: var(--background-light);
 			}
 		}

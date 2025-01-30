@@ -1,30 +1,30 @@
 #app-mount {
 	// General messages
-	.message_d5deea {
-		.scrollableContainer_d0696b {
+	.message__5126c {
+		.scrollableContainer__74017 {
 			background: var(--edit-message-box);
 			box-shadow: none;
-			.slateTextArea_e52116 {
+			.slateTextArea_ec4baf {
 				padding-left: 15px;
 			}
 		}
 		// Buttons
-		.wrapper_f7e168 {
+		.wrapper_f7ecac {
 			background: var(--background-light);
 			box-shadow: var(--box-shadow-alt);
 		}
-		.button_f7e168 {
+		.button_f7ecac {
 			height: 100%;
 			padding: 0 6px;
 			&:hover {
 				background: rgb(var(--accent), 1);
 				color: var(--accent-text);
 			}
-			&.dangerous_f7e168:hover {
+			&.dangerous_f7ecac:hover {
 				background: rgb(var(--discord-red) / 1);
 			}
 		}
-		&.selected_d5deea,
+		&.selected__5126c,
 		&:hover {
 			&::before {
 				background: var(--message-hover, var(--background-alt));
@@ -33,7 +33,7 @@
 	}
 
 	// Cozy
-	.cozy_f9f2ca {
+	.cozy_c19a55 {
 		background: transparent;
 		padding-top: var(--message-padding);
 		padding-bottom: var(--message-padding);
@@ -54,41 +54,41 @@
 			z-index: -1;
 		}
 		// Fix positioning for message contents (text and images)
-		.contents_f9f2ca,
-		.container_b558d0 {
+		.contents_c19a55,
+		.container_b7e1cb {
 			margin-left: calc(40px + (var(--message-padding) * 2));
 		}
 		// Fix positioning for avatar
-		.avatar_f9f2ca {
+		.avatar_c19a55 {
 			left: var(--message-padding);
 			top: var(--message-padding);
 			margin-top: 0;
 		}
 		// Add custom spacing between messages
-		&.groupStart_d5deea {
+		&.groupStart__5126c {
 			margin-top: var(--message-spacing);
 		}
 		// Every message after groupStart that's not groupStart
-		&.cozy_f9f2ca:not(.groupStart_d5deea) {
+		&.cozy_c19a55:not(.groupStart__5126c) {
 			margin-top: calc(var(--message-padding) / -1);
 			padding-top: 0.175rem;
 		}
 		// Reduce negative margin and padding
-		.messageContent_f9f2ca {
+		.messageContent_c19a55 {
 			margin-left: -5px;
 			padding-left: 5px;
 		}
 
 		// Timestamps
-		.timestamp_f9f2ca.alt_f9f2ca {
+		.timestamp_c19a55.alt_c19a55 {
 			width: calc(40px + var(--message-padding));
 			display: flex;
 			justify-content: center;
 		}
 
 		// Mentioned
-		&.mentioned_d5deea {
-			.messageContent_f9f2ca {
+		&.mentioned__5126c {
+			.messageContent_c19a55 {
 				position: relative;
 				&:not(.repliedTextContent-1R3vnK) {
 					color: var(--text-focus);
@@ -106,7 +106,7 @@
 					pointer-events: none;
 				}
 			}
-			.container_b558d0 {
+			.container_b7e1cb {
 				position: relative;
 				&:before {
 					content: '';
@@ -124,10 +124,10 @@
 		}
 
 		// Replied quote
-		.repliedMessage_f9f2ca {
+		.repliedMessage_c19a55 {
 			margin-left: calc(var(--message-padding) + 56px);
-			& + .contents_f9f2ca {
-				.avatar_f9f2ca,
+			& + .contents_c19a55 {
+				.avatar_c19a55,
 				img {
 					top: 32px;
 				}
@@ -136,7 +136,7 @@
 				border-color: var(--text-muted);
 			}
 		}
-		.repliedTextPreview_f9f2ca .messageContent_f9f2ca {
+		.repliedTextPreview_c19a55 .messageContent_c19a55 {
 			padding-left: 8px;
 			padding-right: 4px;
 			margin-left: 0;
@@ -147,7 +147,7 @@
 		}
 
 		// Thread bar thingy
-		&.hasThread_f9f2ca::after {
+		&.hasThread_c19a55::after {
 			left: 1.8rem;
 			top: 3.5rem;
 			width: 1.5rem;
@@ -171,11 +171,11 @@
 	}
 
 	// Message placeholders
-	.wrapper_ba0ffb {
+	.wrapper__0d1ef {
 		background: transparent;
 	}
 	// Pretty much the same as #L3
-	.wrapper_b75bb9 {
+	.wrapper_fc8177 {
 		background: transparent;
 		padding-top: var(--message-padding);
 		padding-bottom: var(--message-padding);
@@ -194,11 +194,11 @@
 			background: var(--background-alt);
 			z-index: -1;
 		}
-		.contents_b75bb9,
-		.attachmentContainer_b75bb9 {
+		.contents_fc8177,
+		.attachmentContainer_fc8177 {
 			padding-left: calc(40px + (var(--message-padding) * 2));
 		}
-		.avatar_f9f2ca {
+		.avatar_c19a55 {
 			left: var(--message-padding);
 			top: var(--message-padding);
 			margin-top: 0;
@@ -206,30 +206,30 @@
 		&[style*='margin-top'] {
 			margin-top: var(--message-spacing) !important;
 		}
-		& + .wrapper_b75bb9:not([style*='margin-top']) {
+		& + .wrapper_fc8177:not([style*='margin-top']) {
 			margin-top: calc(var(--message-padding) / -1);
 			padding-top: 0.175rem;
 		}
 	}
 
 	// Embeds
-	.embedFull_b0068a {
+	.embedFull__623de {
 		background: var(--background-dark);
 	}
 
 	// Attachments
-	.attachment_b52bef,
+	.fileWrapper__0ccae,
 	.wrapperAudio_f316dd {
 		background: var(--background-dark);
 		border-radius: var(--border-radius);
 		border: none;
 	}
-	.textContainer_d8e2d0 {
+	.textContainer__4d95d {
 		border: none;
 		background: var(--background-dark);
 		border-radius: var(--border-radius) var(--border-radius) 0 0;
 	}
-	.footer_d8e2d0 {
+	.footer__4d95d {
 		background: var(--background);
 		border: none;
 	}
@@ -243,12 +243,12 @@
 	}
 
 	// Reactions
-	.reaction_f61c73 {
+	.reaction_f8896c {
 		background: var(--background);
-		&.reactionMe_f61c73 {
+		&.reactionMe_f8896c {
 			background: rgb(var(--accent), 0.2);
 			border-color: rgb(var(--accent), 1);
-			.reactionCount_f61c73 {
+			.reactionCount_f8896c {
 				color: rgb(var(--accent), 1);
 			}
 		}

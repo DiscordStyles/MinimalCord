@@ -1,27 +1,27 @@
-#app-mount .layer_d4b6c5:not(.baseLayer_d4b6c5) {
-	.connectContainer_e2a436 {
+#app-mount .layer__960e4:not(.baseLayer__960e4) {
+	.connectContainer_c7f964 {
 		background: var(--background-light);
 		margin-bottom: 55px;
 	}
-	.accountButtonInner_e2a436 {
+	.accountButtonInner_c7f964 {
 		background-color: var(--background-light-alt);
 		&:hover {
 			background-color: var(--background);
 		}
 	}
 
-	.connection_e2a436 {
+	.connection_c7f964 {
 		background: var(--background-alt);
 	}
-	.connectionHeader_e2a436 {
+	.connectionHeader_c7f964 {
 		background: var(--background-light-alt);
 	}
 
-	.metadataContainer_e2a436 {
+	.metadataContainer_c7f964 {
 		background: var(--background);
 		padding: 16px;
 	}
-	.integration_e2a436 {
+	.integration_c7f964 {
 		background: var(--background-alt);
 	}
 }
