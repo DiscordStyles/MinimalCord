@@ -1,63 +1,69 @@
 #app-mount {
-	.container-3wLKDe {
-		background: var(--background);
-	}
+  .container_f369db {
+	background: var(--background);
+  }
+  
+  /* Header */
+  .header_f369db {
+	background: var(--background-alt);
+  }
+	.titleContainer_d9be46 {
+	  align-items: center;
+	  gap: 12px;
+  }
 
-	// Header
-	.header-1Uy0p6 {
-		background: var(--background-light);
-		border-radius: 5px;
-		&.headerWithMatchingPosts-1lTrVT {
-			border-radius: 5px 5px 0 0;
-		}
-		.container-JhuCwn {
-			cursor: default;
-		}
-		.titleContainer-2YK93J {
-			align-items: center;
-			gap: 12px;
-		}
-		.prefixElement-1U4XhR {
-			margin: 0;
-			height: 58px;
-			display: flex;
-			align-items: center;
-			position: absolute;
-			z-index: 1;
-			left: 24px;
-			pointer-events: none;
-		}
-		.input-2g-os5 {
-			height: 58px;
-			min-height: unset;
-			padding: 16px 16px 16px 48px;
-			margin: 0;
-		}
-		.guidelinesButton-3Vrz0u {
-			margin: 0;
-		}
-	}
-	.matchingPostsRow_f369db {
-		background: var(--background-alt);
-	}
+  /* Target the textarea input */
+  div[aria-label="Create Post"] .textArea__7aff3 {
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    height: 40px;
+    margin-top: 0px;
+  }
+    .bodyContainer_d9be46 {
+      padding: 6px 6px !important;
+      border-radius: 6px !important;
+      margin-left: -6px;
+      margin-right: 6px;
+    }
+	  .textAreaWithoutAttachmentButton__74017 {
+        margin-left: 12px;
+        margin-top: 2px;
+      }
 
-	// Tags
-	.tag-19iIl1 {
-		background: var(--background-light);
-	}
+  .forumPostFormButton_d9be46 {
+    color: var(--interactive-normal);
+  }
 
-	// Cards
-	.container-2qVG6q {
-		background: var(--background-alt);
-		border-radius: 5px;
-		.pill_a2c9e8 {
-			background: var(--background-light);
-		}
-	}
+  .tagsDivider_d9be46{
+    	background-color: var(--background-light);
+  }
+	
+  .matchingPostsRow_f369db {
+	background: var(--background-alt);
+  }
 
-	// Sidebar
-	.sidebarCard-1Gn1ch {
-		background: var(--background-alt);
-		border: none;
-	}
+  /* Guidelines */
+  .container_ca49a1 {
+    background: var(--background);
+  }
+
+  .defaultColor__4bd52 {
+    color: var(--interactive-normal);
+  }
+
+  /* Tags */
+  .pill_a2c9e8, .sortDropdown_f369db, .tagsButton_f369db {
+    color: var(--interactive-normal);
+    background: var(--background-alt);
+  }
+
+  /* Cards */
+  .container__9a337 {
+	background: var(--background-alt);
+  }
+
+  /* Message-Bubble-Icon above Title in Chat */
+  .iconWrapper__7e6bb{
+    background: var(--background);
+  }  
 }

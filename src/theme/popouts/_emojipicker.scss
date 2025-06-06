@@ -1,41 +1,41 @@
 #app-mount {
-	.contentWrapper__08434 {
-		background: var(--background-light-alt);
-		box-shadow: var(--box-shadow);
-		border-radius: var(--border-radius);
-	}
-	.scroller_affa7e::-webkit-scrollbar {
-		display: none;
-	}
-	.container_fea832 {
-		background: var(--background);
-		border: 1px solid var(--background);
-		transition: border-color 0.15s ease;
-		&:hover {
-			border-color: var(--background-light);
-		}
-		&:focus-within {
-			border-color: rgb(var(--accent), 1);
-		}
-	}
+  /* General background in all tabs */
+  .contentWrapper__08434 {
+    background: var(--background);
+  }
 
-	.wrapper_dc0b29 {
-		background: var(--background);
-	}
+  .emojiPicker_c0e32c .scroller_affa7e,
+    .wrapper__8ef02 .scroller_affa7e,
+      #emoji-picker-tab-panel .scroller_affa7e,
+        .drawerSizingWrapper__08434 :is(.scroller_affa7e, .content__99f8c) {
+    background: var(--background);
+  }
 
-	.list_c656ac {
-		.listItems_affa7e {
-			left: 0 !important;
+  /* Those weird bars between the areas that behave like they got their own life */
+  .wrapper__14245 {
+    background: var(--background-light-alt);
+    border-radius: 6px;
+    margin-bottom: 8px;
+
+    &::after{
+				content: none;
+    }
+  }
+
+  /* "Info"-bar at the bottom + the default-emoji/sticker button on the bottom left, why is that even a seperate thing again !?*/
+  .inspector_aeaaeb, .unicodeShortcut_b9ee0c, .standardStickerShortcut__3ad28 {
+      border: none;
+			background: var(--background);
 		}
-		ul[role='row'] {
-			padding-left: 8px;
-		}
-		.wrapper__14245 {
-			background: var(--background-light-alt);
-			padding-left: 12px;
-		}
-		.inspector_aeaaeb {
-			background: var(--background-light);
-		}
-	}
+
+  /* Searchbar + background - IN ALL TABS - I need to stop questioning discord styling */
+  .header_c0e32c, .header__8ef02, .header_fed6d3 {
+    background: var(--background);
+    border: none;
+  }
+
+  /* Goofy super-reaction button in the mini-modal */
+  .label__0d242 {
+    background-color: var(--background-light);
+  }
 }
