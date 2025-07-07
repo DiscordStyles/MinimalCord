@@ -485,6 +485,10 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .cozy_c19a55 .repliedMessage_c19a55 + .contents_c19a55 img {
   top: 32px;
 }
+#app-mount .cozy_c19a55 .repliedMessage_c19a55 img.roleIcon_c19a55 {
+  top: unset;
+  position: unset;
+}
 #app-mount .cozy_c19a55 .repliedMessage_c19a55:before {
   border-color: var(--text-muted);
 }
@@ -714,58 +718,64 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 
-#app-mount .container-3wLKDe {
+#app-mount {
+  /* Header */
+  /* Target the textarea input */
+  /* Guidelines */
+  /* Tags */
+  /* Cards */
+  /* Message-Bubble-Icon above Title in Chat */
+}
+#app-mount .container_f369db {
   background: var(--background);
 }
-#app-mount .header-1Uy0p6 {
-  background: var(--background-light);
-  border-radius: 5px;
+#app-mount .header_f369db {
+  background: var(--background-alt);
 }
-#app-mount .header-1Uy0p6.headerWithMatchingPosts-1lTrVT {
-  border-radius: 5px 5px 0 0;
-}
-#app-mount .header-1Uy0p6 .container-JhuCwn {
-  cursor: default;
-}
-#app-mount .header-1Uy0p6 .titleContainer-2YK93J {
+#app-mount .titleContainer_d9be46 {
   align-items: center;
   gap: 12px;
 }
-#app-mount .header-1Uy0p6 .prefixElement-1U4XhR {
-  margin: 0;
-  height: 58px;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  z-index: 1;
-  left: 24px;
-  pointer-events: none;
+#app-mount div[aria-label="Create Post"] .textArea__7aff3 {
+  padding: 8px 12px !important;
+  border-radius: 6px !important;
+  height: 40px;
+  margin-top: 0px;
 }
-#app-mount .header-1Uy0p6 .input-2g-os5 {
-  height: 58px;
-  min-height: unset;
-  padding: 16px 16px 16px 48px;
-  margin: 0;
+#app-mount .bodyContainer_d9be46 {
+  padding: 6px 6px !important;
+  border-radius: 6px !important;
+  margin-left: -6px;
+  margin-right: 6px;
 }
-#app-mount .header-1Uy0p6 .guidelinesButton-3Vrz0u {
-  margin: 0;
+#app-mount .textAreaWithoutAttachmentButton__74017 {
+  margin-left: 12px;
+  margin-top: 2px;
+}
+#app-mount .forumPostFormButton_d9be46 {
+  color: var(--interactive-normal);
+}
+#app-mount .tagsDivider_d9be46 {
+  background-color: var(--background-light);
 }
 #app-mount .matchingPostsRow_f369db {
   background: var(--background-alt);
 }
-#app-mount .tag-19iIl1 {
-  background: var(--background-light);
+#app-mount .container_ca49a1 {
+  background: var(--background);
 }
-#app-mount .container-2qVG6q {
+#app-mount .defaultColor__4bd52 {
+  color: var(--interactive-normal);
+}
+#app-mount .pill_a2c9e8, #app-mount .sortDropdown_f369db, #app-mount .tagsButton_f369db {
+  color: var(--interactive-normal);
   background: var(--background-alt);
-  border-radius: 5px;
 }
-#app-mount .container-2qVG6q .pill_a2c9e8 {
-  background: var(--background-light);
-}
-#app-mount .sidebarCard-1Gn1ch {
+#app-mount .container__9a337, #app-mount .container_faa96b {
   background: var(--background-alt);
-  border: none;
+}
+#app-mount .iconWrapper__7e6bb {
+  background: var(--background);
 }
 
 #app-mount .container_c8ffbb,
@@ -962,40 +972,40 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: var(--background-alt);
 }
 
+#app-mount {
+  /* General background in all tabs */
+  /* Those weird bars between the areas that behave like they got their own life */
+  /* "Info"-bar at the bottom + the default-emoji/sticker button on the bottom left, why is that even a seperate thing again !?*/
+  /* Searchbar + background - IN ALL TABS - I need to stop questioning discord styling */
+  /* Goofy super-reaction button in the mini-modal */
+}
 #app-mount .contentWrapper__08434 {
-  background: var(--background-light-alt);
-  box-shadow: var(--box-shadow);
-  border-radius: var(--border-radius);
-}
-#app-mount .scroller_affa7e::-webkit-scrollbar {
-  display: none;
-}
-#app-mount .container_fea832 {
-  background: var(--background);
-  border: 1px solid var(--background);
-  transition: border-color 0.15s ease;
-}
-#app-mount .container_fea832:hover {
-  border-color: var(--background-light);
-}
-#app-mount .container_fea832:focus-within {
-  border-color: rgb(var(--accent), 1);
-}
-#app-mount .wrapper_dc0b29 {
   background: var(--background);
 }
-#app-mount .list_c656ac .listItems_affa7e {
-  left: 0 !important;
+#app-mount .emojiPicker_c0e32c .scroller_affa7e,
+#app-mount .wrapper__8ef02 .scroller_affa7e,
+#app-mount #emoji-picker-tab-panel .scroller_affa7e,
+#app-mount .drawerSizingWrapper__08434 :is(.scroller_affa7e, .content__99f8c) {
+  background: var(--background);
 }
-#app-mount .list_c656ac ul[role=row] {
-  padding-left: 8px;
-}
-#app-mount .list_c656ac .wrapper__14245 {
+#app-mount .wrapper__14245 {
   background: var(--background-light-alt);
-  padding-left: 12px;
+  border-radius: 6px;
+  margin-bottom: 8px;
 }
-#app-mount .list_c656ac .inspector_aeaaeb {
-  background: var(--background-light);
+#app-mount .wrapper__14245::after {
+  content: none;
+}
+#app-mount .inspector_aeaaeb, #app-mount .unicodeShortcut_b9ee0c, #app-mount .standardStickerShortcut__3ad28 {
+  border: none;
+  background: var(--background);
+}
+#app-mount .header_c0e32c, #app-mount .header__8ef02, #app-mount .header_fed6d3 {
+  background: var(--background);
+  border: none;
+}
+#app-mount .label__0d242 {
+  background-color: var(--background-light);
 }
 
 #app-mount .autocomplete__13533 {
