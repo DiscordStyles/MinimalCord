@@ -17,8 +17,48 @@
         width: 100%;
 	}
 	&.selected__91a9d .layout__91a9d {
-		background: var(--background-light);
-        width: 100%;    
+		background: rgb(var(--accent), 1);
+        width: 100%;
+        .roleColor-rz2vM0,
+		.activity__5d473,
+		.premiumIcon-1rDbWQ,
+		.username__5d473 span {
+			color: var(--accent-text) !important;
+		}
+        // Applies to new Glow Names
+        .nameContainer__703b9 {
+        --custom-gradient-color-1: var(--accent-text) !important;
+        --custom-gradient-color-2: var(--accent-text) !important;
+        --custom-gradient-color-3: var(--accent-text) !important;
+        }
+        .usernameGlow_e5de78 {
+            filter: none;
+            transition: none;
+        }
+        .usernameGlowActive_e5de78 {
+            filter: none;
+            transition: none;
+        }
+        // New Tag after Name
+        .chipletContainerInner__10651 {
+            background: var(--background-light)
+        }
+        rect[fill='#43b581'],
+		rect[fill='#faa61a'],
+		rect[fill='#f04747'] {
+			fill: #fff;
+		}
+
+		// "App" Text on Bot Tag
+        .botTagRegular__82f07 {
+			background: var(--accent-text);
+			color: rgb(var(--accent), 1);
+		}
+        // Little ✓ on Bot Tag if verified
+        .botTagVerified__82f07 path {
+            fill: #3283CF !important;
+        }
+
     }
     .childContainer__91a9d {
         padding-right: 0%;
