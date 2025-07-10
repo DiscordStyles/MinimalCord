@@ -1,14 +1,19 @@
 #app-mount {
+    // Seems to "only" control the color of the little line above the "Online" "All" "Friends" Button row
 	.container__133bf {
 		background: var(--background);
-		.title_d1da5f {
-			margin: 20px;
-		}
-	}
-	.tabBody__133bf:before {
-		content: none;
 	}
 
+    // Search bar
+    .searchBar__5ec2f {
+        background: var(--background-dark);
+    }
+
+    // Background
+    .tabBody__133bf {
+		background: var(--background);
+	}
+    // Listed Friend-Containers
 	.peopleListItem_cc6179 {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
@@ -27,42 +32,39 @@
 		background: var(--background-dark);
 	}
 
-	.scroller__7d20c {
-		border: none;
-		padding-left: 0;
-	}
+    // Active Now - Section
 	.container__7d20c {
 		background: var(--background);
 	}
 	.nowPlayingColumn__133bf {
 		background: transparent;
 	}
-	.nowPlayingScroller__5cd67 {
-		padding: 20px;
-	}
-	.header-13Cw0- {
+	.header__7d20c {
 		padding: 0 0 20px 0;
 	}
 	.emptyCard__7e549 {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 	}
-
+    // Activity Box
 	.wrapper__00943 {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 		border: none;
 		&:hover {
 			background: var(--background-light);
-			.inset_bf1984 {
-				background: var(--background-alt);
+			.section__00943 {
+				background: var(--background-alt); /* switched colors so it gives more "feedback" when hovering */
 			}
 		}
 	}
+    // Activity Box Inner Box
 	.section__00943 {
 		background: var(--background-light);
-	}
+        border: none;
+    }
 	.inset_bf1984 {
 		background: var(--background);
+        border-radius: 8px;
 	}
 }
