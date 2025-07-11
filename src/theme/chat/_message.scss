@@ -132,11 +132,6 @@
 					top: 32px;
 				}
 			}
-   			// Reset role icon positioning in replies
-   			img.roleIcon_c19a55 {
-     			top: unset;
-     			position: unset;
-   			}
 			&:before {
 				border-color: var(--text-muted);
 			}
@@ -150,6 +145,12 @@
 				width: 100%;
 			}
 		}
+
+		// Reset role icon positioning in replies - Fix Nr 2
+		[class^="roleIcon"] {
+     		top: unset;
+     		position: unset;
+   		}
 
 		// Thread bar thingy
 		&.hasThread_c19a55::after {
