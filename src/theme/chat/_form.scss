@@ -2,10 +2,14 @@
 	// Chat box
 	.form_f75fb0 {
 		--custom-channel-textarea-text-area-height: 52px;
+		padding: 0 var(--space-md); /* align with message/chat boxes for a unified design*/
 		&::before {
 			content: none;
 		}
 	}
+    .chatGradient__36d07{ /* remove black bar above/behind chatbar */
+    background: none;
+    }
 	.scrollableContainer__74017 {
 		background: var(--background-alt);
 		box-shadow: var(--box-shadow);
@@ -19,15 +23,15 @@
 	}
 	.placeholder__1b31f,
 	.slateTextArea_ec4baf {
-		padding: 15px 15px 15px 0;
+		padding: 17px 15px 15px 0;
 	}
 
-	.attachButton__0923f {
-		padding: 15px 16px;
-		height: 52px;
-	}
+    .attachWrapper__0923f { /* bring chatbox back to the old height with this */
+        padding: 12px 10px;
+    }
+
 	.buttons__74017 {
-		height: 52px;
+		height: 54px;
 	}
 	// App launch button thing (WHY DISCORD????)
 	.button_e6e74f {
