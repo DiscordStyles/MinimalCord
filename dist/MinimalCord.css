@@ -314,8 +314,16 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   height: 100%;
   background: rgb(var(--accent), 1);
 }
-#app-mount .userPanelOuter-xc-WYi {
-  background: var(--background-alt);
+#app-mount .user-profile-sidebar .inner_c0bea0 {
+  border-radius: 0;
+  height: 100%;
+  background: var(--background);
+}
+#app-mount .footer__7f9c0 {
+  border: none;
+}
+#app-mount .tabListScroller__37bfc { /* remove wonky bar in big profile popout when hovering over the tabs on the right */
+  overflow: visible !important;
 }
 
 #app-mount .chat_f75fb0 {
@@ -336,9 +344,13 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 
 #app-mount .form_f75fb0 {
   --custom-channel-textarea-text-area-height: 52px;
+  padding: 0 var(--space-md); /* align with message/chat boxes for a unified design*/
 }
 #app-mount .form_f75fb0::before {
   content: none;
+}
+#app-mount .chatGradient__36d07 { /* remove black bar above/behind chatbar */
+  background: none;
 }
 #app-mount .scrollableContainer__74017 {
   background: var(--background-alt);
@@ -353,14 +365,13 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 #app-mount .placeholder__1b31f,
 #app-mount .slateTextArea_ec4baf {
-  padding: 15px 15px 15px 0;
+  padding: 17px 15px 15px 0;
 }
-#app-mount .attachButton__0923f {
-  padding: 15px 16px;
-  height: 52px;
+#app-mount .attachWrapper__0923f { /* bring chatbox back to the old height with this */
+  padding: 12px 10px;
 }
 #app-mount .buttons__74017 {
-  height: 52px;
+  height: 54px;
 }
 #app-mount .button_e6e74f {
   background: var(--background-alt);
@@ -719,16 +730,11 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 
-#app-mount {
-  /* Header */
-  /* Target the textarea input */
-  /* Guidelines */
-  /* Tags */
-  /* Cards */
-  /* Message-Bubble-Icon above Title in Chat */
-}
 #app-mount .container_f369db {
   background: var(--background);
+}
+#app-mount {
+  /* Header */
 }
 #app-mount .header_f369db {
   background: var(--background-alt);
@@ -736,6 +742,9 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .titleContainer_d9be46 {
   align-items: center;
   gap: 12px;
+}
+#app-mount {
+  /* Target the textarea input */
 }
 #app-mount div[aria-label="Create Post"] .textArea__7aff3 {
   padding: 8px 12px !important;
@@ -762,18 +771,30 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .matchingPostsRow_f369db {
   background: var(--background-alt);
 }
+#app-mount {
+  /* Guidelines */
+}
 #app-mount .container_ca49a1 {
   background: var(--background);
 }
 #app-mount .defaultColor__4bd52 {
   color: var(--interactive-normal);
 }
+#app-mount {
+  /* Tags */
+}
 #app-mount .pill_a2c9e8, #app-mount .sortDropdown_f369db, #app-mount .tagsButton_f369db {
   color: var(--interactive-normal);
   background: var(--background-alt);
 }
+#app-mount {
+  /* Cards */
+}
 #app-mount .container__9a337, #app-mount .container_faa96b {
   background: var(--background-alt);
+}
+#app-mount {
+  /* Message-Bubble-Icon above Title in Chat */
 }
 #app-mount .iconWrapper__7e6bb {
   background: var(--background);
@@ -996,14 +1017,40 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .messageContainer__95796 {
   border-radius: 0 0 var(--border-radius) var(--border-radius);
   background: var(--background-alt);
+  border: none;
+}
+#app-mount .messagesScroller__4ad69 { /* bookmarks scroller background */
+  background: var(--background-light);
+}
+#app-mount .messageContainer__4ad69 { /* bookmarked messages */
+  background: var(--background-alt);
+  border: none;
+}
+#app-mount .message__4ad69 { /* bookmarked message bottom half */
+  margin-top: 10px !important;
+}
+#app-mount .channelHeader__35a7e { /* mentioned messages header */
+  border-radius: 6px;
+  margin-left: 15px;
+}
+#app-mount .scroller__2692d { /* unreads scroller background */
+  background: var(--background-light);
+}
+#app-mount .messages__1ccd1 { /* unreads messages content box */
+  background: var(--background-alt);
+  border: none;
+}
+#app-mount .channel__427f0 .channelHeader__35a7e { /* unreads header */
+  margin-left: unset;
+  position: unset;
+}
+#app-mount .container__0f711 { /* "For You" tab */
+  background: var(--background-light);
+  padding-left: 15px;
 }
 
 #app-mount {
   /* General background in all tabs */
-  /* Those weird bars between the areas that behave like they got their own life */
-  /* "Info"-bar at the bottom + the default-emoji/sticker button on the bottom left, why is that even a seperate thing again !?*/
-  /* Searchbar + background - IN ALL TABS - I need to stop questioning discord styling */
-  /* Goofy super-reaction button in the mini-modal */
 }
 #app-mount .contentWrapper__08434 {
   background: var(--background);
@@ -1014,6 +1061,9 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .drawerSizingWrapper__08434 :is(.scroller_affa7e, .content__99f8c) {
   background: var(--background);
 }
+#app-mount {
+  /* Those weird bars between the areas that behave like they got their own life */
+}
 #app-mount .wrapper__14245 {
   background: var(--background-light-alt);
   border-radius: 6px;
@@ -1022,13 +1072,22 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .wrapper__14245::after {
   content: none;
 }
+#app-mount {
+  /* "Info"-bar at the bottom + the default-emoji/sticker button on the bottom left, why is that even a seperate thing again !?*/
+}
 #app-mount .inspector_aeaaeb, #app-mount .unicodeShortcut_b9ee0c, #app-mount .standardStickerShortcut__3ad28 {
   border: none;
   background: var(--background);
 }
+#app-mount {
+  /* Searchbar + background - IN ALL TABS - I need to stop questioning discord styling */
+}
 #app-mount .header_c0e32c, #app-mount .header__8ef02, #app-mount .header_fed6d3 {
   background: var(--background);
   border: none;
+}
+#app-mount {
+  /* Goofy super-reaction button in the mini-modal */
 }
 #app-mount .label__0d242 {
   background-color: var(--background-light);
