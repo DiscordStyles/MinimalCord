@@ -26,7 +26,17 @@
 	}
 
 	// right user profile
-	.userPanelOuter-xc-WYi {
-		background: var(--background-alt);
+	.user-profile-sidebar .inner_c0bea0 {
+    	border-radius: 0;
+    	height: 100%;
+    	background: var(--background);
 	}
+
+  	.footer__7f9c0 {
+    	border: none;
+  	}
+
+  	.tabListScroller__37bfc { /* remove wonky bar in big profile popout when hovering over the tabs on the right */
+  		overflow: visible!important;
+  	}
 }
