@@ -1,11 +1,11 @@
 #app-mount {
-	[role='radiogroup'] .item__001a7 {
+	[role='radiogroup'] .item__88a69 {
 		background: var(--background-alt);
 		&:hover {
 			background: var(--background-light);
 		}
 		&[aria-checked='true'] {
-			.radioBar__001a7 {
+			.radioBar__88a69 {
 				background: rgb(var(--accent));
 				color: var(--accent-text);
 				&[style*='--radio-bar-accent-color'] {
@@ -23,8 +23,8 @@
 			}
 		}
 	}
-	.children__7bffb > .marginBottom40_fd297e .item__001a7,
-	.marginBottom20_fd297e .item__001a7 {
+	.children__7bffb > .marginBottom40_fd297e .item__88a69,
+	.marginBottom20_fd297e .item__88a69 {
 		background: var(--background-alt);
 		&[aria-checked='true'] {
 			background: rgb(var(--accent));
