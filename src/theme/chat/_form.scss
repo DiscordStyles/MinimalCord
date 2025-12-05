@@ -12,7 +12,6 @@
     }
 	.scrollableContainer__74017 {
 		background: var(--background-alt);
-		box-shadow: var(--box-shadow);
 		border-radius: var(--border-radius);
 	}
 	.placeholder__1b31f {
@@ -50,5 +49,6 @@
 	// No perms
 	.channelTextArea_f75fb0 {
 		background: var(--background-alt);
+		border: none;
 	}
 }
