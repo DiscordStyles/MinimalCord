@@ -11,7 +11,7 @@
     }
 
     // Background
-    .tabBody__133bf {
+    .tabBody__133bf, .container__7d20c {
 		background: var(--background);
 	}
     // Listed Friend-Containers
@@ -32,11 +32,7 @@
 	.actionButton_f8fa06 {
 		background: var(--background-dark);
 	}
-
-    // Active Now - Section
-	.container__7d20c {
-		background: var(--background);
-	}
+	// Active Now Section
 	.nowPlayingColumn__133bf {
 		background: transparent;
 	}
@@ -55,7 +51,7 @@
 		&:hover {
 			background: var(--background-light);
 			.section__00943 {
-				background: var(--background-alt); /* switched colors so it gives more "feedback" when hovering */
+				background: var(--background-alt);
 			}
 		}
 	}
@@ -68,4 +64,13 @@
 		background: var(--background);
         border-radius: 8px;
 	}
+
+	.interactive__972a0 {
+    	color: var(--interactive-normal);
+	}
+
+	.interactiveSelected__972a0 {
+    	color: var(--text-default);
+	}
+
 }

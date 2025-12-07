@@ -1,5 +1,5 @@
 #app-mount {
-  /* General background in all tabs */
+  // General background in all tabs
   .contentWrapper__08434 {
     background: var(--background);
   }
@@ -11,7 +11,7 @@
     background: var(--background);
   }
 
-  /* Those weird bars between the areas that behave like they got their own life */
+  // Those weird bars between the areas
   .wrapper__14245 {
     background: var(--background-light-alt);
     border-radius: 6px;
@@ -22,19 +22,19 @@
     }
   }
 
-  /* "Info"-bar at the bottom + the default-emoji/sticker button on the bottom left, why is that even a seperate thing again !?*/
+  // "Info"-bar at the bottom + the default-emoji/sticker button on the bottom left
   .inspector_aeaaeb, .unicodeShortcut_b9ee0c, .standardStickerShortcut__3ad28 {
       border: none;
 			background: var(--background);
 		}
 
-  /* Searchbar + background - IN ALL TABS - I need to stop questioning discord styling */
+  // Searchbar + background - in all tabs
   .header_c0e32c, .header__8ef02, .header_fed6d3 {
     background: var(--background);
     border: none;
   }
 
-  /* Goofy super-reaction button in the mini-modal */
+  // Super-reaction button in the mini-modal
   .label__0d242 {
     background-color: var(--background-light);
   }
