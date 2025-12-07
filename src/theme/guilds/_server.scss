@@ -18,4 +18,24 @@
 			background: rgb(var(--discord-green) / 1);
 		}
 	}
+
+    // Channels & Roles Page
+	.container__0b563, .header__0b563 , .pageBody__41ed7 {
+		background: var(--background) !important;
+	}
+
+	// Members Page
+	 .page_c791b2 {
+		background-color: var(--background) !important;
+	}
+	
+	.mainTableContainer__09a38 {
+		background: var(--background-alt);
+		border: none;
+	}
+
+	// Boosts Page
+	.contentContainer__89463, .sidebarContainer__89463 {
+		background: var(--background);
+	}
 }
