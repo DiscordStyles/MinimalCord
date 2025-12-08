@@ -1,0 +1,35 @@
+#app-mount {
+    // Authorized Apps
+    // Info box
+    .card__73069 {
+        background: var(--background-light-alt); 
+        border: none;
+    }
+
+    // Cards
+    .actionMenuButton_d84e0f {
+        background: var(--background-light);
+    }
+    .headerV2__50a54 {
+        background: var(--background-alt);
+    }
+    .appDetailsContainer__50a54 {
+        background: var(--background-light-alt);
+    }
+    .appAvatarV2__50a54 {
+        border: none;
+    }
+
+    // Connections
+    //Cards
+    .connection_c7f964 {background: var(--background-light-alt);
+        border: none;
+    }
+    // Subscription enabled Servers box
+    .integrationWrapper_c7f964 {background: var(--background);
+    }
+    // Metadata box
+    .metadataContainer_c7f964 {background: var(--background);
+        border: none;
+    }
+}

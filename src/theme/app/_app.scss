@@ -6,8 +6,3 @@
 	background: rgb(var(--accent), 1);
 	color: var(--accent-text);
 }
-
-#app-mount .info__2debe .line__2debe:first-child:before {
-	content: 'MinimalCord ' var(--minimalcord-version);
-	display: block;
-}
