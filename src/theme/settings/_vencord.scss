@@ -1,0 +1,23 @@
+#app-mount {
+    // Vencord settings
+    // Plugin cards
+    .vc-addon-card {
+        background: var(--background-dark);
+        border: none;
+    }
+    // Info cards
+    .vc-card-base {
+        background: var(--background-dark);
+        border: none;
+    }
+
+    // Buttons on the local themes page
+    .vc-settings-quickActions-pill {
+        background: var(--background-light-alt);
+    }
+
+    // Online themes - Box for links
+    .vc-settings-theme-links {
+        background: var(--background-dark) !important;
+    }
+}

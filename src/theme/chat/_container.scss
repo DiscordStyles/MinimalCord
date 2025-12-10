@@ -1,6 +1,7 @@
 #app-mount {
 	.chat_f75fb0 {
 		background: var(--background);
+		border: none;
 		.scrollerSpacer__36d07 {
 			height: 25px;
 		}
@@ -14,4 +15,8 @@
 	.operations_bab751 > a {
 		color: rgb(var(--accent), 1);
 	}
+
+    div.page__5e434 {
+        border: none;
+    }
 }

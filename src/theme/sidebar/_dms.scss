@@ -36,7 +36,29 @@
     	border: none;
   	}
 
-  	.tabListScroller__37bfc { /* remove wonky bar in big profile popout when hovering over the tabs on the right */
+	// profile poput
+  	.tabListScroller__37bfc {
   		overflow: visible!important;
   	}
+
+	.user-profile-popout .inner_c0bea0 {
+		background: var(--background);
+	}
+
+	.inner_c0bea0 {
+		background: var(--background-dark);
+	}
+
+	.outer_c0bea0, .profile__9c3be {
+		outline: none;
+	}
+
+	.container_a99829 {
+		border: none;
+	}
+
+	// Quest Poput when hovering in Memberlist
+	.container_f528aa {
+    	background-color: var(--background-light)
+	}
 }

@@ -2,17 +2,18 @@
 	// Chat box
 	.form_f75fb0 {
 		--custom-channel-textarea-text-area-height: 52px;
-		padding: 0 var(--space-md); /* align with message/chat boxes for a unified design*/
+		padding: 0 var(--space-md);
 		&::before {
 			content: none;
 		}
 	}
-    .chatGradient__36d07{ /* remove black bar above/behind chatbar */
-    background: none;
+
+	// Black Bar above / behind chatbar
+    .chatGradient__36d07{
+    	background: none;
     }
 	.scrollableContainer__74017 {
 		background: var(--background-alt);
-		box-shadow: var(--box-shadow);
 		border-radius: var(--border-radius);
 	}
 	.placeholder__1b31f {
@@ -26,14 +27,16 @@
 		padding: 17px 15px 15px 0;
 	}
 
-    .attachWrapper__0923f { /* bring chatbox back to the old height with this */
+	// Set old chatbox height
+    .attachWrapper__0923f {
         padding: 12px 10px;
     }
 
 	.buttons__74017 {
 		height: 54px;
 	}
-	// App launch button thing (WHY DISCORD????)
+
+	// App launch button
 	.button_e6e74f {
 		background: var(--background-alt);
 		box-shadow: var(--box-shadow);
@@ -42,13 +45,14 @@
 		}
 	}
 
-	// Announcement bar thingy
+	// Announcement bar
 	.wrapper__44df5 {
 		background: var(--background-light);
 	}
-
+	
 	// No perms
 	.channelTextArea_f75fb0 {
 		background: var(--background-alt);
+		border: none;
 	}
 }
