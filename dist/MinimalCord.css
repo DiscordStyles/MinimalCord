@@ -1,5 +1,5 @@
 :root {
-  --minimalcord-version: "2.3.0";
+  --minimalcord-version: '2.3.0';
   --border-radius: 5px;
   --accent-text: white;
   --font-primary: var(--font);
@@ -86,11 +86,6 @@ html.theme-dark .force-theme.theme-light {
   color: var(--accent-text);
 }
 
-#app-mount .info__2debe .line__2debe:first-child:before {
-  content: "MinimalCord " var(--minimalcord-version);
-  display: block;
-}
-
 ::-webkit-input-placeholder,
 body,
 button,
@@ -108,6 +103,7 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .title-3qD0b-,
 #app-mount .container__9293f {
   background: var(--background);
+  border: none;
 }
 #app-mount .children__9293f:after {
   content: none;
@@ -198,11 +194,21 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .circleIconButton__5bc7e:hover, #app-mount .circleIconButton__5bc7e.selected__5bc7e {
   background: rgb(var(--discord-green)/1);
 }
-
-#app-mount .folderGroupBackground__48112 {
-  background: var(--background-light);
+#app-mount .container__0b563, #app-mount .header__0b563, #app-mount .pageBody__41ed7 {
+  background: var(--background) !important;
 }
-#app-mount .hiddenVisually_b18fe2 {
+#app-mount .page_c791b2 {
+  background-color: var(--background) !important;
+}
+#app-mount .mainTableContainer__09a38 {
+  background: var(--background-alt);
+  border: none;
+}
+#app-mount .contentContainer__89463, #app-mount .sidebarContainer__89463 {
+  background: var(--background);
+}
+
+#app-mount .folderGroupBackground__48112, #app-mount .hiddenVisually_b18fe2 {
   background: var(--background-light);
 }
 
@@ -222,6 +228,12 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .activityPanel__5e434 {
   background: transparent;
   border: none;
+}
+#app-mount .scroller__7d20c {
+  border: none;
+}
+#app-mount .wrapper__11054 {
+  background: var(--background-light);
 }
 
 #app-mount .wrapper__2ea32 {
@@ -266,18 +278,23 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .avatarSpeaking__07f91 {
   box-shadow: inset 0 0 0 2px rgb(var(--accent), 1), inset 0 0 0 3px var(--background);
 }
+#app-mount .sidebarList__5e434 {
+  border: none;
+}
 
 #app-mount .selected_f37cb1 .header_f37cb1 {
   background: transparent;
 }
 #app-mount .header_f37cb1 {
   box-shadow: none;
+  border: none;
 }
 #app-mount .header_f37cb1:hover {
   background: transparent;
 }
 #app-mount .searchBar_e6b769 {
   box-shadow: none;
+  border: none;
 }
 #app-mount .searchBarComponent__35e86 {
   background: var(--background-dark);
@@ -322,12 +339,28 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .footer__7f9c0 {
   border: none;
 }
-#app-mount .tabListScroller__37bfc { /* remove wonky bar in big profile popout when hovering over the tabs on the right */
+#app-mount .tabListScroller__37bfc {
   overflow: visible !important;
+}
+#app-mount .user-profile-popout .inner_c0bea0 {
+  background: var(--background);
+}
+#app-mount .inner_c0bea0 {
+  background: var(--background-dark);
+}
+#app-mount .outer_c0bea0, #app-mount .profile__9c3be {
+  outline: none;
+}
+#app-mount .container_a99829 {
+  border: none;
+}
+#app-mount .container_f528aa {
+  background-color: var(--background-light);
 }
 
 #app-mount .chat_f75fb0 {
   background: var(--background);
+  border: none;
 }
 #app-mount .chat_f75fb0 .scrollerSpacer__36d07 {
   height: 25px;
@@ -341,20 +374,22 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .operations_bab751 > a {
   color: rgb(var(--accent), 1);
 }
+#app-mount div.page__5e434 {
+  border: none;
+}
 
 #app-mount .form_f75fb0 {
   --custom-channel-textarea-text-area-height: 52px;
-  padding: 0 var(--space-md); /* align with message/chat boxes for a unified design*/
+  padding: 0 var(--space-md);
 }
 #app-mount .form_f75fb0::before {
   content: none;
 }
-#app-mount .chatGradient__36d07 { /* remove black bar above/behind chatbar */
+#app-mount .chatGradient__36d07 {
   background: none;
 }
 #app-mount .scrollableContainer__74017 {
   background: var(--background-alt);
-  box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
 }
 #app-mount .placeholder__1b31f {
@@ -367,7 +402,7 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .slateTextArea_ec4baf {
   padding: 17px 15px 15px 0;
 }
-#app-mount .attachWrapper__0923f { /* bring chatbox back to the old height with this */
+#app-mount .attachWrapper__0923f {
   padding: 12px 10px;
 }
 #app-mount .buttons__74017 {
@@ -385,6 +420,7 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 #app-mount .channelTextArea_f75fb0 {
   background: var(--background-alt);
+  border: none;
 }
 
 #app-mount .message__5126c .scrollableContainer__74017 {
@@ -730,21 +766,15 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 
-#app-mount .container_f369db {
+#app-mount .container_f369db, #app-mount .iconWrapper__7e6bb, #app-mount .container_ca49a1 {
   background: var(--background);
 }
-#app-mount {
-  /* Header */
-}
-#app-mount .header_f369db {
+#app-mount .header_f369db, #app-mount .matchingPostsRow_f369db, #app-mount .container__9a337, #app-mount .container_faa96b {
   background: var(--background-alt);
 }
 #app-mount .titleContainer_d9be46 {
   align-items: center;
   gap: 12px;
-}
-#app-mount {
-  /* Target the textarea input */
 }
 #app-mount div[aria-label="Create Post"] .textArea__89a34 {
   padding: 8px 12px !important;
@@ -762,48 +792,22 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   margin-left: 12px;
   margin-top: 2px;
 }
-#app-mount .forumPostFormButton_d9be46 {
+#app-mount .forumPostFormButton_d9be46, #app-mount .defaultColor__4bd52 {
   color: var(--interactive-normal);
 }
 #app-mount .tagsDivider_d9be46 {
   background-color: var(--background-light);
 }
-#app-mount .matchingPostsRow_f369db {
-  background: var(--background-alt);
-}
-#app-mount {
-  /* Guidelines */
-}
-#app-mount .container_ca49a1 {
-  background: var(--background);
-}
-#app-mount .defaultColor__4bd52 {
-  color: var(--interactive-normal);
-}
-#app-mount {
-  /* Tags */
-}
 #app-mount .pill_a2c9e8, #app-mount .sortDropdown_f369db, #app-mount .tagsButton_f369db {
   color: var(--interactive-normal);
   background: var(--background-alt);
-}
-#app-mount {
-  /* Cards */
-}
-#app-mount .container__9a337, #app-mount .container_faa96b {
-  background: var(--background-alt);
-}
-#app-mount {
-  /* Message-Bubble-Icon above Title in Chat */
-}
-#app-mount .iconWrapper__7e6bb {
-  background: var(--background);
 }
 
 #app-mount .container_c8ffbb,
 #app-mount .members_c8ffbb,
 #app-mount .members_c8ffbb > div {
   background: transparent;
+  border: none;
 }
 
 #app-mount .member__5d473 {
@@ -1019,39 +1023,36 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: var(--background-alt);
   border: none;
 }
-#app-mount .messagesScroller__4ad69 { /* bookmarks scroller background */
+#app-mount .messagesScroller__4ad69 {
   background: var(--background-light);
 }
-#app-mount .messageContainer__4ad69 { /* bookmarked messages */
+#app-mount .messageContainer__4ad69 {
   background: var(--background-alt);
   border: none;
 }
-#app-mount .message__4ad69 { /* bookmarked message bottom half */
+#app-mount .message__4ad69 {
   margin-top: 10px !important;
 }
-#app-mount .channelHeader__35a7e { /* mentioned messages header */
+#app-mount .channelHeader__35a7e {
   border-radius: 6px;
   margin-left: 15px;
 }
-#app-mount .scroller__2692d { /* unreads scroller background */
+#app-mount .scroller__2692d {
   background: var(--background-light);
 }
-#app-mount .messages__1ccd1 { /* unreads messages content box */
+#app-mount .messages__1ccd1 {
   background: var(--background-alt);
   border: none;
 }
-#app-mount .channel__427f0 .channelHeader__35a7e { /* unreads header */
+#app-mount .channel__427f0 .channelHeader__35a7e {
   margin-left: unset;
   position: unset;
 }
-#app-mount .container__0f711 { /* "For You" tab */
+#app-mount .container__0f711 {
   background: var(--background-light);
   padding-left: 15px;
 }
 
-#app-mount {
-  /* General background in all tabs */
-}
 #app-mount .contentWrapper__08434 {
   background: var(--background);
 }
@@ -1061,9 +1062,6 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .drawerSizingWrapper__08434 :is(.scroller_affa7e, .content__99f8c) {
   background: var(--background);
 }
-#app-mount {
-  /* Those weird bars between the areas that behave like they got their own life */
-}
 #app-mount .wrapper__14245 {
   background: var(--background-light-alt);
   border-radius: 6px;
@@ -1072,22 +1070,13 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .wrapper__14245::after {
   content: none;
 }
-#app-mount {
-  /* "Info"-bar at the bottom + the default-emoji/sticker button on the bottom left, why is that even a seperate thing again !?*/
-}
 #app-mount .inspector_aeaaeb, #app-mount .unicodeShortcut_b9ee0c, #app-mount .standardStickerShortcut__3ad28 {
   border: none;
   background: var(--background);
 }
-#app-mount {
-  /* Searchbar + background - IN ALL TABS - I need to stop questioning discord styling */
-}
 #app-mount .header_c0e32c, #app-mount .header__8ef02, #app-mount .header_fed6d3 {
   background: var(--background);
   border: none;
-}
-#app-mount {
-  /* Goofy super-reaction button in the mini-modal */
 }
 #app-mount .label__0d242 {
   background-color: var(--background-light);
@@ -1123,11 +1112,12 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 
 #app-mount .container__133bf {
   background: var(--background);
+  border: none;
 }
 #app-mount .searchBar__5ec2f {
   background: var(--background-dark);
 }
-#app-mount .tabBody__133bf {
+#app-mount .tabBody__133bf, #app-mount .container__7d20c {
   background: var(--background);
 }
 #app-mount .peopleListItem_cc6179 {
@@ -1146,9 +1136,6 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 #app-mount .actionButton_f8fa06 {
   background: var(--background-dark);
-}
-#app-mount .container__7d20c {
-  background: var(--background);
 }
 #app-mount .nowPlayingColumn__133bf {
   background: transparent;
@@ -1169,7 +1156,7 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount .wrapper__00943:hover .section__00943 {
-  background: var(--background-alt); /* switched colors so it gives more "feedback" when hovering */
+  background: var(--background-alt);
 }
 #app-mount .section__00943 {
   background: var(--background-light);
@@ -1179,30 +1166,27 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: var(--background);
   border-radius: 8px;
 }
+#app-mount .interactive__972a0 {
+  color: var(--interactive-normal);
+}
+#app-mount .interactiveSelected__972a0 {
+  color: var(--text-default);
+}
 
 #app-mount .perksModal-fSYqOq {
   background: var(--background);
 }
-#app-mount .ctaBar-2UsjF2 {
-  background: var(--background-alt);
-}
-#app-mount .tierBody-16Chc9 {
+#app-mount .tierBody-16Chc9, #app-mount .perk-2WeBWW, #app-mount .ctaBar-2UsjF2 {
   background: var(--background-alt);
 }
 #app-mount .tierHeaderLocked-1s2JJz {
   background: var(--background-light-alt);
 }
-#app-mount .perk-2WeBWW {
-  background: var(--background-alt);
-}
 
 #app-mount .scroller__244e5 {
   background: var(--background);
 }
-#app-mount .detailsBlock-FoDTGA {
-  background: var(--background-alt);
-}
-#app-mount .feature-2IUcBI {
+#app-mount .detailsBlock-FoDTGA, #app-mount .feature-2IUcBI {
   background: var(--background-alt);
 }
 
@@ -1443,102 +1427,78 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   box-shadow: var(--box-shadow);
 }
 
-#app-mount .layer__960e4:not(.baseLayer__960e4) .accountProfileCard__1fed1 {
+#app-mount .accountProfileCard__1fed1 {
+  background: var(--background-dark);
+}
+#app-mount .background__1fed1, #app-mount .fieldList__1fed1 {
   background: var(--background-alt);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .background__1fed1,
-#app-mount .layer__960e4:not(.baseLayer__960e4) .fieldList__1fed1 {
-  background: var(--background);
+#app-mount .credentialList__6c75d {
+  background: var(--background-light-alt);
 }
 
-#app-mount .layer__960e4:not(.baseLayer__960e4) .authedApp__50a54 {
-  background: var(--background-alt);
-  border-radius: var(--border-radius);
+#app-mount .card__73069 {
+  background: var(--background-light-alt);
   border: none;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .accountBtnInner-3XK70s {
-  background-color: var(--background-light);
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connection-107AGH {
-  background: var(--background-alt);
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionHeader-2rV1ze {
-  background: var(--background-light-alt);
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .integration-1f5IUi {
-  background: var(--background);
-}
-
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectContainer_c7f964 {
+#app-mount .actionMenuButton_d84e0f {
   background: var(--background-light);
-  margin-bottom: 55px;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .accountButtonInner_c7f964 {
-  background-color: var(--background-light-alt);
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .accountButtonInner_c7f964:hover {
-  background-color: var(--background);
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connection_c7f964 {
+#app-mount .headerV2__50a54 {
   background: var(--background-alt);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionHeader_c7f964 {
+#app-mount .appDetailsContainer__50a54 {
   background: var(--background-light-alt);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .metadataContainer_c7f964 {
-  background: var(--background);
-  padding: 16px;
+#app-mount .appAvatarV2__50a54 {
+  border: none;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .integration_c7f964 {
-  background: var(--background-alt);
+#app-mount .connection_c7f964 {
+  background: var(--background-light-alt);
+  border: none;
+}
+#app-mount .integrationWrapper_c7f964 {
+  background: var(--background);
+}
+#app-mount .metadataContainer_c7f964 {
+  background: var(--background);
+  border: none;
 }
 
-#app-mount [aria-label=GUILD_SETTINGS] .children__7bffb > .flex-1xMQg5.flex_abf706 {
-  background: var(--background-alt);
-  border-radius: var(--border-radius);
-  padding: 16px;
+#app-mount .box_f8c98c {
+  background: var(--background-light-alt);
+  border: none;
+  box-shadow: none;
 }
-#app-mount [aria-label=GUILD_SETTINGS] .micTest-bjZA-b {
-  background: var(--background-alt);
-  border-radius: var(--border-radius);
-  padding: 16px;
-  margin-top: 20px;
+#app-mount .row__0624f {
+  background: var(--background-dark);
+  border: none;
 }
-#app-mount [aria-label=GUILD_SETTINGS] .micTest-bjZA-b .marginTop8_fd297e {
-  margin-top: 0;
+
+#app-mount .modalContent_e44912 {
+  background: var(--background);
 }
-#app-mount [aria-label=GUILD_SETTINGS] .container_e5cdf3 {
-  width: 530px !important;
+#app-mount .sidebar__409aa {
+  border: none;
 }
-#app-mount [aria-label=GUILD_SETTINGS] .notches_e5cdf3 {
+#app-mount .fixedContent__409aa:after {
   background: none;
 }
-
-#app-mount .layer__960e4:not(.baseLayer__960e4) .paymentPane__01014 {
-  background: var(--background-alt);
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .paginator__01014 {
-  background: transparent;
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .bottomDivider__01014 {
+#app-mount .wrapper__72c38 {
   border: none;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .bottomDivider__01014::-webkit-scrollbar {
-  display: none;
+#app-mount .content_e9e3ed,
+#app-mount .contentHeader_e9e3ed {
+  background: var(--background);
+  border: none;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .payment_e9cb00 {
-  background: transparent;
+
+#app-mount .card__5cea9 {
+  background: var(--background-alt);
+  box-shadow: none;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .payment_e9cb00:hover {
-  background: var(--background-light-alt);
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .payment_e9cb00:not(.hoverablePayment_e9cb00) {
-  background: var(--background-light);
-  padding-bottom: 20px;
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .expandedInfo_e9cb00 {
-  background: var(--background-light-alt);
-  margin: 0 20px;
+#app-mount .header__5cea9 {
+  background: var(--background-dark);
 }
 
 #app-mount [aria-label=GUILD_SETTINGS] [data-list-id=audit-log] {
@@ -1614,6 +1574,21 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 #app-mount .bd-addon-header {
   background-color: var(--background-light-alt);
+}
+
+#app-mount .vc-addon-card {
+  background: var(--background-dark);
+  border: none;
+}
+#app-mount .vc-card-base {
+  background: var(--background-dark);
+  border: none;
+}
+#app-mount .vc-settings-quickActions-pill {
+  background: var(--background-light-alt);
+}
+#app-mount .vc-settings-theme-links {
+  background: var(--background-dark) !important;
 }
 
 #app-mount .modal-3O0aXp,
