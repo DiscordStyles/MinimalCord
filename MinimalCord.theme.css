@@ -8,7 +8,9 @@
  * @authorId 174868361040232448
 */
 
-@import url('https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css');
+@import url('https://discordstyles.github.io/MinimalCord/MinimalCord.css');
+
+
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
 :root {
@@ -42,3 +44,4 @@
    */
   --font: 'Inter';
 }
+
