@@ -1,9 +1,9 @@
 #app-mount {
-	.searchResultsWrap_a9e706 {
+	.a9e7064fdee8e9b0-searchResultsWrap {
 		background: var(--background-alt);
 		border-top-left-radius: var(--border-radius);
 	}
-	.searchHeader_f3b986 {
+	.f3b986a284a18c78-searchHeader {
 		background: var(--background-light);
 		box-shadow: var(--box-shadow-alt);
 		.item-3XjbnG.selected-g-kMVV {
@@ -14,26 +14,26 @@
 		background: var(--background-alt);
 	}
 
-	.searchResult__02a39 {
+	._02a39cb2980ceaaf-searchResult {
 		border: none;
 		background: var(--background-light);
-		.cozy_c19a55 {
+		.c19a557985eb7793-cozy {
 			margin: 0 !important;
 		}
 	}
 	.searchResultMessage-1fxgXh {
-		.cozy_c19a55 {
+		.c19a557985eb7793-cozy {
 			margin: 0;
 		}
 
-		&:not(.hit-1fVM9e) .cozy_c19a55:before {
+		&:not(.hit-1fVM9e) .c19a557985eb7793-cozy:before {
 			content: none;
 		}
 		&.hit-1fVM9e {
 			box-shadow: 0 0 10px 6px var(--background-alt);
 			border: none;
 			border-radius: var(--border-radius);
-			.cozy_c19a55 {
+			.c19a557985eb7793-cozy {
 				background: var(--background-light);
 			}
 		}

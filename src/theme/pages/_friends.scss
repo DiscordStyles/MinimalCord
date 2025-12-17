@@ -1,21 +1,21 @@
 #app-mount {
     // Seems to "only" control the color of the little line above the "Online" "All" "Friends" Button row
-	.container__133bf {
+	._133bf5eea8e33a34-container {
 		background: var(--background);
 		border: none;
 	}
 
     // Search bar
-    .searchBar__5ec2f {
+    ._5ec2fb8b5de26b21-searchBar {
         background: var(--background-dark);
     }
 
     // Background
-    .tabBody__133bf, .container__7d20c {
+    ._133bf5eea8e33a34-tabBody, ._7d20cf18f8a2784c-container {
 		background: var(--background);
 	}
     // Listed Friend-Containers
-	.peopleListItem_cc6179 {
+	.cc61794aab086a2e-peopleListItem {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 		border: none;
@@ -24,52 +24,52 @@
 		padding: 0 15px;
 		&:hover {
 			background: var(--background-light);
-			.actionButton_f8fa06 {
+			.f8fa068db52f043f-actionButton {
 				background: var(--background);
 			}
 		}
 	}
-	.actionButton_f8fa06 {
+	.f8fa068db52f043f-actionButton {
 		background: var(--background-dark);
 	}
 	// Active Now Section
-	.nowPlayingColumn__133bf {
+	._133bf5eea8e33a34-nowPlayingColumn {
 		background: transparent;
 	}
-	.header__7d20c {
+	._7d20cf18f8a2784c-header {
 		padding: 0 0 20px 0;
 	}
-	.emptyCard__7e549 {
+	._7e549558f336cddb-emptyCard {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 	}
     // Activity Box
-	.wrapper__00943 {
+	._00943886e1cf89d1-wrapper {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 		border: none;
 		&:hover {
 			background: var(--background-light);
-			.section__00943 {
+			._00943886e1cf89d1-section {
 				background: var(--background-alt);
 			}
 		}
 	}
     // Activity Box Inner Box
-	.section__00943 {
+	._00943886e1cf89d1-section {
 		background: var(--background-light);
         border: none;
     }
-	.inset_bf1984 {
+	.bf1984a18b3ec6f0-inset {
 		background: var(--background);
         border-radius: 8px;
 	}
 
-	.interactive__972a0 {
+	._972a0d22c8afa7f0-interactive {
     	color: var(--interactive-normal);
 	}
 
-	.interactiveSelected__972a0 {
+	._972a0d22c8afa7f0-interactiveSelected {
     	color: var(--text-default);
 	}
 

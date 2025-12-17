@@ -1,9 +1,9 @@
 #app-mount .root-8LYsGj {
 	// Global styles
 	.size12-oc4dx4,
-	.activityName__2ef49,
-	.nameNormal__2ef49,
-	.nameWrap__2ef49 {
+	._2ef4989efde1f4e4-activityName,
+	._2ef4989efde1f4e4-nameNormal,
+	._2ef4989efde1f4e4-nameWrap {
 		color: var(--text-normal);
 	}
 
@@ -64,7 +64,7 @@
 	}
 
 	&[style*='--user-background'] {
-		.banner__68edb:not(.bannerPremium_c3e427) {
+		._68edb95846a37624-banner:not(.bannerPremium_c3e427) {
 			height: 240px;
 			background: var(--user-background) center/cover;
 		}

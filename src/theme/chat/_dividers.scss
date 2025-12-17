@@ -1,17 +1,17 @@
-#app-mount .divider__908e2 {
-	&.isUnread__908e2 {
+#app-mount ._908e20001ad67812-divider {
+	&._908e20001ad67812-isUnread {
 		margin: calc(var(--message-padding) / -1 + (var(--message-padding) / 2)) 8px var(--message-padding)
 			calc(55px + (var(--message-padding) * 2));
 		height: 0;
 		top: 0;
-		&.beforeGroup__5126c {
+		&._5126c0cd07f243a0-beforeGroup {
 			margin: var(--message-spacing) 8px var(--message-spacing) 20px;
 		}
 	}
-	&.hasContent__908e2 {
+	&._908e20001ad67812-hasContent {
 		margin: calc(var(--message-spacing) * 2) 0 calc(var(--message-spacing) * 2) 20px;
 
-		.content__908e2 {
+		._908e20001ad67812-content {
 			background: var(--background-light);
 			padding: 4px 8px;
 			line-height: normal;
@@ -20,7 +20,7 @@
 			color: var(--text-normal);
 		}
 
-		&:not(.isUnread__908e2) {
+		&:not(._908e20001ad67812-isUnread) {
 			border-top: none;
 			height: auto;
 			&:before {

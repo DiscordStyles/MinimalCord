@@ -10,8 +10,5 @@ export default {
 		invite: 'ZHthyCw',
 		authorId: '174868361040232448',
 	},
-	baseImport: 'https://discordstyles.github.io/MinimalCord/dist/MinimalCord.css',
-	base: {
-		output: 'dist/dist',
-	},
+	github: 'DiscordStyles',
 };

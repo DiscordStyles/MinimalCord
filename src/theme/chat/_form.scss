@@ -1,6 +1,6 @@
 #app-mount {
 	// Chat box
-	.form_f75fb0 {
+	.f75fb00fb7356cbe-form {
 		--custom-channel-textarea-text-area-height: 52px;
 		padding: 0 var(--space-md);
 		&::before {
@@ -9,35 +9,35 @@
 	}
 
 	// Black Bar above / behind chatbar
-    .chatGradient__36d07{
+    ._36d072eab2b2e737-chatGradient{
     	background: none;
     }
-	.scrollableContainer__74017 {
+	._740174f3d6a2c8fe-scrollableContainer {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 	}
-	.placeholder__1b31f {
+	._1b31f471f0bb10ab-placeholder {
 		text-transform: uppercase;
 		font-weight: bold;
 		letter-spacing: 1.5px;
 		font-size: 12px;
 	}
-	.placeholder__1b31f,
-	.slateTextArea_ec4baf {
+	._1b31f471f0bb10ab-placeholder,
+	.ec4baf0360ff3578-slateTextArea {
 		padding: 17px 15px 15px 0;
 	}
 
 	// Set old chatbox height
-    .attachWrapper__0923f {
+    ._0923f156a0410684-attachWrapper {
         padding: 12px 10px;
     }
 
-	.buttons__74017 {
+	._740174f3d6a2c8fe-buttons {
 		height: 54px;
 	}
 
 	// App launch button
-	.button_e6e74f {
+	.e6e74fd4d1221f53-button {
 		background: var(--background-alt);
 		box-shadow: var(--box-shadow);
 		&:hover {
@@ -46,12 +46,12 @@
 	}
 
 	// Announcement bar
-	.wrapper__44df5 {
+	._44df51b030bd5ece-wrapper {
 		background: var(--background-light);
 	}
 	
 	// No perms
-	.channelTextArea_f75fb0 {
+	.f75fb00fb7356cbe-channelTextArea {
 		background: var(--background-alt);
 		border: none;
 	}

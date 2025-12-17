@@ -11,31 +11,31 @@
 	}
 
 	// Add/Join server & Server Discovery
-	.circleIconButton__5bc7e {
+	._5bc7ed9d4097f6b5-circleIconButton {
 		background: var(--background-light);
 		&:hover,
-		&.selected__5bc7e {
+		&._5bc7ed9d4097f6b5-selected {
 			background: rgb(var(--discord-green) / 1);
 		}
 	}
 
     // Channels & Roles Page
-	.container__0b563, .header__0b563 , .pageBody__41ed7 {
+	._0b56311ebc6682e2-container, ._0b56311ebc6682e2-header , ._41ed70e52483df6d-pageBody {
 		background: var(--background) !important;
 	}
 
 	// Members Page
-	 .page_c791b2 {
+	 .c791b281f2fedc32-page {
 		background-color: var(--background) !important;
 	}
 	
-	.mainTableContainer__09a38 {
+	._09a38002c6c2466d-mainTableContainer {
 		background: var(--background-alt);
 		border: none;
 	}
 
 	// Boosts Page
-	.contentContainer__89463, .sidebarContainer__89463 {
+	._8946359d8adb1488-contentContainer, ._8946359d8adb1488-sidebarContainer {
 		background: var(--background);
 	}
 }
