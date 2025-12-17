@@ -39,7 +39,7 @@
 	// App launch button
 	.e6e74fd4d1221f53-button {
 		background: var(--background-alt);
-		box-shadow: var(--box-shadow);
+		box-shadow: none;
 		&:hover {
 			background: var(--background-light);
 		}

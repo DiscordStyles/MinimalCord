@@ -2,6 +2,7 @@
 	._0f481cbbd7530492-newMessagesBar {
 		background: rgb(var(--accent), 1);
 		border-radius: var(--border-radius);
+		border: none;
 		top: 10px;
 		left: 26px;
 		right: 26px;
@@ -14,8 +15,9 @@
 		background: var(--background-light);
 		opacity: 1;
 		border-radius: var(--border-radius);
+		border: none;
 		left: auto;
-		box-shadow: var(--box-shadow);
+		box-shadow: none;
 		bottom: 20px;
 		padding-bottom: 0;
 		.barButtonMain-3K-jeJ {

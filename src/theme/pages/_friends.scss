@@ -66,11 +66,15 @@
 	}
 
 	._972a0d22c8afa7f0-interactive {
-    	color: var(--interactive-normal);
+    	color: var(--text-normal);
 	}
 
 	._972a0d22c8afa7f0-interactiveSelected {
-    	color: var(--text-default);
+    	color: var(--text-focus);
+	}
+
+	._63ed30c16c7151f2-clickableUsername, ._4bd5201c86a2042b-defaultColor {
+    	color: var(--text-normal);
 	}
 
 }
