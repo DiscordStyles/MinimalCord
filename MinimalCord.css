@@ -152,7 +152,7 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 #app-mount .tooltipPrimary-3qLMbS {
   background: var(--background-light);
-  box-shadow: var(--box-shadow);
+  box-shadow: none;
 }
 #app-mount .tooltipPointer-3L49xb {
   border-top-color: var(--background-light);
@@ -410,7 +410,7 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 #app-mount .e6e74fd4d1221f53-button {
   background: var(--background-alt);
-  box-shadow: var(--box-shadow);
+  box-shadow: none;
 }
 #app-mount .e6e74fd4d1221f53-button:hover {
   background: var(--background-light);
@@ -679,6 +679,7 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount ._0f481cbbd7530492-newMessagesBar {
   background: rgb(var(--accent), 1);
   border-radius: var(--border-radius);
+  border: none;
   top: 10px;
   left: 26px;
   right: 26px;
@@ -691,8 +692,9 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background: var(--background-light);
   opacity: 1;
   border-radius: var(--border-radius);
+  border: none;
   left: auto;
-  box-shadow: var(--box-shadow);
+  box-shadow: none;
   bottom: 20px;
   padding-bottom: 0;
 }
@@ -1167,10 +1169,13 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
   border-radius: 8px;
 }
 #app-mount ._972a0d22c8afa7f0-interactive {
-  color: var(--interactive-normal);
+  color: var(--text-normal);
 }
 #app-mount ._972a0d22c8afa7f0-interactiveSelected {
-  color: var(--text-default);
+  color: var(--text-focus);
+}
+#app-mount ._63ed30c16c7151f2-clickableUsername, #app-mount ._4bd5201c86a2042b-defaultColor {
+  color: var(--text-normal);
 }
 
 #app-mount .perksModal-fSYqOq {
@@ -1491,6 +1496,9 @@ span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .e9e3ed8b8badfe05-contentHeader {
   background: var(--background);
   border: none;
+}
+#app-mount .caf372efc4d47562-itemContent {
+  color: var(--text-normal);
 }
 
 #app-mount ._5cea9da4c2ca012f-card {
