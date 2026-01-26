@@ -1,46 +1,46 @@
-#app-mount ._5d473ecff348c314-member {
+#app-mount .member__5d473 {
 	background: transparent;
-	._82f0793afa59e5dc-botTagRegular {
+	.botTagRegular__82f07 {
 		background: rgb(var(--accent), 1);
 		color: var(--accent-text);
-		._82f0793afa59e5dc-botText {
+		.botText__82f07 {
 			font-weight: 600;
 		}
 	}
 
-	&:hover ._91a9d7f7e5248a56-layout {
+	&:hover .layout__91a9d {
 		background: var(--background-alt);
         width: 100%;
 	}
-	&:active ._91a9d7f7e5248a56-layout {
+	&:active .layout__91a9d {
 		background: var(--background-light);
         width: 100%;
 	}
-	&._91a9d7f7e5248a56-selected ._91a9d7f7e5248a56-layout {
+	&.selected__91a9d .layout__91a9d {
 		background: rgb(var(--accent), 1);
         width: 100%;
         .roleColor-rz2vM0,
 		.activity__5d473,
 		.premiumIcon-1rDbWQ,
-		._5d473ecff348c314-username span {
+		.username__5d473 span {
 			color: var(--accent-text) !important;
 		}
         // Applies to new Glow Names
-        ._703b91fc872193e8-nameContainer {
+        .nameContainer__703b9 {
         --custom-gradient-color-1: var(--accent-text) !important;
         --custom-gradient-color-2: var(--accent-text) !important;
         --custom-gradient-color-3: var(--accent-text) !important;
         }
-        .e5de7811b2777bfa-usernameGlow {
+        .usernameGlow_e5de78 {
             filter: none;
             transition: none;
         }
-        .e5de7811b2777bfa-usernameGlowActive {
+        .usernameGlowActive_e5de78 {
             filter: none;
             transition: none;
         }
         // New Tag after Name
-        ._10651c5cfe637db6-chipletContainerInner {
+        .chipletContainerInner__10651 {
             background: var(--background-light)
         }
         rect[fill='#43b581'],
@@ -50,17 +50,17 @@
 		}
 
 		// "App" Text on Bot Tag
-        ._82f0793afa59e5dc-botTagRegular {
+        .botTagRegular__82f07 {
 			background: var(--accent-text);
 			color: rgb(var(--accent), 1);
 		}
         // Little ✓ on Bot Tag if verified
-        ._82f0793afa59e5dc-botTagVerified path {
+        .botTagVerified__82f07 path {
             fill: #3283CF !important;
         }
 
     }
-    ._91a9d7f7e5248a56-childContainer {
+    .childContainer__91a9d {
         padding-right: 0%;
         padding-left: 0%;
     }

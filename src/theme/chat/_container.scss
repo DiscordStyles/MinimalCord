@@ -1,22 +1,22 @@
 #app-mount {
-	.f75fb00fb7356cbe-chat {
+	.chat_f75fb0 {
 		background: var(--background);
 		border: none;
-		._36d072eab2b2e737-scrollerSpacer {
+		.scrollerSpacer__36d07 {
 			height: 25px;
 		}
-		.f75fb00fb7356cbe-content:before {
+		.content_f75fb0:before {
 			content: none;
 		}
 	}
-	.f75fb00fb7356cbe-chatContent {
+	.chatContent_f75fb0 {
 		background: transparent;
 	}
-	.bab7519355c8eed6-operations > a {
+	.operations_bab751 > a {
 		color: rgb(var(--accent), 1);
 	}
 
-    div._5e434347c823b592-page {
+    div.page__5e434 {
         border: none;
     }
 }

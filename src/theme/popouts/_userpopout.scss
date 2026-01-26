@@ -7,7 +7,7 @@
 		.roles_fa2f72 {
 			gap: 4px;
 		}
-		.dfa8b6b94cddb191-role {
+		.role_dfa8b6 {
 			margin: 0;
 			background: transparent;
 			position: relative;
@@ -15,7 +15,7 @@
 			overflow: hidden;
 			gap: 6px;
 			padding: 6px;
-			._4f569b8941af22d1-roleCircle {
+			.roleCircle__4f569 {
 				position: unset;
 				overflow: visible;
 				filter: none;
@@ -30,17 +30,17 @@
 					pointer-events: none;
 				}
 			}
-			.dfa8b6b94cddb191-roleRemoveButton {
+			.roleRemoveButton_dfa8b6 {
 				position: unset;
-				& + ._48c1c0768f2a2421-roleName {
+				& + .roleName__48c1c {
 					position: relative;
 					z-index: 1;
 				}
 			}
-			._48c1c0768f2a2421-roleRemoveIcon {
+			.roleRemoveIcon__48c1c {
 				left: 12px;
 			}
-			._48c1c0768f2a2421-roleName {
+			.roleName__48c1c {
 				margin: 0;
 				color: var(--text-focus);
 			}

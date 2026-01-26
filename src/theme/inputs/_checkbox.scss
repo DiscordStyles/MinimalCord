@@ -1,11 +1,11 @@
 #app-mount {
-	._3f21e80f8677ec40-container {
+	.container__3f21e {
 		transition: 0.15s ease background-color;
 		background: var(--background-dark) !important;
-		&._3f21e80f8677ec40-checked {
+		&.checked__3f21e {
 			background: rgb(var(--accent)) !important;
 		}
-		&:not([style*='rgb(128'], ._3f21e80f8677ec40-checked) {
+		&:not([style*='rgb(128'], .checked__3f21e) {
 			background: rgb(var(--accent), 0.5) !important;
 		}
 	}
@@ -13,7 +13,7 @@
 	// Checkbox row
 	.control__0d850.row-31nALW {
 		background: var(--background-light);
-		&.checked-1pZh2h ._3f21e80f8677ec40-slider {
+		&.checked-1pZh2h .slider__3f21e {
 			background: rgb(var(--accent), 1) !important;
 			border-color: rgb(var(--accent), 1) !important;
 		}
@@ -21,17 +21,17 @@
 
 	// Menu Checkbox
 	[role='menuitemcheckbox'][aria-checked='true'] {
-		.c1e9c47c23f12ca3-checkbox {
+		.checkbox_c1e9c4 {
 			color: rgb(var(--accent), 1);
 		}
-		.c1e9c47c23f12ca3-check {
+		.check_c1e9c4 {
 			color: var(--accent-text);
 		}
-		&.c1e9c47c23f12ca3-focused {
-			.c1e9c47c23f12ca3-checkbox {
+		&.focused_c1e9c4 {
+			.checkbox_c1e9c4 {
 				color: var(--accent-text);
 			}
-			.c1e9c47c23f12ca3-check {
+			.check_c1e9c4 {
 				color: rgb(var(--accent), 1);
 			}
 		}

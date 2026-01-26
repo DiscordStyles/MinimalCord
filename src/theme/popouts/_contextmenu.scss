@@ -1,48 +1,48 @@
-.theme-light .c1e9c47c23f12ca3-menu {
+.theme-light .menu_c1e9c4 {
 	background: var(--background-light);
 }
-.theme-dark .c1e9c47c23f12ca3-menu {
+.theme-dark .menu_c1e9c4 {
 	background: var(--background-light-alt);
 }
 
 #app-mount {
-	.c1e9c47c23f12ca3-menu {
+	.menu_c1e9c4 {
 		box-shadow: var(--box-shadow);
 
 		// Quick reactions
-		.f563df886a7377be-button {
+		.button_f563df {
 			background: var(--background);
 		}
 	}
-	.c1e9c47c23f12ca3-item {
+	.item_c1e9c4 {
 		line-height: normal;
 
-		.c1e9c47c23f12ca3-iconContainer {
+		.iconContainer_c1e9c4 {
 			display: flex;
 			align-items: center;
 			justify-content: center;
 		}
-		.c1e9c47c23f12ca3-caret {
+		.caret_c1e9c4 {
 			color: var(--text-normal);
 		}
 
 		&:active,
-		&.c1e9c47c23f12ca3-focused:not(.c1e9c47c23f12ca3-colorDanger) {
+		&.focused_c1e9c4:not(.colorDanger_c1e9c4) {
 			background: rgb(var(--accent), 1);
 			color: var(--accent-text);
-			.c1e9c47c23f12ca3-caret {
+			.caret_c1e9c4 {
 				color: var(--accent-text);
 			}
 		}
-		&.c1e9c47c23f12ca3-colorBrand {
+		&.colorBrand_c1e9c4 {
 			color: rgb(var(--accent));
-			&.c1e9c47c23f12ca3-focused {
+			&.focused_c1e9c4 {
 				color: var(--accent-text);
 			}
 		}
 		&.colorPremium-p4p7qO {
 			color: rgb(var(--discord-nitro) / 1);
-			&.c1e9c47c23f12ca3-focused {
+			&.focused_c1e9c4 {
 				color: #fff;
 				background: rgb(var(--discord-nitro) / 1);
 			}

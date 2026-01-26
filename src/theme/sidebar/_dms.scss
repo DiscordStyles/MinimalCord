@@ -1,16 +1,16 @@
 #app-mount {
-	.e6b7699ce8339e1c-privateChannels {
+	.privateChannels_e6b769 {
 		background: transparent;
-		._99e7cad8d4c55236-scroller {
+		.scroller__99e7c {
 			background: transparent;
 		}
 	}
-	._972a0d22c8afa7f0-channel {
+	.channel__972a0 {
 		margin-left: 0;
 		border-radius: 0 4px 4px 0;
 		padding: 0;
 		margin-bottom: 3px;
-		._20a53846fe2e8513-layout {
+		.layout__20a53 {
 			border-radius: 0 var(--border-radius) var(--border-radius) 0;
 			padding-left: 16px;
 		}
@@ -26,39 +26,39 @@
 	}
 
 	// right user profile
-	.user-profile-sidebar .c0bea05627c5dc35-inner {
+	.user-profile-sidebar .inner_c0bea0 {
     	border-radius: 0;
     	height: 100%;
     	background: var(--background);
 	}
 
-  	._7f9c030b25536e94-footer {
+  	.footer__7f9c0 {
     	border: none;
   	}
 
 	// profile poput
-  	._37bfcf3d457db7a9-tabListScroller {
+  	.tabListScroller__37bfc {
   		overflow: visible!important;
   	}
 
-	.user-profile-popout .c0bea05627c5dc35-inner {
+	.user-profile-popout .inner_c0bea0 {
 		background: var(--background);
 	}
 
-	.c0bea05627c5dc35-inner {
+	.inner_c0bea0 {
 		background: var(--background-dark);
 	}
 
-	.c0bea05627c5dc35-outer, ._9c3bea41fd465666-profile {
+	.outer_c0bea0, .profile__9c3be {
 		outline: none;
 	}
 
-	.a99829deaf601327-container {
+	.container_a99829 {
 		border: none;
 	}
 
 	// Quest Poput when hovering in Memberlist
-	._0bd12176bed6b72a-container {
+	.container__0bd12 {
     	background-color: var(--background-light)
 	}
 }

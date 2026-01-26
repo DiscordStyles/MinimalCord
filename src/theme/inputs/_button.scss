@@ -1,6 +1,6 @@
 #app-mount {
 	// Brand/Blurple buttons
-	._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand {
+	.lookFilled__201d5.colorBrand__201d5 {
 		background: rgb(var(--accent), 1);
 		color: var(--accent-text);
 		font-weight: 600;
@@ -21,7 +21,7 @@
 	}
 
 	// Panel buttons
-	._201d5e8a3c09670a-button.e131a99484292a19-buttonColor {
+	.button__201d5.buttonColor_e131a9 {
 		background: var(--background-light);
 		&:hover {
 			background: rgb(var(--accent), 1);

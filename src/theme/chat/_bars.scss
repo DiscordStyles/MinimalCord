@@ -1,5 +1,5 @@
 #app-mount {
-	._0f481cbbd7530492-newMessagesBar {
+	.newMessagesBar__0f481 {
 		background: rgb(var(--accent), 1);
 		border-radius: var(--border-radius);
 		border: none;
@@ -11,7 +11,7 @@
 			font-weight: 600;
 		}
 	}
-	._0f481cbbd7530492-jumpToPresentBar {
+	.jumpToPresentBar__0f481 {
 		background: var(--background-light);
 		opacity: 1;
 		border-radius: var(--border-radius);
@@ -23,22 +23,22 @@
 		.barButtonMain-3K-jeJ {
 			display: none;
 		}
-		._0f481cbbd7530492-barButtonBase {
+		.barButtonBase__0f481 {
 			padding: 10px;
 			height: auto;
 			line-height: normal;
 			color: var(--text-normal);
 		}
-		._0f481cbbd7530492-spinner {
+		.spinner__0f481 {
 			padding-left: 12px;
 		}
 	}
 
 	// Reply to message
-	._740174f3d6a2c8fe-stackedBars {
+	.stackedBars__74017 {
 		background: var(--background);
 	}
-	._841c8f861f7b2704-replyBar {
+	.replyBar__841c8 {
 		background: var(--background-light);
 	}
 }

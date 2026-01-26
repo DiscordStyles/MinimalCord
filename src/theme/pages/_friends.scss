@@ -1,21 +1,21 @@
 #app-mount {
     // Seems to "only" control the color of the little line above the "Online" "All" "Friends" Button row
-	._133bf5eea8e33a34-container {
+	.container__133bf {
 		background: var(--background);
 		border: none;
 	}
 
     // Search bar
-    ._5ec2fb8b5de26b21-searchBar {
+    .searchBar__5ec2f {
         background: var(--background-dark);
     }
 
     // Background
-    ._133bf5eea8e33a34-tabBody, ._7d20cf18f8a2784c-container {
+    .tabBody__133bf, .container__7d20c {
 		background: var(--background);
 	}
     // Listed Friend-Containers
-	.cc61794aab086a2e-peopleListItem {
+	.peopleListItem_cc6179 {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 		border: none;
@@ -24,56 +24,56 @@
 		padding: 0 15px;
 		&:hover {
 			background: var(--background-light);
-			.f8fa068db52f043f-actionButton {
+			.actionButton_f8fa06 {
 				background: var(--background);
 			}
 		}
 	}
-	.f8fa068db52f043f-actionButton {
+	.actionButton_f8fa06 {
 		background: var(--background-dark);
 	}
 	// Active Now Section
-	._133bf5eea8e33a34-nowPlayingColumn {
+	.nowPlayingColumn__133bf {
 		background: transparent;
 	}
-	._7d20cf18f8a2784c-header {
+	.header__7d20c {
 		padding: 0 0 20px 0;
 	}
-	._7e549558f336cddb-emptyCard {
+	.emptyCard__7e549 {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 	}
     // Activity Box
-	._00943886e1cf89d1-wrapper {
+	.wrapper__00943 {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 		border: none;
 		&:hover {
 			background: var(--background-light);
-			._00943886e1cf89d1-section {
+			.section__00943 {
 				background: var(--background-alt);
 			}
 		}
 	}
     // Activity Box Inner Box
-	._00943886e1cf89d1-section {
+	.section__00943 {
 		background: var(--background-light);
         border: none;
     }
-	.bf1984a18b3ec6f0-inset {
+	.inset_bf1984 {
 		background: var(--background);
         border-radius: 8px;
 	}
 
-	._972a0d22c8afa7f0-interactive {
+	.interactive__972a0 {
     	color: var(--text-normal);
 	}
 
-	._972a0d22c8afa7f0-interactiveSelected {
+	.interactiveSelected__972a0 {
     	color: var(--text-focus);
 	}
 
-	._63ed30c16c7151f2-clickableUsername, ._4bd5201c86a2042b-defaultColor {
+	.clickableUsername__63ed3, .defaultColor__4bd52 {
     	color: var(--text-normal);
 	}
 

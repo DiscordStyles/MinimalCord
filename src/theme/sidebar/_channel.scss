@@ -1,17 +1,17 @@
 #app-mount {
-	._2ea32c412048f708-wrapper {
+	.wrapper__2ea32 {
 		height: auto;
 		margin-bottom: 2px;
-		&._2ea32c412048f708-modeMuted ._2ea32c412048f708-name {
+		&.modeMuted__2ea32 .name__2ea32 {
 			color: var(--text-muted);
 		}
 
-		&._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-icon {
+		&.modeUnreadImportant__2ea32 .icon__2ea32 {
 			color: var(--text-focus);
 		}
 
-		&._2ea32c412048f708-modeSelected {
-			._2ea32c412048f708-icon {
+		&.modeSelected__2ea32 {
+			.icon__2ea32 {
 				color: var(--text-focus);
 			}
 			&:before {
@@ -25,21 +25,21 @@
 			}
 		}
 
-		&._2ea32c412048f708-typeThread ._2ea32c412048f708-link {
+		&.typeThread__2ea32 .link__2ea32 {
 			padding-left: 42px;
 		}
 	}
-	._5b40bdd67543ba35-spine {
+	.spine__5b40b {
 		z-index: 1;
 	}
-	._2ea32c412048f708-wrapper {
+	.wrapper__2ea32 {
 		margin-left: 0;
 		border-radius: 0 var(--border-radius) var(--border-radius) 0;
 	}
-	._2ea32c412048f708-link {
+	.link__2ea32 {
 		padding-left: 16px;
 	}
-	._2ea32c412048f708-unread {
+	.unread__2ea32 {
 		z-index: 2;
 		left: 0;
 	}
@@ -51,7 +51,7 @@
 			inset 0 0 0 3px var(--background);
 	}
 
-	._5e434347c823b592-sidebarList {
+	.sidebarList__5e434 {
 		border: none;
 	}
 
