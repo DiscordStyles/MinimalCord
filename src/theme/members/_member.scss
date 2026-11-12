@@ -1,46 +1,46 @@
-#app-mount .member__5d473 {
+#app-mount .member_Iy0c7A {
 	background: transparent;
-	.botTagRegular__82f07 {
+	.botTagRegular_feVUtO {
 		background: rgb(var(--accent), 1);
 		color: var(--accent-text);
-		.botText__82f07 {
+		.botText_feVUtO {
 			font-weight: 600;
 		}
 	}
 
-	&:hover .layout__91a9d {
+	&:hover .layout_J1Adu_ {
 		background: var(--background-alt);
         width: 100%;
 	}
-	&:active .layout__91a9d {
+	&:active .layout_J1Adu_ {
 		background: var(--background-light);
         width: 100%;
 	}
-	&.selected__91a9d .layout__91a9d {
+	&.selected_J1Adu_ .layout_J1Adu_ {
 		background: rgb(var(--accent), 1);
         width: 100%;
         .roleColor-rz2vM0,
 		.activity__5d473,
 		.premiumIcon-1rDbWQ,
-		.username__5d473 span {
+		.username_Iy0c7A span {
 			color: var(--accent-text) !important;
 		}
         // Applies to new Glow Names
-        .nameContainer__703b9 {
+        .nameContainer_Wo4EpK {
         --custom-gradient-color-1: var(--accent-text) !important;
         --custom-gradient-color-2: var(--accent-text) !important;
         --custom-gradient-color-3: var(--accent-text) !important;
         }
-        .usernameGlow_e5de78 {
+        .usernameGlow_HG2xvK {
             filter: none;
             transition: none;
         }
-        .usernameGlowActive_e5de78 {
+        .usernameGlowActive_HG2xvK {
             filter: none;
             transition: none;
         }
         // New Tag after Name
-        .chipletContainerInner__10651 {
+        .chipletContainerInner_k8jyN7 {
             background: var(--background-light)
         }
         rect[fill='#43b581'],
@@ -50,17 +50,17 @@
 		}
 
 		// "App" Text on Bot Tag
-        .botTagRegular__82f07 {
+        .botTagRegular_feVUtO {
 			background: var(--accent-text);
 			color: rgb(var(--accent), 1);
 		}
         // Little ✓ on Bot Tag if verified
-        .botTagVerified__82f07 path {
+        .botTagVerified_feVUtO path {
             fill: #3283CF !important;
         }
 
     }
-    .childContainer__91a9d {
+    .childContainer_J1Adu_ {
         padding-right: 0%;
         padding-left: 0%;
     }

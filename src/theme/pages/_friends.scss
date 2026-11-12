@@ -1,21 +1,21 @@
 #app-mount {
     // Seems to "only" control the color of the little line above the "Online" "All" "Friends" Button row
-	.container__133bf {
+	.container_zrUwGA {
 		background: var(--background);
 		border: none;
 	}
 
     // Search bar
-    .searchBar__5ec2f {
+    .searchBar_wVFOQW {
         background: var(--background-dark);
     }
 
     // Background
-    .tabBody__133bf, .container__7d20c {
+    .tabBody_zrUwGA, .container_GNEh_C {
 		background: var(--background);
 	}
     // Listed Friend-Containers
-	.peopleListItem_cc6179 {
+	.peopleListItem_y75PxA {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 		border: none;
@@ -24,56 +24,56 @@
 		padding: 0 15px;
 		&:hover {
 			background: var(--background-light);
-			.actionButton_f8fa06 {
+			.actionButton_5GqXgh {
 				background: var(--background);
 			}
 		}
 	}
-	.actionButton_f8fa06 {
+	.actionButton_5GqXgh {
 		background: var(--background-dark);
 	}
 	// Active Now Section
-	.nowPlayingColumn__133bf {
+	.nowPlayingColumn_zrUwGA {
 		background: transparent;
 	}
-	.header__7d20c {
+	.header_GNEh_C {
 		padding: 0 0 20px 0;
 	}
-	.emptyCard__7e549 {
+	.emptyCard_-7KzVR {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 	}
     // Activity Box
-	.wrapper__00943 {
+	.wrapper_o3hXTo {
 		background: var(--background-alt);
 		border-radius: var(--border-radius);
 		border: none;
 		&:hover {
 			background: var(--background-light);
-			.section__00943 {
+			.section_o3hXTo {
 				background: var(--background-alt);
 			}
 		}
 	}
     // Activity Box Inner Box
-	.section__00943 {
+	.section_o3hXTo {
 		background: var(--background-light);
         border: none;
     }
-	.inset_bf1984 {
+	.inset_ERB-Vv {
 		background: var(--background);
         border-radius: 8px;
 	}
 
-	.interactive__972a0 {
+	.interactive_zln_tS {
     	color: var(--text-normal);
 	}
 
-	.interactiveSelected__972a0 {
+	.interactiveSelected_zln_tS {
     	color: var(--text-focus);
 	}
 
-	.clickableUsername__63ed3, .defaultColor__4bd52 {
+	.clickableUsername__63ed3, .defaultColor_MMUIw6 {
     	color: var(--text-normal);
 	}
 

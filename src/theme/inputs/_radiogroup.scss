@@ -1,11 +1,11 @@
 #app-mount {
-	[role='radiogroup'] .item__88a69 {
+	[role='radiogroup'] .item_jqZBm0 {
 		background: var(--background-alt);
 		&:hover {
 			background: var(--background-light);
 		}
 		&[aria-checked='true'] {
-			.radioBar__88a69 {
+			.radioBar_jqZBm0 {
 				background: rgb(var(--accent));
 				color: var(--accent-text);
 				&[style*='--radio-bar-accent-color'] {
@@ -23,8 +23,8 @@
 			}
 		}
 	}
-	.children__7bffb > .marginBottom40_fd297e .item__88a69,
-	.marginBottom20_fd297e .item__88a69 {
+	.children__7bffb > .marginBottom40_cWXVcV .item_jqZBm0,
+	.marginBottom20_cWXVcV .item_jqZBm0 {
 		background: var(--background-alt);
 		&[aria-checked='true'] {
 			background: rgb(var(--accent));
@@ -37,10 +37,10 @@
 
 	// Menu Radio
 	[role='menuitemradio'][aria-checked='true'] {
-		.radioSelection_c1e9c4 {
+		.radioSelection_M3qk4j {
 			color: rgb(var(--accent), 1);
 		}
-		&.focused_c1e9c4 .radioSelection_c1e9c4 {
+		&.focused_M3qk4j .radioSelection_M3qk4j {
 			color: #fff;
 		}
 	}
