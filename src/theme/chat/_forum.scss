@@ -1,25 +1,25 @@
 #app-mount {
-  .container_f369db, .iconWrapper__7e6bb, .container_ca49a1 {
+  .container_BkGrJJ, .iconWrapper_Wp3SYH, .container_hbPaoT {
 	  background: var(--background);
   }
   
   // Header
-  .header_f369db, .matchingPostsRow_f369db, .container__9a337, .container_faa96b {
+  .header_BkGrJJ, .matchingPostsRow_BkGrJJ, .container_x1LvFB, .container_SOY5H6 {
 	  background: var(--background-alt);
   }
-	.titleContainer_d9be46 {
+	.titleContainer_owUmX8 {
 	  align-items: center;
 	  gap: 12px;
   }
 
   // Target the textarea input
-  div[aria-label="Create Post"] .textArea__89a34 {
+  div[aria-label="Create Post"] .textArea_bGZ7Vb {
     padding: 8px 12px !important;
     border-radius: 6px !important;
     height: 40px;
     margin-top: 0px;
   }
-    .bodyContainer_d9be46 {
+    .bodyContainer_owUmX8 {
       padding: 6px 6px !important;
       border-radius: 6px !important;
       margin-left: -6px;
@@ -30,16 +30,16 @@
         margin-top: 2px;
       }
 
-  .forumPostFormButton_d9be46, .defaultColor__4bd52 {
+  .forumPostFormButton_d9be46, .defaultColor_MMUIw6 {
     color: var(--interactive-normal);
   }
 
-  .tagsDivider_d9be46{
+  .tagsDivider_owUmX8{
     	background-color: var(--background-light);
   }
 	
   // Tags
-  .pill_a2c9e8, .sortDropdown_f369db, .tagsButton_f369db {
+  .pill_snX-u4, .sortDropdown_BkGrJJ, .tagsButton_BkGrJJ {
     color: var(--interactive-normal);
     background: var(--background-alt);
   }

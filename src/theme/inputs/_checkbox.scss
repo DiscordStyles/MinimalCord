@@ -21,17 +21,17 @@
 
 	// Menu Checkbox
 	[role='menuitemcheckbox'][aria-checked='true'] {
-		.checkbox_c1e9c4 {
+		.checkbox_M3qk4j {
 			color: rgb(var(--accent), 1);
 		}
-		.check_c1e9c4 {
+		.check_M3qk4j {
 			color: var(--accent-text);
 		}
-		&.focused_c1e9c4 {
-			.checkbox_c1e9c4 {
+		&.focused_M3qk4j {
+			.checkbox_M3qk4j {
 				color: var(--accent-text);
 			}
-			.check_c1e9c4 {
+			.check_M3qk4j {
 				color: rgb(var(--accent), 1);
 			}
 		}

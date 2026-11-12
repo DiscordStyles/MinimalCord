@@ -1,17 +1,17 @@
-#app-mount .divider__908e2 {
-	&.isUnread__908e2 {
+#app-mount .divider_4TfzT5 {
+	&.isUnread_4TfzT5 {
 		margin: calc(var(--message-padding) / -1 + (var(--message-padding) / 2)) 8px var(--message-padding)
 			calc(55px + (var(--message-padding) * 2));
 		height: 0;
 		top: 0;
-		&.beforeGroup__5126c {
+		&.beforeGroup_SY_P2T {
 			margin: var(--message-spacing) 8px var(--message-spacing) 20px;
 		}
 	}
-	&.hasContent__908e2 {
+	&.hasContent_4TfzT5 {
 		margin: calc(var(--message-spacing) * 2) 0 calc(var(--message-spacing) * 2) 20px;
 
-		.content__908e2 {
+		.content_4TfzT5 {
 			background: var(--background-light);
 			padding: 4px 8px;
 			line-height: normal;
@@ -20,7 +20,7 @@
 			color: var(--text-normal);
 		}
 
-		&:not(.isUnread__908e2) {
+		&:not(.isUnread_4TfzT5) {
 			border-top: none;
 			height: auto;
 			&:before {
